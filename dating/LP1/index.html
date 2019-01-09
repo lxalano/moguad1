@@ -16,17 +16,7 @@
         };
     }());
 </script>
-    <script>
-        $(document).ready(function(){
-                var e = $(".action-btn");
-                e.on("click",function(e){
-                        e.preventDefault();
-                        $(this).closest(".item").addClass("hidden").next().removeClass("hidden").addClass("animated bounceInRight");
-                    }
-                );
-            }
-        );
-    </script>
+
 	<meta charset="UTF-8">
 	<title>The most popular dating site of this month</title>
 	<meta content="user-scalable=false, initial-scale=1.0, maximum-scale=1.0" name="viewport">
@@ -91,29 +81,15 @@
 		<div class="item"></div>
 	</div>
     <script>
-
-        (function(){
-
-            let domain = '*.landerdemo.17dushu.net'; //替换成你的域名
-            let protocol = 'https'; //如果不支持https, 请改为 http
-
-            window.afilter = function(event,detail,token){
-
-                if(Number(event) <= 0) return;
-
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', protocol + '://' + domain +'/p/events', true);
-                xhr.withCredentials = true;
-                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
-
-            };
-
-            window.atgo = function(url){
-                window.location.replace(protocol + '://' + domain + '/' + url);
-            };
-
-        }());
+        $(document).ready(function(){
+                var e = $(".action-btn");
+                e.on("click",function(e){
+                        e.preventDefault();
+                        $(this).closest(".item").addClass("hidden").next().removeClass("hidden").addClass("animated bounceInRight");
+                    }
+                );
+            }
+        );
     </script>
 </body>
 </html>
