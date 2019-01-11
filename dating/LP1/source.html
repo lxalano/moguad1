@@ -11,11 +11,12 @@
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
         };
+        //下面是offer链接
         window.atgo = function(url){
-            window.location.replace("https://track.miadx.net"+"/aff_c?oid=483441&aid=1017701&aff_sub={clickid}&source={var1}");
-        };
+        window.location.replace("https://" + 'trk.alili.clu' + 'b/' + url);
+    };
     }());
-</script>
+    </script>
 
 	<meta charset="UTF-8">
 	<title>The most popular dating site of this month</title>
@@ -71,7 +72,7 @@
 						<p>You can now see our list of women who are in your area and you can see their pictures. We ask you again please keep dems identity secret.</p>
 					</div>
 					<div class="answer-buttons">
-						<a class="redirect-btn btn-fin" href="javascript:void(0);" onclick="atgo('click')">Let me in!</a>
+						<a class="redirect-btn btn-fin"  onclick="atgo('click')">Let me in!</a>
 					</div>
 				</div>
 			</div>
