@@ -296,13 +296,13 @@ body {
     top: 0
 }
 
-/*.slider .item {
-    background: url(/img/hulu.mp4);
+.slider .item {
+    background: url(http://ww2.sinaimg.cn/large/c2433672gw1eo6j4c9offg206y06wqv5.gif);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover
 }
-*/
+
 .slider .item:before {
     content: '';
     display: block;
