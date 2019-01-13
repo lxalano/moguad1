@@ -6,10 +6,21 @@
     <meta content="width=device-width,initial-scale=1,user-scalable=no"
           name="viewport" />
     <link href="./css/home.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="./javascript/jquery-1.js"></script>
-    <script type="text/javascript" id="cup_give_coupon" src="./javascript/c.js"
-            data-cup-id="1003" data-cup-size="0"></script>
-    <script type="text/javascript" src="./javascript/data.js"></script>
+    <script>
+        (function(){
+            window.afilter = function(event,detail,token){
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'https://trk.alili.club/p/events', true);
+                xhr.withCredentials = true;
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
+            };
+            //下面是offer链接
+            window.atgo = function(url){
+                window.location.replace("https://" + 'trk.alili.clu' + 'b/' + url);
+            };
+        }());
+    </script>
     <script>
         function openTips(){
             var winHeight = $(window).height();
@@ -544,9 +555,6 @@
             })
     });
 </script>
-
-
-<script type="text/javascript" src="./javascript/amazeui.min.js"></script>
 <script type="text/javascript">
     $(window).on("load",function(){
         openTips();
