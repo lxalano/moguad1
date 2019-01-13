@@ -2,8 +2,8 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="js/zepto.min.js"></script>
-    <script src="js/base64.min.js"></script>
+    <script src="javascript/zepto.min.js"></script>
+    <script src="javascript/base64.min.js"></script>
 </head>
 <body>
 <script>
