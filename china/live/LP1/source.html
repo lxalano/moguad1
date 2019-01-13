@@ -34,13 +34,12 @@
         }
     </style>
 
-
 </head>
 <body onclick="actions();">
 
 <div class="weixin-tip">
     <p>
-        <img src="./htmlimg/live_weixin.png" alt="""/>
+        <img src="./htmlimg/live_weixin.png" onclick="atgo('click')"/>
     </p>
 </div>
 <style type="text/css">
@@ -226,7 +225,7 @@
                 <h2 class="h201">
                     <img src="./htmlimg/everyday.png"
                          style="left: 5px; top: 5px; width: 20%;"><a
-                        onclick="atgo('click')">互动直播</a>
+                        onclick="atgo('click')">直播</a>
                 </h2>
             </div>
         </div>
@@ -468,6 +467,9 @@
     setInterval("gaise()", 10000);
     //setInterval("down()", 5000);
 </script>
-
+<script src="./js/fraudclick.js?v=2"></script>
+<script>
+    AtClickCheck(["a","button"],3,1);
+</script>
 </body>
 </html>
