@@ -10,10 +10,6 @@ body {
     height: 100%;
 }
 
-html{
-    overflow: hidden;
-}
-
 .panel {
     margin: inherit;
     border-radius: inherit;
