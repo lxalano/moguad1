@@ -1,0 +1,345 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+body,
+.wrapper {
+    height: 100%;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+input, button, select {
+    font-size: 14px;
+}
+
+.pxl,
+.hidden {
+    display: none !important;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+ul > li > img {
+    width: 100%;
+}
+
+.registration .form-btn-close {
+    display: none;
+}
+
+.registration-wrapper {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+}
+.lock-overlay .registration-wrapper {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: none;
+}
+
+.lock-overlay .registration,
+.registration {
+    position: static;
+    transform: none;
+}
+.lock-overlay .registration .registration-inner {
+    margin: 0 auto;
+}
+
+.registration .registration-inner {
+    width: 355px;
+    border-radius: 0;
+    border-width: 5px;
+    border-style: solid;
+}
+.registration .block {
+    position: relative;
+    padding: 70px 10px 10px;
+    text-align: center;
+}
+.registration .block.last-step {
+    padding: 0;
+}
+
+.block.block-question p,
+.block.block-animation p {
+    margin: 10px 0 10px;
+    padding: 10px 0 0;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.block.block-question p.subheadline,
+.block.block-animation p.subheadline {
+    padding: 0;
+    border-top: 0;
+    line-height: 1;
+    font-size: 26px;    
+}
+
+.block.block-question .head-image,
+.block.block-animation .head-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 5px 40px;
+    height: 70px;
+    border-top: 0;
+}
+.block.block-animation .animation-image img {
+    width: 70%;
+}
+
+
+.block.block-question.last-step p {
+    margin: 0;
+    padding: 0;
+}
+.block.block-question.last-step p.subheadline {
+    padding: 10px;
+}
+.block.block-question.last-step p.map-overlay {
+    height: 160px;
+    overflow: hidden;
+}
+.block.block-question.last-step p.map-overlay img {
+    max-width: 117%;
+    margin-top: -10px;
+}
+.block.block-question .btn-group {
+    margin-top: 20px;
+}
+.block.block-question .btn-group .btn {
+    display: block;
+    margin: 10px auto 0;
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.block.block-question .btn-group .btn:hover {
+    font-weight: bold;
+}
+.block.block-question.last-step .btn-group {
+    margin-top: 0;
+}
+.block.block-question.last-step .btn-group .btn {
+    margin-bottom: 10px;
+    width: 90%;
+    line-height: 1;
+}
+
+
+.btn .icon-phone {
+    display: inline-block;
+    width: 38px;
+    height: 28px;
+    background-image: url('icon_whatssex_iphone.png');
+    background-repeat: no-repeat;
+    background-size: 28px;
+    vertical-align: text-bottom;
+}
+
+.icons-bottom {
+    margin-top: 5px;    
+}
+.icons-bottom ul {
+    margin: 0 auto;
+    max-width: 300px;
+}
+.icons-bottom ul li {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+}
+.icons-bottom ul li span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icons-bottom .icon {
+    display: inline-block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.icons-bottom .icon.icon-like {
+    background-position: 0px -110px;
+}
+.icons-bottom .icon.icon-check {
+    background-position: 0 0;
+}
+.icons-bottom .icon.icon-lock {
+    background-position: 0 -55px;
+}
+
+/* bg map */
+.bg-map {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.bg-map > img {
+    max-width: none;
+    height: 110%;    
+}
+.bg-map > span {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    animation: fadeIn 400ms linear;
+}
+.bg-map > span img {    
+    width: 100px;
+}
+/* for iphone 5 */
+@media (max-width: 350px) {
+    .registration .registration-inner {
+        width: 310px;
+    }    
+    .block.block-question p,
+    .block.block-animation p {
+        font-size: 18px;
+    }
+    .block.block-question.last-step p.map-overlay {
+        height: 180px;
+    }
+    .block.block-question.last-step p.map-overlay img {
+        margin-top: 0;
+        max-width: 100%;
+    }
+
+    .block.block-question.last-step .btn-group .btn {
+        width: 96%;
+        padding-left: 2px;
+        padding-right: 2px;
+        white-space: nowrap;
+        letter-spacing: -1px;
+    }
+
+    .block.block-question.last-step .btn-group .btn .icon-phone {
+        width: 32px;
+    }
+}
+@media (min-width: 600px) {
+    .registration .registration-inner {
+        width: 500px;
+    }
+    .registration .block {
+        padding: 120px 40px 25px;
+    }        
+    .block.block-question p,
+    .block.block-animation p {
+        margin: 10px 0 25px;
+        padding: 25px 15px 0;
+        font-size: 24px;
+    }
+    .block.block-question p.subheadline,
+    .block.block-animation p.subheadline {
+        font-size: 30px;    
+    }
+    .block.block-question .head-image,
+    .block.block-animation .head-image {
+        padding: 10px 40px;
+        height: 110px;
+    }
+    .block.block-animation .animation-image img {
+        width: auto;
+    }
+    .block.block-question .btn-group {
+        margin-top: 40px;    
+    }
+    .block.block-question .btn-group .btn {
+        padding: 10px;
+        line-height: 1;
+        font-size: 30px;
+    }
+    .block.block-question.last-step p.map-overlay {
+        height: 300px;
+    }
+    .block.block-question.last-step p.map-overlay img {
+        margin-top: 0;
+        max-width: 100%;;
+    }
+    .block.block-question.last-step p.subheadline {
+        padding: 20px 30px;    
+    }
+    .block.block-question.last-step .btn-group .btn {
+        margin-bottom: 30px;
+    }
+    .icons-bottom .icon {
+        width: 80px;
+        height: 80px;
+        background-size: auto;
+    }
+    .icons-bottom .icon.icon-like {
+        background-position: -10px -205px;
+    }
+    .icons-bottom .icon.icon-check {
+        background-position: -10px -10px;
+    }
+    .icons-bottom .icon.icon-lock {
+        background-position: -10px -105px;
+    }
+}
+/* table */
+@media (min-width: 768px) {
+    .icons-bottom {
+        margin-top: 40px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .icons-bottom ul {
+        max-width: none;
+    }
+    .bg-map > span img {    
+        width: 150px;
+    }
+}
+/* small desktop */
+@media (min-width: 992px) {
+    .wrapper > ul > li:last-child,
+    .wrapper > ul > li:nth-last-child(2) {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper > ul > li:last-child,
+    .wrapper > ul > li:nth-last-child(2) {
+        display: block;
+    }
+}
+@media (min-width: 1400px) {
+    .bg-map > img {
+        width: 100%;
+        height: auto;
+    }
+}

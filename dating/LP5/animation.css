@@ -1,0 +1,144 @@
+@-webkit-keyframes fadeIn {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}  
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from { 
+        opacity: 1; 
+    }
+    to { 
+        opacity: 0; 
+    }
+}  
+@keyframes fadeOut {
+    from { 
+        opacity: 1; 
+    }
+    to { 
+        opacity: 0; 
+    }
+}
+
+@-webkit-keyframes slideFadeIn {
+    from { 
+        opacity: 0; 
+        max-height: 0;
+    }
+    to { 
+        opacity: 1; 
+        max-height: 300px;
+    }
+}  
+@keyframes slideFadeIn {
+    from { 
+        opacity: 0; 
+        max-height: 0;
+    }
+    to { 
+        opacity: 1; 
+        max-height: 300px;
+    }
+}
+
+@-webkit-keyframes slideDown {
+    from { 
+        max-height: 0;
+    }
+    to {
+        max-height: 4000px;
+    }
+}  
+@keyframes slideDown {
+    from { 
+        max-height: 0;
+    }
+    to {
+        max-height: 4000px;
+    }
+}
+
+/* loading */
+@keyframes lds-ripple {
+    0% {
+        top: 88px;
+        left: 88px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+      }
+      100% {
+        top: 4px;
+        left: 4px;
+        width: 168px;
+        height: 168px;
+        opacity: 0;
+      }
+}
+
+@-webkit-keyframes lds-ripple {
+    0% {
+        top: 88px;
+        left: 88px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+      }
+      100% {
+        top: 4px;
+        left: 4px;
+        width: 168px;
+        height: 168px;
+        opacity: 0;
+      }
+}
+
+.lds-ripple {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+}
+.lds-ripple span {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}
+.lds-ripple span:before,
+.lds-ripple span:after {
+    content: '';
+    box-sizing: content-box;
+    position: absolute;
+    border-width: 12px;
+    border-style: solid;
+    opacity: 1;
+    border-radius: 50%;
+    -webkit-animation: lds-ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    animation: lds-ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple span:before {
+    border-color: #ffffff;
+}
+.lds-ripple span:after {
+    border-color: #ffffff;
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}

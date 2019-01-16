@@ -1,0 +1,54 @@
+body {
+    color: #000000;
+}
+
+body, input, button, select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registration .registration-inner {
+    border-color: #cccccc;
+    background-color: #e9e6e6;
+}
+
+.registration .block.last-step,
+.block.block-question .head-image,
+.block.block-animation .head-image {
+    background-color: #213A26;
+}
+
+.block.block-question p,
+.block.block-animation p {
+    border-color: #cccccc;
+}
+
+.block.block-question.last-step p,
+.block.block-question .btn-group .btn,
+.icons-bottom ul li {
+    color: #ffffff;
+}
+
+.icons-bottom .icon {
+    background-image: url('icons_like_check_lock.png');
+}
+
+.block.block-question .btn-group .btn.btn-btn_yes,
+.block.block-question .btn-group .btn.btn-btn_no,
+.block.block-question .btn-group .btn.btn-submit {
+    border-color: #479823;
+    background: #7c974e;
+    background: -moz-linear-gradient(top, #b2eb50 0%, #479823 100%);
+    background: -webkit-linear-gradient(top, #b2eb50 0%, #479823 100%);
+    background: linear-gradient(to bottom, #b2eb50 0%, #479823 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2eb50', endColorstr='#479823', GradientType=0);
+}
+
+.block.block-question .btn-group .btn.btn-btn_yes:hover,
+.block.block-question .btn-group .btn.btn-btn_no:hover,
+.block.block-question .btn-group .btn.btn-submit:hover {
+    background: #7c974e;
+    background: -moz-linear-gradient(top, #479823 0%, #b2eb50 100%);
+    background: -webkit-linear-gradient(top, #479823 0%, #b2eb50 100%);
+    background: linear-gradient(to bottom, #479823 0%, #b2eb50 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#479823', endColorstr='#b2eb50', GradientType=0);
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: #32645b;
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+}
+.wrapper > header {
+    border-color: #ffffff;
+}
+.wrapper > header img {
+    height: 60px;
+}
+.box-img {
+    border-color: #999999;
+    background-color: #ffffff;
+}
+.box-img .sex-app {
+    background-color: #e8e2d2;
+    color: #32645b;
+}
+.box-img .sex-app:before {
+    background-color: #32645b;
+}
+.box-final .box-content {
+    border-color: #ffffff;
+}
+.btn {
+    box-shadow: 0px 0px 2px #cccccc;
+    color: #000000;
+}
+
+.btn-yes {
+    background-color: #666666;
+    color: #ffffff;
+}
+.btn-yes:hover {
+    background-color: #999999;
+}
+
+.btn-no {
+    background-color: #ffffff;
+    color: #666666;
+}
+.btn-no:hover {
+    background-color: #eeeeee;
+}
+
+.btn-confirm {    
+    background-color: #ff8965;
+    color: #ffffff;
+}
+.btn-confirm:hover {
+    background-color: #f76133;
+}
+.progress-bar {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.progress-bar:before {
+    background-color: #11a811;
+}

@@ -1,0 +1,307 @@
+img {
+    border: 0;
+    max-width: 100%;
+}
+a {
+    display: inline-block;
+    color: #000000;
+}
+
+p, ul, li, ol, h1, h2, h3, h4, h5, figure {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+    border-radius: 0;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.pxl,
+.hidden {
+    display: none;
+}
+
+figure {
+    font-size: 0;
+}
+figure figcaption {
+    font-size: 12px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-overlay.highest {
+    z-index: 9999;
+}
+
+.row.row-medium-spacing {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.row.row-small-spacing {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.row.row-extra-small-spacing {
+    margin-left: -3px;
+    margin-right: -3px;
+}
+.row.row-no-spacing {
+    margin: 0;
+}
+.row.row-medium-spacing .col-xs-1, .row.row-medium-spacing .col-sm-1, .row.row-medium-spacing .col-md-1, .row.row-medium-spacing .col-lg-1, 
+.row.row-medium-spacing .col-xs-2, .row.row-medium-spacing .col-sm-2, .row.row-medium-spacing .col-md-2, .row.row-medium-spacing .col-lg-2, 
+.row.row-medium-spacing .col-xs-3, .row.row-medium-spacing .col-sm-3, .row.row-medium-spacing .col-md-3, .row.row-medium-spacing .col-lg-3, 
+.row.row-medium-spacing .col-xs-4, .row.row-medium-spacing .col-sm-4, .row.row-medium-spacing .col-md-4, .row.row-medium-spacing .col-lg-4, 
+.row.row-medium-spacing .col-xs-5, .row.row-medium-spacing .col-sm-5, .row.row-medium-spacing .col-md-5, .row.row-medium-spacing .col-lg-5, 
+.row.row-medium-spacing .col-xs-6, .row.row-medium-spacing .col-sm-6, .row.row-medium-spacing .col-md-6, .row.row-medium-spacing .col-lg-6, 
+.row.row-medium-spacing .col-xs-7, .row.row-medium-spacing .col-sm-7, .row.row-medium-spacing .col-md-7, .row.row-medium-spacing .col-lg-7, 
+.row.row-medium-spacing .col-xs-8, .row.row-medium-spacing .col-sm-8, .row.row-medium-spacing .col-md-8, .row.row-medium-spacing .col-lg-8, 
+.row.row-medium-spacing .col-xs-9, .row.row-medium-spacing .col-sm-9, .row.row-medium-spacing .col-md-9, .row.row-medium-spacing .col-lg-9, 
+.row.row-medium-spacing .col-xs-10, .row.row-medium-spacing .col-sm-10, .row.row-medium-spacing .col-md-10, .row.row-medium-spacing .col-lg-10, 
+.row.row-medium-spacing .col-xs-11, .row.row-medium-spacing .col-sm-11, .row.row-medium-spacing .col-md-11, .row.row-medium-spacing .col-lg-11, 
+.row.row-medium-spacing .col-xs-12, .row.row-medium-spacing .col-sm-12, .row.row-medium-spacing .col-md-12, .row.row-medium-spacing .col-lg-12, 
+.row.row-medium-spacing .col-xs-13, .row.row-medium-spacing .col-sm-13, .row.row-medium-spacing .col-md-13, .row.row-medium-spacing .col-lg-13, 
+.row.row-medium-spacing .col-xs-14, .row.row-medium-spacing .col-sm-14, .row.row-medium-spacing .col-md-14, .row.row-medium-spacing .col-lg-14, 
+.row.row-medium-spacing .col-xs-15, .row.row-medium-spacing .col-sm-15, .row.row-medium-spacing .col-md-15, .row.row-medium-spacing .col-lg-15, 
+.row.row-medium-spacing .col-xs-16, .row.row-medium-spacing .col-sm-16, .row.row-medium-spacing .col-md-16, .row.row-medium-spacing .col-lg-16, 
+.row.row-medium-spacing .col-xs-17, .row.row-medium-spacing .col-sm-17, .row.row-medium-spacing .col-md-17, .row.row-medium-spacing .col-lg-17, 
+.row.row-medium-spacing .col-xs-18, .row.row-medium-spacing .col-sm-18, .row.row-medium-spacing .col-md-18, .row.row-medium-spacing .col-lg-18, 
+.row.row-medium-spacing .col-xs-19, .row.row-medium-spacing .col-sm-19, .row.row-medium-spacing .col-md-19, .row.row-medium-spacing .col-lg-19, 
+.row.row-medium-spacing .col-xs-20, .row.row-medium-spacing .col-sm-20, .row.row-medium-spacing .col-md-20, .row.row-medium-spacing .col-lg-20, 
+.row.row-medium-spacing .col-xs-21, .row.row-medium-spacing .col-sm-21, .row.row-medium-spacing .col-md-21, .row.row-medium-spacing .col-lg-21, 
+.row.row-medium-spacing .col-xs-22, .row.row-medium-spacing .col-sm-22, .row.row-medium-spacing .col-md-22, .row.row-medium-spacing .col-lg-22, 
+.row.row-medium-spacing .col-xs-23, .row.row-medium-spacing .col-sm-23, .row.row-medium-spacing .col-md-23, .row.row-medium-spacing .col-lg-23, 
+.row.row-medium-spacing .col-xs-24, .row.row-medium-spacing .col-sm-24, .row.row-medium-spacing .col-md-24, .row.row-medium-spacing .col-lg-24 {
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.row.row-small-spacing .col-xs-1, .row.row-small-spacing .col-sm-1, .row.row-small-spacing .col-md-1, .row.row-small-spacing .col-lg-1, 
+.row.row-small-spacing .col-xs-2, .row.row-small-spacing .col-sm-2, .row.row-small-spacing .col-md-2, .row.row-small-spacing .col-lg-2, 
+.row.row-small-spacing .col-xs-3, .row.row-small-spacing .col-sm-3, .row.row-small-spacing .col-md-3, .row.row-small-spacing .col-lg-3, 
+.row.row-small-spacing .col-xs-4, .row.row-small-spacing .col-sm-4, .row.row-small-spacing .col-md-4, .row.row-small-spacing .col-lg-4, 
+.row.row-small-spacing .col-xs-5, .row.row-small-spacing .col-sm-5, .row.row-small-spacing .col-md-5, .row.row-small-spacing .col-lg-5, 
+.row.row-small-spacing .col-xs-6, .row.row-small-spacing .col-sm-6, .row.row-small-spacing .col-md-6, .row.row-small-spacing .col-lg-6, 
+.row.row-small-spacing .col-xs-7, .row.row-small-spacing .col-sm-7, .row.row-small-spacing .col-md-7, .row.row-small-spacing .col-lg-7, 
+.row.row-small-spacing .col-xs-8, .row.row-small-spacing .col-sm-8, .row.row-small-spacing .col-md-8, .row.row-small-spacing .col-lg-8, 
+.row.row-small-spacing .col-xs-9, .row.row-small-spacing .col-sm-9, .row.row-small-spacing .col-md-9, .row.row-small-spacing .col-lg-9, 
+.row.row-small-spacing .col-xs-10, .row.row-small-spacing .col-sm-10, .row.row-small-spacing .col-md-10, .row.row-small-spacing .col-lg-10, 
+.row.row-small-spacing .col-xs-11, .row.row-small-spacing .col-sm-11, .row.row-small-spacing .col-md-11, .row.row-small-spacing .col-lg-11, 
+.row.row-small-spacing .col-xs-12, .row.row-small-spacing .col-sm-12, .row.row-small-spacing .col-md-12, .row.row-small-spacing .col-lg-12, 
+.row.row-small-spacing .col-xs-13, .row.row-small-spacing .col-sm-13, .row.row-small-spacing .col-md-13, .row.row-small-spacing .col-lg-13, 
+.row.row-small-spacing .col-xs-14, .row.row-small-spacing .col-sm-14, .row.row-small-spacing .col-md-14, .row.row-small-spacing .col-lg-14, 
+.row.row-small-spacing .col-xs-15, .row.row-small-spacing .col-sm-15, .row.row-small-spacing .col-md-15, .row.row-small-spacing .col-lg-15, 
+.row.row-small-spacing .col-xs-16, .row.row-small-spacing .col-sm-16, .row.row-small-spacing .col-md-16, .row.row-small-spacing .col-lg-16, 
+.row.row-small-spacing .col-xs-17, .row.row-small-spacing .col-sm-17, .row.row-small-spacing .col-md-17, .row.row-small-spacing .col-lg-17, 
+.row.row-small-spacing .col-xs-18, .row.row-small-spacing .col-sm-18, .row.row-small-spacing .col-md-18, .row.row-small-spacing .col-lg-18, 
+.row.row-small-spacing .col-xs-19, .row.row-small-spacing .col-sm-19, .row.row-small-spacing .col-md-19, .row.row-small-spacing .col-lg-19, 
+.row.row-small-spacing .col-xs-20, .row.row-small-spacing .col-sm-20, .row.row-small-spacing .col-md-20, .row.row-small-spacing .col-lg-20, 
+.row.row-small-spacing .col-xs-21, .row.row-small-spacing .col-sm-21, .row.row-small-spacing .col-md-21, .row.row-small-spacing .col-lg-21, 
+.row.row-small-spacing .col-xs-22, .row.row-small-spacing .col-sm-22, .row.row-small-spacing .col-md-22, .row.row-small-spacing .col-lg-22, 
+.row.row-small-spacing .col-xs-23, .row.row-small-spacing .col-sm-23, .row.row-small-spacing .col-md-23, .row.row-small-spacing .col-lg-23, 
+.row.row-small-spacing .col-xs-24, .row.row-small-spacing .col-sm-24, .row.row-small-spacing .col-md-24, .row.row-small-spacing .col-lg-24 {
+	padding-left: 5px;
+    padding-right: 5px;
+}
+.row.row-extra-small-spacing .col-xs-1, .row.row-extra-small-spacing .col-sm-1, .row.row-extra-small-spacing .col-md-1, .row.row-extra-small-spacing .col-lg-1, 
+.row.row-extra-small-spacing .col-xs-2, .row.row-extra-small-spacing .col-sm-2, .row.row-extra-small-spacing .col-md-2, .row.row-extra-small-spacing .col-lg-2, 
+.row.row-extra-small-spacing .col-xs-3, .row.row-extra-small-spacing .col-sm-3, .row.row-extra-small-spacing .col-md-3, .row.row-extra-small-spacing .col-lg-3, 
+.row.row-extra-small-spacing .col-xs-4, .row.row-extra-small-spacing .col-sm-4, .row.row-extra-small-spacing .col-md-4, .row.row-extra-small-spacing .col-lg-4, 
+.row.row-extra-small-spacing .col-xs-5, .row.row-extra-small-spacing .col-sm-5, .row.row-extra-small-spacing .col-md-5, .row.row-extra-small-spacing .col-lg-5, 
+.row.row-extra-small-spacing .col-xs-6, .row.row-extra-small-spacing .col-sm-6, .row.row-extra-small-spacing .col-md-6, .row.row-extra-small-spacing .col-lg-6, 
+.row.row-extra-small-spacing .col-xs-7, .row.row-extra-small-spacing .col-sm-7, .row.row-extra-small-spacing .col-md-7, .row.row-extra-small-spacing .col-lg-7, 
+.row.row-extra-small-spacing .col-xs-8, .row.row-extra-small-spacing .col-sm-8, .row.row-extra-small-spacing .col-md-8, .row.row-extra-small-spacing .col-lg-8, 
+.row.row-extra-small-spacing .col-xs-9, .row.row-extra-small-spacing .col-sm-9, .row.row-extra-small-spacing .col-md-9, .row.row-extra-small-spacing .col-lg-9, 
+.row.row-extra-small-spacing .col-xs-10, .row.row-extra-small-spacing .col-sm-10, .row.row-extra-small-spacing .col-md-10, .row.row-extra-small-spacing .col-lg-10, 
+.row.row-extra-small-spacing .col-xs-11, .row.row-extra-small-spacing .col-sm-11, .row.row-extra-small-spacing .col-md-11, .row.row-extra-small-spacing .col-lg-11, 
+.row.row-extra-small-spacing .col-xs-12, .row.row-extra-small-spacing .col-sm-12, .row.row-extra-small-spacing .col-md-12, .row.row-extra-small-spacing .col-lg-12, 
+.row.row-extra-small-spacing .col-xs-13, .row.row-extra-small-spacing .col-sm-13, .row.row-extra-small-spacing .col-md-13, .row.row-extra-small-spacing .col-lg-13, 
+.row.row-extra-small-spacing .col-xs-14, .row.row-extra-small-spacing .col-sm-14, .row.row-extra-small-spacing .col-md-14, .row.row-extra-small-spacing .col-lg-14, 
+.row.row-extra-small-spacing .col-xs-15, .row.row-extra-small-spacing .col-sm-15, .row.row-extra-small-spacing .col-md-15, .row.row-extra-small-spacing .col-lg-15, 
+.row.row-extra-small-spacing .col-xs-16, .row.row-extra-small-spacing .col-sm-16, .row.row-extra-small-spacing .col-md-16, .row.row-extra-small-spacing .col-lg-16, 
+.row.row-extra-small-spacing .col-xs-17, .row.row-extra-small-spacing .col-sm-17, .row.row-extra-small-spacing .col-md-17, .row.row-extra-small-spacing .col-lg-17, 
+.row.row-extra-small-spacing .col-xs-18, .row.row-extra-small-spacing .col-sm-18, .row.row-extra-small-spacing .col-md-18, .row.row-extra-small-spacing .col-lg-18, 
+.row.row-extra-small-spacing .col-xs-19, .row.row-extra-small-spacing .col-sm-19, .row.row-extra-small-spacing .col-md-19, .row.row-extra-small-spacing .col-lg-19, 
+.row.row-extra-small-spacing .col-xs-20, .row.row-extra-small-spacing .col-sm-20, .row.row-extra-small-spacing .col-md-20, .row.row-extra-small-spacing .col-lg-20, 
+.row.row-extra-small-spacing .col-xs-21, .row.row-extra-small-spacing .col-sm-21, .row.row-extra-small-spacing .col-md-21, .row.row-extra-small-spacing .col-lg-21, 
+.row.row-extra-small-spacing .col-xs-22, .row.row-extra-small-spacing .col-sm-22, .row.row-extra-small-spacing .col-md-22, .row.row-extra-small-spacing .col-lg-22, 
+.row.row-extra-small-spacing .col-xs-23, .row.row-extra-small-spacing .col-sm-23, .row.row-extra-small-spacing .col-md-23, .row.row-extra-small-spacing .col-lg-23, 
+.row.row-extra-small-spacing .col-xs-24, .row.row-extra-small-spacing .col-sm-24, .row.row-extra-small-spacing .col-md-24, .row.row-extra-small-spacing .col-lg-24 {
+	padding-left: 3px;
+    padding-right: 3px;
+}
+.row.row-no-spacing .col-xs-1, .row.row-no-spacing .col-sm-1, .row.row-no-spacing .col-md-1, .row.row-no-spacing .col-lg-1, 
+.row.row-no-spacing .col-xs-2, .row.row-no-spacing .col-sm-2, .row.row-no-spacing .col-md-2, .row.row-no-spacing .col-lg-2, 
+.row.row-no-spacing .col-xs-3, .row.row-no-spacing .col-sm-3, .row.row-no-spacing .col-md-3, .row.row-no-spacing .col-lg-3, 
+.row.row-no-spacing .col-xs-4, .row.row-no-spacing .col-sm-4, .row.row-no-spacing .col-md-4, .row.row-no-spacing .col-lg-4, 
+.row.row-no-spacing .col-xs-5, .row.row-no-spacing .col-sm-5, .row.row-no-spacing .col-md-5, .row.row-no-spacing .col-lg-5, 
+.row.row-no-spacing .col-xs-6, .row.row-no-spacing .col-sm-6, .row.row-no-spacing .col-md-6, .row.row-no-spacing .col-lg-6, 
+.row.row-no-spacing .col-xs-7, .row.row-no-spacing .col-sm-7, .row.row-no-spacing .col-md-7, .row.row-no-spacing .col-lg-7, 
+.row.row-no-spacing .col-xs-8, .row.row-no-spacing .col-sm-8, .row.row-no-spacing .col-md-8, .row.row-no-spacing .col-lg-8, 
+.row.row-no-spacing .col-xs-9, .row.row-no-spacing .col-sm-9, .row.row-no-spacing .col-md-9, .row.row-no-spacing .col-lg-9, 
+.row.row-no-spacing .col-xs-10, .row.row-no-spacing .col-sm-10, .row.row-no-spacing .col-md-10, .row.row-no-spacing .col-lg-10, 
+.row.row-no-spacing .col-xs-11, .row.row-no-spacing .col-sm-11, .row.row-no-spacing .col-md-11, .row.row-no-spacing .col-lg-11, 
+.row.row-no-spacing .col-xs-12, .row.row-no-spacing .col-sm-12, .row.row-no-spacing .col-md-12, .row.row-no-spacing .col-lg-12, 
+.row.row-no-spacing .col-xs-13, .row.row-no-spacing .col-sm-13, .row.row-no-spacing .col-md-13, .row.row-no-spacing .col-lg-13, 
+.row.row-no-spacing .col-xs-14, .row.row-no-spacing .col-sm-14, .row.row-no-spacing .col-md-14, .row.row-no-spacing .col-lg-14, 
+.row.row-no-spacing .col-xs-15, .row.row-no-spacing .col-sm-15, .row.row-no-spacing .col-md-15, .row.row-no-spacing .col-lg-15, 
+.row.row-no-spacing .col-xs-16, .row.row-no-spacing .col-sm-16, .row.row-no-spacing .col-md-16, .row.row-no-spacing .col-lg-16, 
+.row.row-no-spacing .col-xs-17, .row.row-no-spacing .col-sm-17, .row.row-no-spacing .col-md-17, .row.row-no-spacing .col-lg-17, 
+.row.row-no-spacing .col-xs-18, .row.row-no-spacing .col-sm-18, .row.row-no-spacing .col-md-18, .row.row-no-spacing .col-lg-18, 
+.row.row-no-spacing .col-xs-19, .row.row-no-spacing .col-sm-19, .row.row-no-spacing .col-md-19, .row.row-no-spacing .col-lg-19, 
+.row.row-no-spacing .col-xs-20, .row.row-no-spacing .col-sm-20, .row.row-no-spacing .col-md-20, .row.row-no-spacing .col-lg-20, 
+.row.row-no-spacing .col-xs-21, .row.row-no-spacing .col-sm-21, .row.row-no-spacing .col-md-21, .row.row-no-spacing .col-lg-21, 
+.row.row-no-spacing .col-xs-22, .row.row-no-spacing .col-sm-22, .row.row-no-spacing .col-md-22, .row.row-no-spacing .col-lg-22, 
+.row.row-no-spacing .col-xs-23, .row.row-no-spacing .col-sm-23, .row.row-no-spacing .col-md-23, .row.row-no-spacing .col-lg-23, 
+.row.row-no-spacing .col-xs-24, .row.row-no-spacing .col-sm-24, .row.row-no-spacing .col-md-24, .row.row-no-spacing .col-lg-24 {
+	padding: 0;
+}
+/* text */
+.text {
+    margin: 10px 0;
+    line-height: 1.4;
+}
+.text.text-small {
+    font-size: 11px;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+.text-center {
+    text-align: center;
+}
+.text-transform-uppercase {
+    text-transform: uppercase !important;
+}
+.text-transform-none {
+    text-transform: none !important;
+}
+
+
+
+/* for iphone 5 */
+@media (max-width: 350px) {
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
+    .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+    .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+    .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+    .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+    .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+    .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+    .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+    .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+    .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+    .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, 
+    .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, 
+    .col-xs-13, .col-sm-13, .col-md-13, .col-lg-13, 
+    .col-xs-14, .col-sm-14, .col-md-14, .col-lg-14, 
+    .col-xs-15, .col-sm-15, .col-md-15, .col-lg-15, 
+    .col-xs-16, .col-sm-16, .col-md-16, .col-lg-16, 
+    .col-xs-17, .col-sm-17, .col-md-17, .col-lg-17, 
+    .col-xs-18, .col-sm-18, .col-md-18, .col-lg-18, 
+    .col-xs-19, .col-sm-19, .col-md-19, .col-lg-19, 
+    .col-xs-20, .col-sm-20, .col-md-20, .col-lg-20, 
+    .col-xs-21, .col-sm-21, .col-md-21, .col-lg-21, 
+    .col-xs-22, .col-sm-22, .col-md-22, .col-lg-22, 
+    .col-xs-23, .col-sm-23, .col-md-23, .col-lg-23, 
+    .col-xs-24, .col-sm-24, .col-md-24, .col-lg-24 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/* display as table */
+@media (min-width: 768px) {
+    
+}
+/* display as medium devices */
+@media (min-width: 992px) {
+    
+}
+/* display as Large devices */
+@media (min-width: 1200px) {
+
+}
+
+
+/* hidden or shown elements */
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+.hide-mobile {
+    display: none;
+}
+.hide-table {
+    display: none;
+}
+.hide-medium-device {
+    display: none;
+}
+.hide-small-desktop {
+    display: none;
+}
+@media (min-width: 768px) {
+    .hide-mobile {
+        display: block;
+    }
+    
+}
+@media (min-width: 992px) {
+    .hide-table {
+        display: block;
+    }
+    
+}
+@media (min-width: 1024px) {
+    .hide-medium-device {
+        display: block;
+    }
+    .hide-small-desktop {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .hide-small-desktop {
+        display: block;
+    }
+}
+/* show */
+@media (min-width: 768px) {
+    .show-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .show-table {
+        display: none;
+    }
+}

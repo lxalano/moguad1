@@ -1,0 +1,79 @@
+body {
+    background-color: #888;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 !important;
+}
+
+body {
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #eee;
+    color: #000;
+    max-width: 640px;
+}
+
+.panel {
+    margin: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    color: inherit;
+    max-width: inherit;
+}
+
+h1, h2, h3 {
+    padding: 0 !important;
+    font-weight: bold;
+}
+
+.box {
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: inherit;
+    color: inherit;
+    border: 1px dashed red;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.divider {
+    height: 1px;
+    border-top: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.highlight {
+    color: blue
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.btn-strong {
+    font-weight: bold;
+}
+
+.qualified,
+.steps {
+    display: none;
+}
+
+h1 { 
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.list-group .list-group-item {background:#fff url('https://sex-tonight.newideas.site/lp/asia/Image/list.png') no-repeat 15px center; padding-left: 40px}
