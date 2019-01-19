@@ -1,28 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    ​<script>
-    (function(){
-        window.afilter = function(event,detail,token){
-            var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://trk.alili.club/p/events', true);
-            xhr.withCredentials = true;
-            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-            xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
-        };
-        //下面是offer链接
-        window.atgo = function(url){
-        window.location.replace("https://" + 'trk.alili.clu' + 'b/' + url);
-    };
-    }());
-    </script>
+    <base href="http://src.mybiquge.xyz/dating/tw/LP3/">
 	<meta charset="UTF-8">
 	<title>The most popular dating site of this month</title>
 	<meta content="user-scalable=false, initial-scale=1.0, maximum-scale=1.0" name="viewport">
 		<meta content="" name="keywords">
 	<meta content="" name="description">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css?1541084291" rel="stylesheet" type="text/css">
-	<link href="./main.css?1541084291" rel="stylesheet" type="text/css">
+	<link href="main.css?1541084291" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js?1541084291" type="text/javascript">
 	</script>
 </head>
@@ -90,7 +76,22 @@
             }
         );
     </script>
-    <script src="./js/fraudclick.js?v=2"></script>
+    ​<script>
+        (function(){
+            window.afilter = function(event,detail,token){
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'https://trk.alili.club/p/events', true);
+                xhr.withCredentials = true;
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
+            };
+            //下面是offer链接
+            window.atgo = function(url){
+                window.location.replace("https://" + 'trk.alili.clu' + 'b/' + url);
+            };
+        }());
+    </script>
+    <script src="js/fraudclick.js?v=2"></script>
     <script>
         AtClickCheck(["a","button"],3,1);
     </script>
