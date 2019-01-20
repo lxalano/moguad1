@@ -2,12 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="加入版本控制">
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP1/js/base64.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP1/js/fraudclick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP1/js/zepto.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP1/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP17/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP17/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP17/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP17/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP17/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP18/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP18/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP18/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP18/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP18/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP19/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP19/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP19/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP19/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP19/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP2/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP2/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP2/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP2/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP20/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP20/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP20/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP20/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP20/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/js/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/js/fraudclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/source.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/flame_fav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/加入版本控制.patch" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,30 +127,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1535">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="512">
+              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/js/fraudclick.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/source.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/base64.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.php">
+        <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/source.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="251">
+              <caret line="101" column="16" lean-forward="true" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#h1#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,34 +292,6 @@
               <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
               <item name="moguad1" type="462c0819:PsiDirectoryNode" />
               <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="CNT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="CNT" type="462c0819:PsiDirectoryNode" />
-              <item name="lp1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="CNT" type="462c0819:PsiDirectoryNode" />
-              <item name="lp1" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="CNT" type="462c0819:PsiDirectoryNode" />
-              <item name="LP3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
               <item name="EN" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,20 +300,6 @@
               <item name="dating" type="462c0819:PsiDirectoryNode" />
               <item name="EN" type="462c0819:PsiDirectoryNode" />
               <item name="LP1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP1" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="KO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,18 +317,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1" />
-      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1\js" />
-      <recent name="D:\PhpstormProjects\moguad1\src\img" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP20" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP19" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP18" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP17" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP16" />
-      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PhpstormProjects\moguad1\src\ico" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1\js" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1\css" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1\img" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN" />
-      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,21 +394,7 @@
       <workItem from="1547712071154" duration="5949000" />
       <workItem from="1547893911767" duration="2954000" />
       <workItem from="1547906190300" duration="3111000" />
-      <workItem from="1547971531105" duration="4734000" />
-    </task>
-    <task id="LOCAL-00012" summary="增加dating目录&#10;LP1开始&#10;修改了北京">
-      <created>1547041180603</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1547041180603</updated>
-    </task>
-    <task id="LOCAL-00013" summary="增加dating目录&#10;LP1开始&#10;修改了北京">
-      <created>1547042133587</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1547042133587</updated>
+      <workItem from="1547971531105" duration="7639000" />
     </task>
     <task id="LOCAL-00014" summary="增加dating目录&#10;LP1开始&#10;修改了很多，增加了拼装链接到off和回传">
       <created>1547042342217</created>
@@ -672,11 +725,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547976014021</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="加入版本控制">
+      <created>1547976284441</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1547976284441</updated>
+    </task>
+    <task id="LOCAL-00062" summary="加入版本控制">
+      <created>1547977857224</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1547977857224</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95212000" />
+    <option name="totallyTimeSpent" value="98117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,77 +887,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="加入版本控制" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/img/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/tw/LP3/js/jquery-1.js" />
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/js/base64.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/tw/LP3/new.html" />
-    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/img/125.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP2/e8d6db96744fe644d3ab39f0954a5893c70c2250.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/tw/LP3/index.html" />
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/source.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/css/style4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2733" selection-start-column="2733" selection-end-column="2733" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/main.css" />
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws5.png" />
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws10.png" />
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws9.png" />
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws6.png" />
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.html" />
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/source.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#script#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/c3d2010ceacef59ce017f2403a021ffeb0736c26.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/gtm.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/KO/LP1/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/785394422bc0094b49f1ec1ea186fb17e1b7c92a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="19" selection-end-line="210" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/图片地址.txt" />
     <entry file="file://$PROJECT_DIR$/dating/EN/LP5/The best dating site.html" />
     <entry file="file://$PROJECT_DIR$/dating/EN/LP7/css.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -961,10 +957,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/popwin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/js/fraudclick.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/base64.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/source.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP6/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP7/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP8/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP9/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP10/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP11/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP13/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP14/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP15/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP16/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP17/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP18/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP19/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP20/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加入版本控制.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ico/flamefav.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="54" />
+        <state relative-caret-position="251">
+          <caret line="101" column="16" lean-forward="true" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -985,33 +1079,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/app.js">
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="228">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/popwin.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1535">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/js/fraudclick.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/base64.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="512">
+          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
         </state>
       </provider>
     </entry>
