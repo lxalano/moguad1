@@ -30,20 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP2/source.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+            <state relative-caret-position="152">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -150,9 +141,9 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="512" />
-    <option name="y" value="126" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="68" />
+    <option name="y" value="-52" />
     <option name="width" value="2520" />
     <option name="height" value="1280" />
   </component>
@@ -187,32 +178,7 @@
               <item name="moguad1" type="462c0819:PsiDirectoryNode" />
               <item name="dating" type="462c0819:PsiDirectoryNode" />
               <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="EN" type="462c0819:PsiDirectoryNode" />
               <item name="LP3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ico" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,14 +275,7 @@
       <workItem from="1547893911767" duration="2954000" />
       <workItem from="1547906190300" duration="3111000" />
       <workItem from="1547971531105" duration="11803000" />
-      <workItem from="1547986058126" duration="5468000" />
-    </task>
-    <task id="LOCAL-00022" summary="解决视频播放问题,前置了？">
-      <created>1547281280332</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1547281280332</updated>
+      <workItem from="1547986058126" duration="5981000" />
     </task>
     <task id="LOCAL-00023" summary="把视频换成gif">
       <created>1547281632522</created>
@@ -654,11 +613,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547991408632</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="加入版本控制">
+      <created>1547991541589</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1547991541589</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107749000" />
+    <option name="totallyTimeSpent" value="108262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,12 +745,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="加入版本控制" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP6/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP7/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP8/js/zepto.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -910,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="78" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/jump-favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -992,10 +945,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="78" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/14381131.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/fp_ec.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        <state relative-caret-position="152">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
