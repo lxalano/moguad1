@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>This works better than Tinder</title>
     <link href="http://src.mybiquge.xyz/src/ico/flamefav.png" rel="shortcut icon" type="image/x-icon">
-    <link href="dating_files/css.css" rel="stylesheet" type="text/css">
-    <link href="dating_files/css1.css" rel="stylesheet" type="text/css">
     <script src="dating_files/jquery.js"></script>
     <link href="dating_files/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="dating_files/bootstrap.min.css">
@@ -30,7 +28,7 @@
          style="background-image: url(img/asia3.jpg); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
 </div>
 <div class="vegas-timer">
-    <div class="vegas-timer-progress" style="transition-duration: 0ms;"></div>
+    <div class="vegas-timer-progress" style="transition-duration: 5ms;"></div>
 </div>
 
 <div class="container">
@@ -143,25 +141,9 @@
     })
 </script>
 
-<script type="text/javascript">
-    $("#example, body").vegas({
-        delay: 2500,
-        timer: false,
-        shuffle: true,
-        timer: true,
-        transition: 'fade',
-        transitionDuration: 2000,
-        slides: [
-            {src: 'img/asia1.jpg'},
-            {src: 'img/asia2.jpg'},
-            {src: 'img/asia3.jpg'},
-            {src: 'img/asia4.jpg'},
-        ]
-    });
-</script>
+
 
 <script type="text/javascript">
-
     var interval = setInterval(function () {
         var timer = $('.clock').html();
         timer = timer.split(':');
@@ -179,7 +161,6 @@
         if (minutes == 0 && seconds == 0)
             clearInterval(interval);
     }, 1000);
-
 </script>
 
 <script>
