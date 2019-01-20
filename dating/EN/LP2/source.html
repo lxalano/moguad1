@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow">
     <title>Look for Asian women to enjoy the thrill of the night.</title>
     <meta name="viewport" content="user-scalable=false, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="icon" type="image/png" href="https://src.mybiquge.xyz/src/ico/flamefav.png">
+    <link href="http://src.mybiquge.xyz/src/ico/flamefav.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="home.css">
     <script src="js/home.js"></script>
 </head>
@@ -26,9 +26,9 @@
                 </p>
             </div>
             <div class="buttons-block">
-                <div class="step-btn tr-next-button">
+                <button class="step-btn tr-next-button">
                     OK!
-                </div>
+                </button>
             </div>
         </div>
         <!--END step1-->
@@ -59,12 +59,12 @@
                 </div>
             </div>
             <div class="buttons-block">
-                <div class="step-btn tr-next-button tr-b-option yes-btn">
+                <button class="step-btn tr-next-button tr-b-option yes-btn">
                     Yes
-                </div>
-                <div class="step-btn tr-next-button tr-b-option no-btn">
+                </button>
+                <button class="step-btn tr-next-button tr-b-option no-btn">
                     No
-                </div>
+                </button>
             </div>
         </div>
         <!--END step2-->
@@ -95,12 +95,12 @@
                 </div>
             </div>
             <div class="buttons-block">
-                <div class="step-btn tr-next-button tr-b-option yes-btn">
+                <button class="step-btn tr-next-button tr-b-option yes-btn">
                     Yes
-                </div>
-                <div class="step-btn tr-next-button tr-b-option no-btn">
+                </button>
+                <button class="step-btn tr-next-button tr-b-option no-btn">
                     No
-                </div>
+                </button>
             </div>
         </div>
         <!--END step3-->
@@ -132,12 +132,12 @@
                 </div>
             </div>
             <div class="buttons-block">
-                <div class="step-btn tr-next-button tr-b-option yes-btn">
+                <button class="step-btn tr-next-button tr-b-option yes-btn">
                     Yes
-                </div>
-                <div class="step-btn tr-next-button tr-b-option no-btn">
+                </button>
+                <button class="step-btn tr-next-button tr-b-option no-btn">
                     No
-                </div>
+                </button>
             </div>
         </div>
         <!--END step4-->
@@ -168,12 +168,12 @@
                 </div>
             </div>
             <div class="buttons-block">
-                <div class="step-btn tr-next-button tr-b-option yes-btn">
+                <button class="step-btn tr-next-button tr-b-option yes-btn">
                     Yes
-                </div>
-                <div class="step-btn tr-next-button tr-b-option no-btn">
+                </button>
+                <button class="step-btn tr-next-button tr-b-option no-btn">
                     No
-                </div>
+                </button>
             </div>
         </div>
         <!--END step4-->
@@ -203,12 +203,12 @@
                 </div>
             </div>
             <div class="buttons-block">
-                <div class="step-btn tr-next-button tr-b-option yes-btn">
+                <button onclick="afilter(2)" class="step-btn tr-next-button tr-b-option yes-btn">
                     Yes
-                </div>
-                <div class="step-btn tr-next-button tr-b-option no-btn">
+                </button>
+                <button onclick="afilter(2)" class="step-btn tr-next-button tr-b-option no-btn">
                     No
-                </div>
+                </button>
             </div>
         </div>
         <!--step5-->
@@ -229,7 +229,7 @@
                 </p>
             </div>
             <div class="buttons-block">
-                <a href="http://www.kliktrek.com/base2.php" class="step-btn tr-submit-button submit-btn" id="agreeclick"
+                <a href="javascript:void(0);" onclick="atgo('click');" class="step-btn tr-submit-button submit-btn" id="agreeclick"
                    data-id="agreeclick"> Continue </a>
             </div>
         </div>
@@ -241,12 +241,12 @@
             Tired of being ignored by bitchy women?
         </div>
         <div class="popup-buttons-block">
-            <div class="popup-btn tr-next-button tr-b-option">
+            <button onclick="afilter(1)" class="popup-btn tr-next-button tr-b-option">
                 Yes
-            </div>
-            <div class="popup-btn tr-next-button tr-b-option">
+            </button>
+            <button onclick="afilter(1)" class="popup-btn tr-next-button tr-b-option">
                 No
-            </div>
+            </button>
         </div>
     </div>
     <!--END popup-block-->
@@ -262,8 +262,24 @@
     </div>
     <!--END loader-block-->
 </div>
-
-
+<script>
+    (function () {
+        window.afilter = function (event, detail, token) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://trk.alili.club/p/events', true);
+            xhr.withCredentials = true;
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
+        };
+        window.atgo = function (url) {
+            window.location.replace("https://" + 'trk.alili.clu' + 'b/' + url);
+        };
+    }());
+</script>
+<script src="./js/fraudclick.js?v=2"></script>
+<script>
+    AtClickCheck(["a", "button"], 3, 1);
+</script>
 
 </body>
 </html>
