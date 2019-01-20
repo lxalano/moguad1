@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="LP3修改语句">
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/css.1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/home.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +48,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -153,6 +165,7 @@
         <option value="$PROJECT_DIR$/dating/EN/LP3/main.js.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/source.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/home.css" />
+        <option value="$PROJECT_DIR$/dating/EN/LP3/home.js" />
       </list>
     </option>
   </component>
@@ -300,14 +313,7 @@
       <workItem from="1547893911767" duration="2954000" />
       <workItem from="1547906190300" duration="3111000" />
       <workItem from="1547971531105" duration="11803000" />
-      <workItem from="1547986058126" duration="10043000" />
-    </task>
-    <task id="LOCAL-00028" summary="删除源站">
-      <created>1547287836452</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1547287836452</updated>
+      <workItem from="1547986058126" duration="10076000" />
     </task>
     <task id="LOCAL-00029" summary="移动代码到前部">
       <created>1547287998212</created>
@@ -645,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547996162715</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="LP3修改语句">
+      <created>1547996294617</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1547996294617</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112324000" />
+    <option name="totallyTimeSpent" value="112357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,9 +783,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="LP3修改语句" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP13/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP14/js/zepto.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1000,7 +1010,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
