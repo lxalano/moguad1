@@ -2,47 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="加入版本控制">
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/jump-favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/main.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP2/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP2/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/10901605.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/11620628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/14381131.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/14444305.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/15662719.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/16351733.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/16460869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/16539096.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/17588265.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/5847ca4d0771d8563001aeb48e44c6fd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/7216a0fe576580b8d6097168977da0c3.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/js/7216a0fe576580b8d6097168977da0c3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/785394422bc0094b49f1ec1ea186fb17e1b7c92a.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/9052905.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/backoffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/js/backoffer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/css.1.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/css/css.1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/dc_img.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/js/dc_img.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/fp_ec.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/js/fp_ec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/gtm.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/js/gtm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/jump-favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/main.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/photo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/photo1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/photo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/photo2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/photo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/photo3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/photo4.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/photo4.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/photo5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/photo5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/photo6.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/photo6.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/photo7.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/photo7.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/puma.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/recaptcha.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/rtl.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/rtr.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/secoffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/js/secoffer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/shapes.png" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/img/shapes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/webPushMotivationPopupSmall.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/webPushMotivationPopupSmall.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/js/webPushMotivationPopupSmall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/webpush.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/css/css.1.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/css.1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/photo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/photo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/photo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/photo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/photo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/photo3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/photo4.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/photo4.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/photo5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/photo5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/photo6.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/photo6.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/photo7.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/photo7.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/img/shapes.png" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/shapes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/js/7216a0fe576580b8d6097168977da0c3.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/js/backoffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/backoffer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/js/dc_img.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/dc_img.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/js/fp_ec.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/fp_ec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/js/gtm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/js/secoffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/secoffer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/js/webPushMotivationPopupSmall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/source.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,38 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1387#1391#0" expanded="true" />
-                <element signature="e#1517#1521#0" expanded="true" />
-                <element signature="e#1526#1530#0" expanded="true" />
-                <element signature="e#1537#1541#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4878">
-              <caret line="380" column="26" selection-start-line="380" selection-start-column="26" selection-end-line="380" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css/css.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css/css.1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="228">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -143,6 +95,7 @@
       <find>dating/EN/LP2/</find>
       <find>Tired of being ignored by bitchy women?</find>
       <find>../</find>
+      <find>dating/EN/LP3/</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -201,6 +154,7 @@
         <option value="$PROJECT_DIR$/dating/EN/LP3/5847ca4d0771d8563001aeb48e44c6fd.css" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/css/5847ca4d0771d8563001aeb48e44c6fd.css" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/css/home.css" />
+        <option value="$PROJECT_DIR$/dating/EN/LP3/js/dc_img.js" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/source.html" />
       </list>
     </option>
@@ -208,9 +162,9 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="512" />
+    <option name="y" value="126" />
     <option name="width" value="2520" />
     <option name="height" value="1280" />
   </component>
@@ -246,14 +200,6 @@
               <item name="dating" type="462c0819:PsiDirectoryNode" />
               <item name="EN" type="462c0819:PsiDirectoryNode" />
               <item name="LP3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP3" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
@@ -297,11 +243,11 @@
       <recent name="D:\PhpstormProjects\moguad1\src\ico" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP3" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP20" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP19" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP18" />
       <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP17" />
-      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP16" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,11 +262,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.source.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.source.html">
     <configuration name="3327701cdaf63467916ac365923d5bd504407113.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP14/3327701cdaf63467916ac365923d5bd504407113.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="f2430487eb58002b3597d51389667aa9f0b70a74.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP7/f2430487eb58002b3597d51389667aa9f0b70a74.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="source.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP2/source.html" useBuiltInWebServerPort="true">
@@ -332,13 +275,16 @@
     <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP1/source.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP3/source.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.source.html" />
         <item itemvalue="JavaScript Debug.source.html (2)" />
         <item itemvalue="JavaScript Debug.source.html (1)" />
         <item itemvalue="JavaScript Debug.source.html" />
         <item itemvalue="JavaScript Debug.3327701cdaf63467916ac365923d5bd504407113.html" />
-        <item itemvalue="JavaScript Debug.f2430487eb58002b3597d51389667aa9f0b70a74.html" />
       </list>
     </recent_temporary>
   </component>
@@ -368,14 +314,7 @@
       <workItem from="1547893911767" duration="2954000" />
       <workItem from="1547906190300" duration="3111000" />
       <workItem from="1547971531105" duration="11803000" />
-      <workItem from="1547986058126" duration="3970000" />
-    </task>
-    <task id="LOCAL-00019" summary="增加dating目录&#10;               LP1开始&#10;               增加了事件代码&#10;               增加了js，增加了标红代码等等&#10;               删除gif，使用图床">
-      <created>1547111467691</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1547111467692</updated>
+      <workItem from="1547986058126" duration="5244000" />
     </task>
     <task id="LOCAL-00020" summary="增加dating目录&#10;               LP1开始&#10;               增加了事件代码&#10;               增加了js，增加了标红代码等等&#10;               删除gif，使用图床">
       <created>1547188728344</created>
@@ -713,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547987021552</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="加入版本控制">
+      <created>1547990053736</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1547990053736</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106251000" />
+    <option name="totallyTimeSpent" value="107525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,14 +675,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <frame x="256" y="63" width="1260" height="640" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.22186235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2279534" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
       <window_info id="Favorites" order="2" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2597865" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25933203" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20284697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -754,29 +700,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32955465" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.21862349" />
-      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
-      <window_info id="Favorites" order="2" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2597865" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20284697" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49959514" weight="0.6067616" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3291815" />
-      <window_info anchor="bottom" id="Thumbnails" order="13" visible="true" weight="0.3291815" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32955465" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -861,24 +784,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="加入版本控制" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP6/js/zepto.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -960,13 +865,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP2/gtm_002.js" />
-    <entry file="file://$PROJECT_DIR$/dating/DE/LP1/js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="112" column="366" selection-start-line="112" selection-start-column="366" selection-end-line="112" selection-end-column="366" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP2/jump-favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1049,7 +947,7 @@
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/img/9052905.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css/webPushMotivationPopupSmall.css">
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/webPushMotivationPopupSmall.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1268">
           <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
@@ -1069,24 +967,40 @@
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css/css.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css/home.css">
+    <entry file="file://$PROJECT_DIR$/dating/DE/LP1/js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4878">
+        <state relative-caret-position="2071">
+          <caret line="109" column="480" selection-start-line="109" selection-start-column="480" selection-end-line="109" selection-end-column="480" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css/5847ca4d0771d8563001aeb48e44c6fd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
           <caret line="380" column="26" selection-start-line="380" selection-start-column="26" selection-end-line="380" selection-end-column="26" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/secoffer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/js/dc_img.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/广告/dating/ADding/6/5847ca4d0771d8563001aeb48e44c6fd.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/9052905.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1387#1391#0" expanded="true" />
-            <element signature="e#1517#1521#0" expanded="true" />
-            <element signature="e#1526#1530#0" expanded="true" />
-            <element signature="e#1537#1541#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
