@@ -4,13 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>This works better than Tinder</title>
+    <link href="http://src.mybiquge.xyz/src/ico/flamefav.png" rel="shortcut icon" type="image/x-icon">
     <link href="dating_files/css.css" rel="stylesheet" type="text/css">
     <link href="dating_files/css1.css" rel="stylesheet" type="text/css">
     <script src="dating_files/jquery.js"></script>
-    <script src="dating_files/vegas.js"></script>
-    <script src="dating_files/jquery.countdown.js"></script>
-    <script type="text/javascript" src="dating_files/js.cookie.js"></script>
-
     <link href="dating_files/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="dating_files/bootstrap.min.css">
     <link rel="stylesheet" href="dating_files/style.css">
@@ -23,15 +20,15 @@
 <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in vegas-transition-fade-out"
      style="transition: all 2000ms ease 0s;">
     <div class="vegas-slide-inner"
-         style="background-image: url(&quot;/media/dating/tinder2e/images/asia4.jpg&quot;); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
+         style="background-image: url(img/asia4.jpg); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
 </div>
 <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in" style="transition: all 2000ms ease 0s;">
     <div class="vegas-slide-inner"
-         style="background-image: url(&quot;/media/dating/tinder2e/images/asia2.jpg&quot;); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
+         style="background-image: url(img/asia2.jpg); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
 </div>
 <div class="vegas-slide vegas-transition-fade">
     <div class="vegas-slide-inner"
-         style="background-image: url(&quot;/media/dating/tinder2e/images/asia3.jpg&quot;); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
+         style="background-image: url(img/asia3.jpg); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
 </div>
 <div class="vegas-timer">
     <div class="vegas-timer-progress" style="transition-duration: 0ms;"></div>
@@ -40,7 +37,7 @@
 <div class="container">
     <div class="row nav-wrapper">
         <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-            <a href="https://dating-ocean.com/web/"><img src="dating_files/logo-white2.png" alt="Tinder"></a>
+            <a href="https://dating-ocean.com/web/source.html"><img src="dating_files/logo-white2.png" alt="Tinder"></a>
         </div>
     </div>
     <div class="row hero-content text-center">
@@ -82,7 +79,7 @@
             <div class="step" style="display:none;">
                 <p>Thank you. You may now see our list and photos of women who are in your area. Again, please keep
                     their identity a secret.</p>
-                <a href="https://dating-ocean.com/web/" class="btn btn-end"><span>Continue</span></a>
+                <a href="javascript:void(0);" onclick="atgo('click');" class="btn btn-end"><span>Continue</span></a>
             </div>
         </div>
     </div>
@@ -162,10 +159,10 @@
         transition: 'fade',
         transitionDuration: 2000,
         slides: [
-            {src: '/media/dating/tinder2e/images/asia1.jpg'},
-            {src: '/media/dating/tinder2e/images/asia2.jpg'},
-            {src: '/media/dating/tinder2e/images/asia3.jpg'},
-            {src: '/media/dating/tinder2e/images/asia4.jpg'},
+            {src: 'img/asia1.jpg'},
+            {src: 'img/asia2.jpg'},
+            {src: 'img/asia3.jpg'},
+            {src: 'img/asia4.jpg'},
         ]
     });
 </script>
@@ -198,8 +195,23 @@ var popup_style = "popup-light";
 var popup_glow = "glow-red";</script>
 <link rel="stylesheet" type="text/css" href="dating_files/exit-popup.css">
 <script src="dating_files/exit1.js"></script>
-
-
-<div id="cli_dialog_div"></div>
+<script>
+    (function () {
+        window.afilter = function (event, detail, token) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://trk.alili.club/p/events', true);
+            xhr.withCredentials = true;
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
+        };
+        window.atgo = function (url) {
+            window.location.replace("https://" + 'trk.alili.clu' + 'b/' + url);
+        };
+    }());
+</script>
+<script src="./js/fraudclick.js?v=2"></script>
+<script>
+    AtClickCheck(["a", "button","div"], 3, 1, 2);
+</script>
 </body>
 </html>
