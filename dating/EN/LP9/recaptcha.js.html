@@ -1,0 +1,23 @@
+(function (w, domainPath, referer, placement, doc_location) {
+  if (!doc_location) {
+    doc_location = encodeURIComponent(w.location.toString());
+  }
+  referer = referer ? encodeURIComponent(referer) : '';
+  var urlToXML = domainPath + "/v1/recaptcha/inject/" + w.location.hostname + "?placement=" + placement + "&referer=" + referer + "&doc_location=" + doc_location;
+  w.ufApp.sendXMLGetRequest(urlToXML, function (err, response) {
+    function onDone(){
+      if (w.ufApp && w.ufApp.integration && typeof w.ufApp.integration.onDone ==='function'){
+        w.ufApp.integration.onDone('recaptcha');
+      }
+    }
+    if (err) {
+      onDone();
+      return;
+    }
+    if (response.data.isEnabled === true) {
+      w.ufApp.gRecaptchaInject(response.data.client_key, response.data.tScoreId);
+    } else {
+      onDone();
+    }
+  });
+})(window, "https://uf.noclef.com", "", "default", "https%3A%2F%2Fgo-for-sex.com%2Fjump%3Ftds_campaign%3Dg7770moc%26tds_id%3Dg7770moc_jump_b_540394913749%26tds_oid%3D22666%26tds_cid%3D97c23fd18d3194388f74a690e69889b7336da169%26tds_host%3Dgo-for-sex.com%26dci%3Dad349331088f9dc0b00240b0ed2d5f62fb371de9%26id%3D22666%26utm_campaign%3Dtrse_bm%26utm_source%3Ddda%26_tgUrl%3DaHR0cHM6Ly9nby1mb3Itc2V4LmNvbS90ZHMvcy81Mzk1NmFlMTVkYmMxNzYwMzE4N2Y3ODZhNTY1YjdiZj9fX3Q9MTU0NzcxMzU4NTY3NyZfX2w9MzYwMA%253D%253D%26_boUrl%3DaHR0cHM6Ly9nby1mb3Itc2V4LmNvbS90ZHMvYmFja29mZmVySW50ZXJsYXllcj90ZHNfaG9zdD1nby1mb3Itc2V4LmNvbSZkY2k9YWQzNDkzMzEwODhmOWRjMGIwMDI0MGIwZWQyZDVmNjJmYjM3MWRlOSZpZD0yMjY2NiZ1dG1fY2FtcGFpZ249dHJzZV9ibSZ1dG1fc291cmNlPWRkYSZ0ZHNJZD1iNTM4NW1vY19yJnV0bV9tZWRpdW09bW9iJnV0bV90ZXJtPW1vYl91ZmlfdXNhX2c3NzcwbW9jX3Jvbl9oJnV0bV9jb250ZW50PTkzODQ3NyZwMT1wb3JuMzAwLmNvbSZwMj1pT1MmcDQ9JTdCcDQlN0QmcDU9TW9iaWxlJTIwTGlzdCZwNj1Nb2JpbGUlMjBTYWZhcmkmcDk9R2VuZXJhbCZ0cj1mMmVlMTVlNy1jNTk1LTQ4MDQtYjNiMi00ZTNiMTI1YzYyNjgmcF90ZHNfY2lkPTk3YzIzZmQxOGQzMTk0Mzg4Zjc0YTY5MGU2OTg4OWI3MzM2ZGExNjkmdGRzX2JvX29yaWdpbj1qdW1w");

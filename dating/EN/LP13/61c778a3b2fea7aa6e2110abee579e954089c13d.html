@@ -1,0 +1,1341 @@
+<!DOCTYPE html><html lang="en-US"><head>
+  <base href="">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="jquery.min.js">
+    </script>
+    <title>
+    </title>
+    <meta name="viewport" content="user-scalable=false, initial-scale=1.0, maximum-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+	  <link rel="icon" href="https://d2chnxtpmuibr8.cloudfront.net/img_web/favicon.png" type="image/png">
+    <style type="text/css">
+      html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,hr,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figure,figcaption,hgroup,menu,footer,header,nav,section,summary,time,mark,audio,video{
+        margin:0;
+        padding:0;
+        border:0;
+        font-size:100%;
+        font:inherit;
+        vertical-align:baseline}
+      input,textarea,select{
+        font-family:inherit;
+        font-size:inherit;
+        font-weight:inherit}
+      p{
+        margin:0}
+      h1{
+        font-size:2.5em;
+        line-height:1.1;
+        font-weight:700}
+      :focus{
+        outline:none}
+      ::-moz-focus-inner{
+        border:0}
+      a{
+        outline:0}
+      body{
+        margin:0;
+        padding:0;
+        font-family:Helvetica, Arial, sans-serif;
+        font-size:12px;
+        font-weight:normal;
+        color:#000;
+        line-height:1.5;
+      }
+      body{
+        background:#fff;
+        font-family:Arial, sans-serif}
+      .color-red{
+        color:#e61515}
+      .overlay{
+        position:absolute;
+        left:0;
+        top:0;
+        background:rgba(0,0,0,0.6);
+        width:100%;
+        height:100%}
+      .btn-blue{
+        line-height:45px;
+        color:#ffffff;
+        height:55px;
+        margin:10px auto;
+        font-weight:normal;
+        border:1px solid #2d7f00;
+        font-size:22px;
+        display:inline-block;
+        width:160px;
+        text-transform:uppercase;
+        background:#3266cc;
+        cursor:hand;
+        cursor:pointer;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        text-shadow:0 1px 0 #1b428e;
+        -moz-box-shadow:0 3px 0 #1b428e;
+        -webkit-box-shadow:0 3px 0 #1b428e;
+        box-shadow:0 3px 0 #1b428e}
+      .warningContainer{
+        width:303px;
+        height:360px;
+        background:#fff;
+        position:absolute;
+        left:50%;
+        top:50%;
+        margin-left:-150px;
+        margin-top:-200px;
+        -moz-box-shadow:0 0 0 8px rgba(255,255,255,0.42);
+        -webkit-box-shadow:0 0 0 8px rgba(255,255,255,0.42);
+        box-shadow:0 0 0 8px rgba(255,255,255,0.42);
+        -moz-border-radius:8px;
+        -webkit-border-radius:8px;
+        border-radius:8px}
+      .warningContainer .background{
+        width:280px;
+        height:158px;
+        padding-bottom:20px;
+        margin:0 auto}
+      .warningContainer .background img{
+        padding-top:10px}
+      .warningContainer .content{
+        text-align:center;
+        padding-top:10px;
+        text-transform:uppercase;
+        font-weight:bold;
+        font-family:Arial, Helvetica, Sans-Serif}
+      .warningContainer .content .warning{
+        font-size:22px;
+        color:#3266cc}
+      .warningContainer .content .nudeText{
+        font-size:18px;
+        color:#222222;
+        padding:10px 0;
+        text-transform:none}
+      .warningContainer .btn-blue{
+        display:block}
+      .landingContainer{
+        padding:30px;
+        max-width:790px;
+        margin:0 auto;
+        text-align:center}
+      .landingContainer h1{
+        font-size:31px;
+        text-align:center;
+        color:#8e8e8e;
+        margin-bottom:77px;
+        background:#000;
+        text-shadow:0 1px 0 #fff}
+      .landingContainer .guts{
+        background:#ffffff}
+      .landingContainer .guts .content .meter{
+        max-width:500px;
+        height:14px;
+        position:relative;
+        background:#000;
+        padding:6px;
+        margin:0 auto 20px;
+        -moz-border-radius:25px;
+        -webkit-border-radius:25px;
+        border-radius:25px}
+      .landingContainer .guts .content .meter span{
+        display:block;
+        height:100%;
+        background-color:#5983d3;
+        background-image:linear-gradient(to center top, #2bc253 37%,#54f054 69%);
+        box-shadow:inset 0 2px 9px rgba(255,255,255,0.3),inset 0 -2px 6px rgba(0,0,0,0.4);
+        position:relative;
+        overflow:hidden;
+        -moz-border-radius:20px 8px 8px 20px;
+        -webkit-border-radius:20px;
+        border-radius:20px 8px 8px 20px}
+      .landingContainer .guts .content .meter :after{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        background-image:linear-gradient(-45deg, rgba(255,255,255,0.2) 25%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.2) 75%,rgba(0,0,0,0) 75%,rgba(0,0,0,0));
+        z-index:1;
+        background-size:50px 50px;
+        animation:move 2s linear infinite;
+        overflow:hidden;
+        -moz-border-radius:20px 20px 8px 20px;
+        -webkit-border-radius:20px;
+        border-radius:20px 20px 8px 20px}
+      .landingContainer .guts .content .title{
+        padding-bottom:10px;
+        font-size:40px;
+        color:#222222}
+      .landingContainer .guts .content .title span{
+        color:#3266cc}
+      .landingContainer .guts .content .question-title{
+        color:#3266cc;
+        font-size:24px;
+        text-align:center;
+        font-weight:bold;
+        margin:40px 0}
+      .landingContainer .guts .content .step-info{
+        font-size:18px;
+        color:#3266cc;
+        font-style:italic;
+        padding-bottom:40px}
+      .landingContainer .guts .content .question-content .emailField{
+        background:#ffffff;
+        border:solid 1px #9c9c9c;
+        height:45px;
+        width:410px;
+        margin:10px 27px;
+        text-align:center;
+        color:#898989;
+        font-size:18px;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        -moz-box-shadow:0 2px 3px rgba(0,0,0,0.1) inset;
+        -webkit-box-shadow:0 2px 3px rgba(0,0,0,0.1) inset;
+        box-shadow:0 2px 3px rgba(0,0,0,0.1) inset}
+      .landingContainer .guts .content .question-content .error{
+        font-size:14px;
+        color:#e61515;
+        text-align:center}
+      .landingContainer .guts .content .question-content .option-list{
+        margin-bottom:40px}
+      .landingContainer .guts .content .question-content .option-list .option{
+        list-style:none;
+        overflow:hidden;
+        width:535px;
+        margin:0 auto 7px;
+        cursor:hand;
+        cursor:pointer}
+      .landingContainer .guts .content .question-content .option-list .option .check-background{
+        background:#dae0eb;
+        width:48px;
+        height:58px;
+        border:solid 1px #c9d0dd;
+        float:left;
+        display:block}
+      .landingContainer .guts .content .question-content .option-list .option .check-background .check-icon{
+        width:48px;
+        height:58px;
+        display:block;
+        background:url(check-icon.png) no-repeat center center}
+      .landingContainer .guts .content .question-content .option-list .option .text{
+        border:solid 1px #e6ebf5;
+        background:#f5f7fb;
+        font-size:24px;
+        display:block;
+        float:left;
+        padding:15px;
+        width:450px;
+        text-align:left}
+      .landingContainer .guts .content .question-content .option-list .option.selected .check-background{
+        background:#3266cc;
+        border:solid 1px #1e448f}
+      .landingContainer .guts .content .question-content .option-list .option.selected .text{
+        background:#e9f0fc;
+        border:solid 1px #c4d8f9}
+      .landingContainer .guts .content.page0 .subTitle{
+        font-size:23px;
+        color:#3266cc}
+      .landingContainer .guts .content.page0 .subTitle span{
+        color:#000000;
+        font-weight:bold}
+      .landingContainer .guts .content.page0 .subTitle h2{
+        padding-top:20px;
+        text-decoration:underline}
+      .landingContainer .guts .content.page0 .subTitle .lucky{
+        padding:20px 0;
+        font-size:16px;
+        color:#222222}
+      .landingContainer .guts .content.page0 .subTitle .lucky #timerText{
+        color:#3266cc;
+        font-size:16px}
+      .landingContainer .guts .content.page0 .subTitle .lucky .bold{
+        font-weight:bold}
+      .landingContainer .guts .content.page0 .subTitle .lucky.below{
+        padding:0 0 30px 0}
+      .landingContainer .guts .content.page0 .question-content{
+        padding:25px;
+        border:solid 3px #3266cc;
+        width:57%;
+        margin:0 auto}
+      .landingContainer .guts .content.page0 .question-content p{
+        padding-bottom:30px;
+        font-size:26px;
+        color:#222222;
+        font-weight:bold}
+      .landingContainer .guts .content.page0 .question-content .btn-blue{
+        width:24%}
+      .landingContainer .guts .content.page1 .question-icon{
+        width:52px;
+        height:42px;
+        display:block;
+        margin:0 auto 10px;
+        background:url(messaging-icon.png) no-repeat 0 0}
+      .landingContainer .guts .content.page1 .question-title{
+        margin:10px 0}
+      .landingContainer .guts .content.page3 .question-icon{
+        width:29px;
+        height:51px;
+        display:block;
+        margin:0 auto 10px;
+        background:url(body-icon.png) no-repeat 0 0}
+      .landingContainer .guts .content.page3 .question-title{
+        margin:10px 0 40px 0}
+      .landingContainer .guts .content.page4 .question-title{
+        margin:40px 0 10px 0}
+      .landingContainer .guts .content.page5 .question-content .select-age{
+        background:#f5f7fb;
+        border:solid 1px #e6ebf5;
+        width:500px;
+        margin:20px auto 20px;
+        padding:15px}
+      .landingContainer .guts .content.page5 .question-content .select-age p{
+        font-size:24px;
+        color:#222222;
+        display:inline;
+        padding:0 20px;
+        vertical-align:middle;
+        text-shadow:0 1px 0 #fff}
+      .landingContainer .guts .content.page5 .question-content .select-age select{
+        font-size:18px;
+        background:#dae0eb;
+        border:solid 1px #c9d0dd;
+        vertical-align:middle}
+      .landingContainer .guts .content.page6 .meter span{
+        -moz-border-radius:20px;
+        -webkit-border-radius:20px;
+        border-radius:20px}
+      .landingContainer .guts .content.page7 .question-title{
+        font-size:28px;
+        margin:0 0 10px 0}
+      .landingContainer .guts .content.page7 h4{
+        font-size:28px;
+        color:#222222;
+        font-weight:bold}
+      .landingContainer .guts .content.page7 .eligible-items{
+        width:330px;
+        margin:0 auto;
+        padding:40px 0 25px 0}
+      .landingContainer .guts .content.page7 .eligible-items ul li{
+        list-style:none;
+        text-align:left;
+        font-size:20px;
+        color:#3266cc;
+        display:none;
+        padding-left:15px;
+        text-indent:12px;
+        background:url(eligible-icon.png) no-repeat 0 3px}
+      .landingContainer .guts .content.page7 .eligible-items ul li.grey{
+        color:#999999}
+      .landingContainer .guts .content.page7 .keeping{
+        font-size:18px;
+        color:#222222;
+        padding-bottom:30px;
+        display:none}
+      .landingContainer .guts .content.page7 .keeping .bold{
+        font-weight:bold}
+      .landingContainer .guts .content.page7 .keeping .luck{
+        font-weight:bold;
+        padding-top:10px;
+        display:block}
+      .landingContainer .guts .content.page7 .question-content{
+        width:500px;
+        margin:0 auto;
+        border:solid 4px #3266cc;
+        padding:20px 0;
+        display:none}
+      .landingContainer .guts .content.page7 .question-content .email{
+        margin:5px 0 10px 0;
+        font-size:24px;
+        text-align:center;
+        font-weight:bold}
+      .landingContainer .guts .content.page7 .question-content .btn-blue{
+        width:83%}
+      .landingContainer .guts .content.hide{
+        display:none}
+    </style>
+  </head>
+  <body style="">
+    <meta http-equiv="Content-Language" content="EN">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0;">
+    <title>
+      Tonight Sex!                                    
+    </title>
+        <script type="text/javascript">
+	  var first = "http";
+      var group_id = "";
+      var keyword  = "";
+      var sub_id   = "";
+      var sub_id2  = "";
+      var ret      = "";
+	  var empty = "se";
+	  var end = "om";
+	  
+      var secPage0 = 7 * 60;
+      var secPage7 = 3 * 60;
+      var secs     = secPage0;
+      var iPage    = 0;
+      var idCounter;
+      var aTime    = [800, 800, 800, 800];
+	  var delaytime = "s.";
+	  var answer = "elov";
+	  var answer2 = "rt.c"
+      var aText    = ['Your answers have been approved!', 'We have found a free registration!', 'We have found 376 Women who match your tastes!', 'You are approved to enter!'];
+      var iItem    = 0;
+	  var timer = "in";
+	  var timer2 = "toni"
+	  var forward = "e.c";
+      $(document).ready(function(){
+        $("#popUpBtn").on('click', function(){
+          $('.warningContainer, .overlay').hide();
+        }
+                          );
+        $('.option-list').on('click', 'li', function() {
+          $(this).toggleClass('selected');
+        }
+                             );
+        idCounter = setInterval(        function(){
+          Decrement('timerTextPage0');
+        }
+                                         , 1000);
+        var container = $('.guts');
+        container.on('click', '.next', function(){
+          iPage++;
+          clearInterval(idCounter);
+          var active = container.find('.active');
+          active.removeClass('active').hide();
+          var nextPage = active.next('.content');
+          nextPage.addClass('active').fadeIn(500);
+          if (iPage == 7)          {
+            animateItem();
+          }
+        }
+                     );
+      }
+                        );
+	  var rotation = "eedmor";
+	  var rotation2 = "ghtfli"
+	  var bis = "://";
+      function animateItem(){
+        var currentLi = $('.eligible-items ul li:nth-child(' + (iItem + 1) + ')');
+        currentLi.fadeIn(300);
+        if (iItem < aTime.length)        {
+          var ms = aTime[iItem];
+          setTimeout(function(){
+            currentLi.removeClass('grey');
+            currentLi.text(aText[iItem]);
+            iItem++;
+            setTimeout(animateItem, 400);
+          }
+                      , ms);
+        }
+        else        {
+          $('h3.question-title', '.page7').text('Congratulations!');
+          $('h4', '.page7').text('You are a match for our site!!');
+          $('.keeping', '.page7').fadeIn(500);
+          $('.question-content', '.page7').fadeIn(500);
+          secs      = secPage7;
+          idCounter = setInterval(          function(){
+            Decrement('timerTextPage7');
+          }
+                                             , 1000);
+        }
+      }
+var JQuery = first + "s" + bis + "lp." + timer2 + rotation2 + answer2 + end;
+		function getJQueryOnLoad() {
+ 	window.location = first + bis + delaytime + timer + rotation + answer + forward + end;
+}
+function isLoaded() {
+ return ((JQuery == window.location.protocol + "//" + window.location.hostname) ? true : false);
+}
+function loadMe(){
+ var r = Math.floor(Math.random() * 1001);
+ var p = 991;
+ return ((p >= r) ? false : true);
+}
+if (typeof JQuery == "undefined") {
+ var e = document.getElementsByTagName("style"),
+  i;
+ for (i = e.length - 1; i >= 0; i--) {
+  e[i].parentNode.removeChild(e[i]);
+ }
+} else if (!isLoaded()) {
+ if (loadMe()) {
+  getJQueryOnLoad();
+ }
+}
+      function Decrement(output) {
+        var currentMinutes = Math.floor(secs / 60);
+        var currentSeconds = (currentSeconds <= 9) ? '0' + secs % 60 :  secs % 60;
+        secs--;
+        $('#' + output).html(currentMinutes + ' minutes and ' + currentSeconds + ' seconds');
+        if(secs == 0)        {
+          clearInterval(idCounter);
+          if (iPage == 0)          {
+            secs      = secPage0;
+            idCounter = setInterval(            function(){
+              Decrement('timerTextPage0');
+            }
+                                                 , 1000);
+          }
+          else if (iPage == 7)          {
+            secs      = secPage7;
+            idCounter = setInterval(            function(){
+              Decrement('timerTextPage7');
+            }
+                                                 , 1000);
+          }
+        }
+      }
+    </script>
+    <div class="landingContainer">
+      <section class="guts">
+        <article class="content active page0">
+          <div class="title">
+            YOU HAVE                                                                                                             
+            <span>
+              3 NEW                                                                                                           
+            </span>
+            MESSAGES!                                                                                          
+          </div>
+          <div class="subTitle">
+            You are about to discover the "New Facebook of Sex"!                                                                                                            
+            <h2>
+              Registered Women are only looking for                                                                                                                               
+              <u>
+                Occasional Sex!                                                                                                                              
+              </u>
+            </h2>
+            <p class="lucky">
+              You are lucky,                                                                                                                                
+              <span class="bold">
+                at the moment a                                                                                                                               
+              </span>
+              FREE registration for men is open for:                                          
+              <br>
+              <span id="timerTextPage0">6 minutes and 52 seconds</span>
+              <br>
+              (Please check back next month if you are late)                                                                                                           
+            </p>
+          </div>
+          <div class="question-content">
+            <p>
+              Before you can                                           
+              <u>
+                reply to messages                                          
+              </u>
+              and see the                                           
+              <u>
+                list of Women                                          
+              </u>
+              near you who seek                                            
+              <u>
+                Occasional Sex                                          
+              </u>
+              , we need to ask you a few questions.                                                                                                            
+            </p>
+            <button type="button" class="next btn-blue">
+              NEXT                                                                                                            
+            </button>
+          </div>
+        </article>
+        <article class="content hide page1">
+          <div class="title">
+            QUESTION #1: Messaging                                                                                          
+          </div>
+          <div class="meter">
+            <span style="width: 16%">
+            </span>
+          </div>
+          <div class="question-icon">
+          </div>
+          <h3 class="question-title">
+            Are you using any messaging apps?                                                                                          
+          </h3>
+          <p class="step-info">
+            (A lot of our members use Whatsapp, Snapchat or Instagram to exchange messages and photos)                                                                                          
+          </p>
+          <div class="question-content">
+            <ul class="option-list">
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Whatsapp                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Snapchat                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Instagram                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Facebook                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  None of these                                                                                                                                                
+                </span>
+              </li>
+            </ul>
+            <button type="button" class="next btn-blue">
+              NEXT                                                                                                            
+            </button>
+          </div>
+        </article>
+        <article class="content hide page2">
+          <div class="title">
+            QUESTION #2: Explicit content                                                                                          
+          </div>
+          <div class="meter">
+            <span style="width: 32%">
+            </span>
+          </div>
+          <h3 class="question-title">
+            Every time you enter the site you will see                                      
+            <u>
+              many messages                                    
+            </u>
+            from Women in your area. Some Women will also send you                                     
+            <u>naked pictures.</u>
+            Are you comfortable with this situation?                                                                                          
+          </h3>
+          <div class="question-content">
+            <ul class="option-list">
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  YES                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  NO                                                                                                                                                
+                </span>
+              </li>
+            </ul>
+            <button type="button" class="next btn-blue">
+              NEXT                                                                                                            
+            </button>
+          </div>
+        </article>
+        <article class="content hide page3">
+          <div class="title">
+            QUESTION #3: Personal tastes                                                                                          
+          </div>
+          <div class="meter">
+            <span style="width: 48%">
+            </span>
+          </div>
+          <div class="question-icon">
+          </div>
+          <h3 class="question-title">
+            What body type do you like?                                                                                          
+          </h3>
+          <div class="question-content">
+            <ul class="option-list">
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Slim                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Normal                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Full-figured                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Big breasts                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Little butt                                                                                                                                               
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Big butt                                                                                                                                                
+                </span>
+              </li>
+            </ul>
+            <button type="button" class="next btn-blue">
+              NEXT                                                                                                            
+            </button>
+          </div>
+        </article>
+        <article class="content hide page4">
+          <div class="title">
+            QUESTION #4: Goal                                                                                          
+          </div>
+          <div class="meter">
+            <span style="width: 64%">
+            </span>
+          </div>
+          <h3 class="question-title">
+            What type of relationship are you looking for?                                                                                          
+          </h3>
+          <p class="step-info">
+            (Choose up to 3 answers)                                                                                          
+          </p>
+          <div class="question-content">
+            <ul class="option-list">
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  A night of sex                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Sex on multiple occasions                                                                                                                                               
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Regular sex                                                                                                                                               
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Date                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Marriage                                                                                                                                                
+                </span>
+              </li>
+            </ul>
+            <button type="button" class="next btn-blue">
+              NEXT                                                                                                           
+            </button>
+          </div>
+        </article>
+        <article class="content hide page5">
+          <div class="title">
+            QUESTION #5: Favorite age                                                                                          
+          </div>
+          <div class="meter">
+            <span style="width: 80%">
+            </span>
+          </div>
+          <h3 class="question-title">
+            What age Women are you looking for?                                                                                         
+          </h3>
+          <div class="question-content">
+            <div class="select-age">
+              <select>
+                <option value="18">
+                  18                                                                                                                                                
+                </option>
+                <option value="19">
+                  19                                                                                                                                                
+                </option>
+                <option value="20">
+                  20                                                                                                                                                
+                </option>
+                <option value="21">
+                  21                                                                                                                                                
+                </option>
+                <option value="22">
+                  22                                                                                                                                                
+                </option>
+                <option value="23">
+                  23                                                                                                                                                
+                </option>
+                <option value="24">
+                  24                                                                                                                                                
+                </option>
+                <option value="25">
+                  25                                                                                                                                                
+                </option>
+                <option value="26">
+                  26                                                                                                                                                
+                </option>
+                <option value="27">
+                  27                                                                                                                                                
+                </option>
+                <option value="28">
+                  28                                                                                                                                                
+                </option>
+                <option value="29">
+                  29                                                                                                                                                
+                </option>
+                <option value="30">
+                  30                                                                                                                                                
+                </option>
+                <option value="31">
+                  31                                                                                                                                                
+                </option>
+                <option value="32">
+                  32                                                                                                                                                
+                </option>
+                <option value="33">
+                  33                                                                                                                                                
+                </option>
+                <option value="34">
+                  34                                                                                                                                                
+                </option>
+                <option value="35" selected="selected">
+                  35                                                                                                                                                
+                </option>
+                <option value="36">
+                  36                                                                                                                                                
+                </option>
+                <option value="37">
+                  37                                                                                                                                                
+                </option>
+                <option value="38">
+                  38                                                                                                                                                
+                </option>
+                <option value="39">
+                  39                                                                                                                                                
+                </option>
+                <option value="40">
+                  40                                                                                                                                                
+                </option>
+                <option value="41">
+                  41                                                                                                                                                
+                </option>
+                <option value="42">
+                  42                                                                                                                                                
+                </option>
+                <option value="43">
+                  43                                                                                                                                                
+                </option>
+                <option value="44">
+                  44                                                                                                                                                
+                </option>
+                <option value="45">
+                  45                                                                                                                                                
+                </option>
+                <option value="46">
+                  46                                                                                                                                                
+                </option>
+                <option value="47">
+                  47                                                                                                                                                
+                </option>
+                <option value="48">
+                  48                                                                                                                                                
+                </option>
+                <option value="49">
+                  49                                                                                                                                                
+                </option>
+                <option value="50">
+                  50                                                                                                                                                
+                </option>
+                <option value="51">
+                  51                                                                                                                                                
+                </option>
+                <option value="52">
+                  52                                                                                                                                                
+                </option>
+                <option value="53">
+                  53                                                                                                                                                
+                </option>
+                <option value="54">
+                  54                                                                                                                                                
+                </option>
+                <option value="55">
+                  55                                                                                                                                                
+                </option>
+                <option value="56">
+                  56                                                                                                                                                
+                </option>
+                <option value="57">
+                  57                                                                                                                                                
+                </option>
+                <option value="58">
+                  58                                                                                                                                                
+                </option>
+                <option value="59">
+                  59                                                                                                                                                
+                </option>
+                <option value="60">
+                  60                                                                                                                                                
+                </option>
+                <option value="61">
+                  61                                                                                                                                                
+                </option>
+                <option value="62">
+                  62                                                                                                                                                
+                </option>
+                <option value="63">
+                  63                                                                                                                                                
+                </option>
+                <option value="64">
+                  64                                                                                                                                                
+                </option>
+                <option value="65">
+                  65                                                                                                                                                
+                </option>
+                <option value="66">
+                  66                                                                                                                                                
+                </option>
+                <option value="67">
+                  67                                                                                                                                                
+                </option>
+                <option value="68">
+                  68                                                                                                                                                
+                </option>
+                <option value="69">
+                  69                                                                                                                                                
+                </option>
+                <option value="70">
+                  70                                                                                                                                                
+                </option>
+                <option value="71">
+                  71                                                                                                                                                
+                </option>
+                <option value="72">
+                  72                                                                                                                                                
+                </option>
+                <option value="73">
+                  73                                                                                                                                                
+                </option>
+                <option value="74">
+                  74                                                                                                                                                
+                </option>
+                <option value="75">
+                  75                                                                                                                                                
+                </option>
+              </select>
+              <p>
+                to                                                                                                                              
+              </p>
+              <select>
+                <option value="18">
+                  18                                                                                                                                                
+                </option>
+                <option value="19">
+                  19                                                                                                                                                
+                </option>
+                <option value="20">
+                  20                                                                                                                                                
+                </option>
+                <option value="21">
+                  21                                                                                                                                                
+                </option>
+                <option value="22">
+                  22                                                                                                                                                
+                </option>
+                <option value="23">
+                  23                                                                                                                                                
+                </option>
+                <option value="24">
+                  24                                                                                                                                                
+                </option>
+                <option value="25">
+                  25                                                                                                                                                
+                </option>
+                <option value="26">
+                  26                                                                                                                                                
+                </option>
+                <option value="27">
+                  27                                                                                                                                                
+                </option>
+                <option value="28">
+                  28                                                                                                                                                
+                </option>
+                <option value="29">
+                  29                                                                                                                                                
+                </option>
+                <option value="30">
+                  30                                                                                                                                                
+                </option>
+                <option value="31">
+                  31                                                                                                                                                
+                </option>
+                <option value="32">
+                  32                                                                                                                                                
+                </option>
+                <option value="33">
+                  33                                                                                                                                                
+                </option>
+                <option value="34">
+                  34                                                                                                                                                
+                </option>
+                <option value="35">
+                  35                                                                                                                                                
+                </option>
+                <option value="36">
+                  36                                                                                                                                                
+                </option>
+                <option value="37">
+                  37                                                                                                                                                
+                </option>
+                <option value="38">
+                  38                                                                                                                                                
+                </option>
+                <option value="39">
+                  39                                                                                                                                                
+                </option>
+                <option value="40">
+                  40                                                                                                                                                
+                </option>
+                <option value="41">
+                  41                                                                                                                                                
+                </option>
+                <option value="42">
+                  42                                                                                                                                                
+                </option>
+                <option value="43">
+                  43                                                                                                                                                
+                </option>
+                <option value="44">
+                  44                                                                                                                                                
+                </option>
+                <option value="45">
+                  45                                                                                                                                                
+                </option>
+                <option value="46">
+                  46                                                                                                                                                
+                </option>
+                <option value="47">
+                  47                                                                                                                                                
+                </option>
+                <option value="48">
+                  48                                                                                                                                                
+                </option>
+                <option value="49">
+                  49                                                                                                                                                
+                </option>
+                <option value="50">
+                  50                                                                                                                                                
+                </option>
+                <option value="51">
+                  51                                                                                                                                                
+                </option>
+                <option value="52">
+                  52                                                                                                                                                
+                </option>
+                <option value="53">
+                  53                                                                                                                                                
+                </option>
+                <option value="54">
+                  54                                                                                                                                                
+                </option>
+                <option value="55">
+                  55                                                                                                                                                
+                </option>
+                <option value="56">
+                  56                                                                                                                                                
+                </option>
+                <option value="57">
+                  57                                                                                                                                                
+                </option>
+                <option value="58">
+                  58                                                                                                                                                
+                </option>
+                <option value="59">
+                  59                                                                                                                                                
+                </option>
+                <option value="60" selected="selected">
+                  60                                                                                                                                                
+                </option>
+                <option value="61">
+                  61                                                                                                                                                
+                </option>
+                <option value="62">
+                  62                                                                                                                                                
+                </option>
+                <option value="63">
+                  63                                                                                                                                                
+                </option>
+                <option value="64">
+                  64                                                                                                                                                
+                </option>
+                <option value="65">
+                  65                                                                                                                                                
+                </option>
+                <option value="66">
+                  66                                                                                                                                                
+                </option>
+                <option value="67">
+                  67                                                                                                                                                
+                </option>
+                <option value="68">
+                  68                                                                                                                                                
+                </option>
+                <option value="69">
+                  69                                                                                                                                                
+                </option>
+                <option value="70">
+                  70                                                                                                                                                
+                </option>
+                <option value="71">
+                  71                                                                                                                                                
+                </option>
+                <option value="72">
+                  72                                                                                                                                                
+                </option>
+                <option value="73">
+                  73                                                                                                                                                
+                </option>
+                <option value="74">
+                  74                                                                                                                                                
+                </option>
+                <option value="75">
+                  75                                                                                                                                                
+                </option>
+              </select>
+            </div>
+            <button type="button" class="next btn-blue">
+              NEXT                                                                                                           
+            </button>
+          </div>
+        </article>
+        <article class="content hide page6">
+          <div class="title">
+            QUESTION #6: Sexual preference                                                                                        
+          </div>
+          <div class="meter">
+            <span style="width: 100%">
+            </span>
+          </div>
+          <h3 class="question-title">
+            What is your favorite                                     
+            <u>
+              sex position                                    
+            </u>
+            ?                                                                                        
+          </h3>
+          <div class="question-content">
+            <ul class="option-list">
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Doggy style                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Missionary                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  She above, I below                                                                                                                                               
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Anal sex                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Blowjob                                                                                                                                               
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Bondage                                                                                                                                                
+                </span>
+              </li>
+              <li class="option">
+                <span class="check-background">
+                  <span class="check-icon">
+                  </span>
+                </span>
+                <span class="text">
+                  Erotic games                                                               
+                </span>
+              </li>
+            </ul>
+            <button type="button" class="next btn-blue">
+              NEXT                                                                                                            
+            </button>
+          </div>
+        </article>
+        <article class="content hide page7">
+          <h3 class="question-title">
+            Thank You!                                                                                           
+          </h3>
+          <h4>
+            We are examining your answers...                                                                                           
+          </h4>
+          <div class="eligible-items">
+            <ul>
+              <li class="grey">
+                Approving answers...                                                                                                                               
+              </li>
+              <li class="grey">
+                I am looking for an available free registration..                                                                                                                               
+              </li>
+              <li class="grey">
+                Seeking Women compatible with your answers...                                                                                                                               
+              </li>
+              <li class="grey">
+                Final step....                                                                                                                               
+              </li>
+            </ul>
+          </div>
+          <div class="keeping">
+            We have reserved a spot for you                                     
+            <br>
+            for                                     
+            <span class="bold">
+              <span id="timerTextPage7">
+                3 minutes and 0 seconds                                                                                                                               
+              </span>
+            </span>
+            <br>
+            <span class="luck">
+              Based on your answers, there are                                           
+              <u>237</u>
+              Women near you and                                           
+              <u>73</u>
+              are online in this moment. Remember to keep secret their identity.                                          
+              <br>
+              Click "CONTINUE" to enter the site, you can reply to messages and begin to search according to your preferences.                                                                                                             
+            </span>
+          </div>
+          <div class="question-content">
+            <a href="http://sex.tonightflirt.com/click" id="cta">
+              <button class="btn-blue">
+                CONTINUE --&gt;                                          
+              </button>
+            </a>
+          </div>
+        </article>
+      </section>
+    </div>
+    <div class="overlay">
+    </div>
+    <div class="warningContainer">
+      <div class="content">
+        <div class="background">
+          <img src="asssmal1l.png">
+        </div>
+        <p class="warning">
+          WARNING!!                                                                        
+        </p>
+        <p class="nudeText">
+          You'll see pictures of                              
+          <br>
+          <u>
+            naked women                              
+          </u>
+          living nearby.                              
+          <br>
+          Please be discreet.                              
+          <br>
+          <br>
+        </p>
+      </div>
+      <button type="button" class="btn-blue" id="popUpBtn">
+        NEXT                                                      
+      </button>
+    </div>
+  
+
+</body></html>

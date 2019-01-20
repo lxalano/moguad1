@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v10/va9c4lja2NVIDdIAAoMR5MfuElaRB0zJt0n8H3HI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Quattrocento Sans Bold'), local('QuattrocentoSans-Bold'), url(https://fonts.gstatic.com/s/quattrocentosans/v10/va9Z4lja2NVIDdIAAoMR5MfuElaRB0RyklrRPXriirsI.woff) format('woff');
+}

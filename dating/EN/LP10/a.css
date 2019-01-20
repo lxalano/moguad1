@@ -1,0 +1,21 @@
+.lp-block-content.b-section-guide
+{
+	text-align: center !important;
+}
+.clearfix:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+.img_girl
+{
+	height: auto !important;
+	left: 5% !important;
+	top: 10px !important;
+	width: 90% !important;
+}
+.img_girl img
+{
+	width: 90% !important;
+}
