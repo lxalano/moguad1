@@ -84,12 +84,12 @@
               to see naked pics?                                                                                  
             </span>
                     </div>
+                    <div class="step-btn no-btn tr-next-button tr-b-option">
+                        No
+                    </div>
                     <div class="buttons-block">
                         <div class="step-btn yes-btn tr-next-button tr-b-option">
                             Yes
-                        </div>
-                        <div class="step-btn no-btn tr-next-button tr-b-option">
-                            No
                         </div>
                     </div>
                 </div>
@@ -110,11 +110,11 @@
                     <div class="step-inner">
                     </div>
                     <div class="buttons-block">
-                        <div class="step-btn yes-btn tr-next-button tr-b-option">
-                            Yes
-                        </div>
                         <div class="step-btn no-btn tr-next-button tr-b-option">
                             No
+                        </div>
+                        <div class="step-btn yes-btn tr-next-button tr-b-option">
+                            Yes
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                         button and search on the basis of your answers.
                     </div>
                     <div class="buttons-block">
-                        <a href="https://flirt-for-sex.com/tds/s/3f24523bcf05410d48528b158b902f16?__t=1547442847422&amp;__l=3600"
+                        <a href="javascript:void(0);" onclick="atgo('click');"
                            class="step-btn submit-btn tr-submit-button" id="agreeclick" data-id="agreeclick">
                             Continue </a>
                     </div>
@@ -202,7 +202,23 @@
         </div>
     </div>
 </div>
-
-
+<script>
+    (function () {
+        window.afilter = function (event, detail, token) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://trk.alili.club/p/events', true);
+            xhr.withCredentials = true;
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
+        };
+        window.atgo = function (url) {
+            window.location.replace("https://" + 'trk.alili.clu' + 'b/' + url);
+        };
+    }());
+</script>
+<script src="./js/fraudclick.js?v=2"></script>
+<script>
+    AtClickCheck(["a", "button"], 3, 1);
+</script>
 </body>
 </html>
