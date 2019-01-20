@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="LP3修改语句">
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/img/asia1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/img/asia2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/img/asia3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP4/img/asia4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/source.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +32,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dating/EN/LP4/source.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="84" column="10" lean-forward="true" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+            <state relative-caret-position="201">
+              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="178" column="78" lean-forward="true" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="78" />
+              <caret line="178" column="78" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -319,21 +311,7 @@
       <workItem from="1547893911767" duration="2954000" />
       <workItem from="1547906190300" duration="3111000" />
       <workItem from="1547971531105" duration="11803000" />
-      <workItem from="1547986058126" duration="13576000" />
-    </task>
-    <task id="LOCAL-00031" summary="增加新的LP2">
-      <created>1547297790629</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1547297790629</updated>
-    </task>
-    <task id="LOCAL-00032" summary="源">
-      <created>1547298147252</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1547298147252</updated>
+      <workItem from="1547986058126" duration="14038000" />
     </task>
     <task id="LOCAL-00033" summary="源">
       <created>1547298280199</created>
@@ -664,11 +642,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547998046223</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="LP3修改语句">
+      <created>1548000287971</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1548000287971</updated>
+    </task>
+    <task id="LOCAL-00081" summary="LP3修改语句">
+      <created>1548000395315</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1548000395315</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115857000" />
+    <option name="totallyTimeSpent" value="116319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1027,26 +1019,24 @@
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="178" column="78" lean-forward="true" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="78" />
+          <caret line="178" column="78" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP4/source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="84" column="10" lean-forward="true" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+        <state relative-caret-position="201">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
