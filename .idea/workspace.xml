@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="LP3修改语句">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/bb.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/bb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/bootstrap.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/css(1)" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/css1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/exit1.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/exit1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/jquery.countdown.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/jquery.countdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/jquery.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/js.cookie.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/js.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/touchswipe.min.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/touchswipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/utils.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/vegas.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/vegas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP4/dating_files/wow.min.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP4/dating_files/wow.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,39 +43,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP2/source.html">
+        <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="246" column="40" selection-start-line="246" selection-start-column="20" selection-end-line="246" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.js">
+        <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="114">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/exit1.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/css1.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -103,6 +120,8 @@
       <find>dating/EN/LP3/</find>
       <find>JS</find>
       <find>js</find>
+      <find>.下载</find>
+      <find>./</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -151,7 +170,6 @@
         <option value="$PROJECT_DIR$/dating/tw/LP3/css/style4.css" />
         <option value="$PROJECT_DIR$/dating/tw/LP3/source.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/785394422bc0094b49f1ec1ea186fb17e1b7c92a.html" />
-        <option value="$PROJECT_DIR$/dating/EN/LP4/dating.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP1/93151273aefc64781031d3e6e12ad8db33dbb7c6.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP5/The best dating site.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP2/66d97eef242c2f5579e76b7193274c26.css" />
@@ -163,9 +181,10 @@
         <option value="$PROJECT_DIR$/dating/EN/LP3/css/home.css" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/js/dc_img.js" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/main.js.html" />
-        <option value="$PROJECT_DIR$/dating/EN/LP3/source.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/home.css" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/home.js" />
+        <option value="$PROJECT_DIR$/dating/EN/LP3/source.html" />
+        <option value="$PROJECT_DIR$/dating/EN/LP4/dating.html" />
       </list>
     </option>
   </component>
@@ -209,14 +228,15 @@
               <item name="moguad1" type="462c0819:PsiDirectoryNode" />
               <item name="dating" type="462c0819:PsiDirectoryNode" />
               <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP2" type="462c0819:PsiDirectoryNode" />
+              <item name="LP4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
               <item name="moguad1" type="462c0819:PsiDirectoryNode" />
               <item name="dating" type="462c0819:PsiDirectoryNode" />
               <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP3" type="462c0819:PsiDirectoryNode" />
+              <item name="LP4" type="462c0819:PsiDirectoryNode" />
+              <item name="dating_files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,17 +281,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.source.html">
+  <component name="RunManager" selected="JavaScript Debug.dating.html">
     <configuration name="3327701cdaf63467916ac365923d5bd504407113.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP14/3327701cdaf63467916ac365923d5bd504407113.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="source.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP2/source.html" useBuiltInWebServerPort="true">
+    <configuration name="61c778a3b2fea7aa6e2110abee579e954089c13d.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP13/61c778a3b2fea7aa6e2110abee579e954089c13d.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="source.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP3/source.html" useBuiltInWebServerPort="true">
+    <configuration name="9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP12/9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP1/source.html" useBuiltInWebServerPort="true">
+    <configuration name="a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP11/a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="dating.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP4/dating.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP3/source.html" useBuiltInWebServerPort="true">
@@ -279,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.source.html" />
-        <item itemvalue="JavaScript Debug.source.html (2)" />
-        <item itemvalue="JavaScript Debug.source.html (1)" />
-        <item itemvalue="JavaScript Debug.source.html" />
+        <item itemvalue="JavaScript Debug.dating.html" />
         <item itemvalue="JavaScript Debug.3327701cdaf63467916ac365923d5bd504407113.html" />
+        <item itemvalue="JavaScript Debug.61c778a3b2fea7aa6e2110abee579e954089c13d.html" />
+        <item itemvalue="JavaScript Debug.9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html" />
+        <item itemvalue="JavaScript Debug.a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" />
       </list>
     </recent_temporary>
   </component>
@@ -313,14 +336,7 @@
       <workItem from="1547893911767" duration="2954000" />
       <workItem from="1547906190300" duration="3111000" />
       <workItem from="1547971531105" duration="11803000" />
-      <workItem from="1547986058126" duration="10076000" />
-    </task>
-    <task id="LOCAL-00029" summary="移动代码到前部">
-      <created>1547287998212</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1547287998212</updated>
+      <workItem from="1547986058126" duration="11780000" />
     </task>
     <task id="LOCAL-00030" summary="增加源站为src">
       <created>1547289026234</created>
@@ -658,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547996294617</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="LP3修改语句">
+      <created>1547996331050</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1547996331050</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112357000" />
+    <option name="totallyTimeSpent" value="114061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,11 +700,11 @@
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.22186235" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.22186235" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
       <window_info id="Favorites" order="2" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.25933203" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.2580071" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20284697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -783,83 +806,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="LP3修改语句" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP14/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP15/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP16/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP17/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP18/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP19/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP20/js/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/加入版本控制.patch" />
-    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/source.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="101" column="16" lean-forward="true" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#h1#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/source.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/gtm_002.js" />
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/jump-favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/img/10901605.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/img/14444305.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/body3_o.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/js/landing.js" />
     <entry file="file://$PROJECT_DIR$/dating/EN/LP2/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -962,9 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/14381131.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/fp_ec.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1002,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1018,8 +954,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="285">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/14381131.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/16460869.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP14/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP14/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP14/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP14/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="160" column="28" lean-forward="true" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/js.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/jquery.countdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/exit-popup.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/bb.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/logo-white2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/exit1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating_files/css1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
