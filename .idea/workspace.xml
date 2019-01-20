@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="xiuzheng">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/J_zon_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/J_zon_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/J_zon_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/b_zon_step1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/b_zon_step2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/b_zon_step3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/backoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/efd2c0fa5b4dbcd79772af725a82112e9dfbda9f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP10/thumb2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/bg13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/bg14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/dat7_eng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/eng_dat7-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/fasdfas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/wap2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/wap3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/wap4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/wap6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP11/wap7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/10901605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/11620628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/14381131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/14444305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/15662719.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/16351733.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/16460869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/16539096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/17588265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/49bea8b99be77128bbc9656d1c203eaf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/758c7fe4054b889fa10bc82bf2f6a01b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/9052905.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/backoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/css.1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/dc_img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/fp_ec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/gtm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/jump-favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/main.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/main.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/puma.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/recaptcha.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/rtl.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/rtr.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/secoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/webPushMotivationPopupSmall.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/webPushMotivationPopupSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP12/webpush.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/61c778a3b2fea7aa6e2110abee579e954089c13d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/asssmal1l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/body-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/check-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/eligible-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP13/messaging-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/-L14Jk06m6pUHB-5mXQQnRJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/0dTEPzkLWceF7z0koJaX1A.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/0eC6fl06luXEYWpBSJvXCBJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/3327701cdaf63467916ac365923d5bd504407113.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/CWB0XYA8bzo0kSThX0UTuA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/Fl4y0QdOxyyTHEGMXX8kcRJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/I3S1wsgSg9YCurV6PUkTORJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/NYDWBdD4gIq26G5XYbHsFBJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/Pru33qjShpZSmG3z6VYwnRJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/css1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/fontawesome-webfont.eot.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/jquery_002.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/touchswipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/vegas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/vegas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP14/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/97ab10939d6fde3afeb80bfa203a410a64f1e910.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP15/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/4171d8bb50e17b765bdc560f82cf07d0381863bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/66d97eef242c2f5579e76b7193274c26.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/bdcf2a65f8722224c485fe7615d46201.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/gtm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/gtm_002.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/jump-favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP16/landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/7c3da2e6ed07108f42fd246273362961fce670eb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/age1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/age2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/age3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/age4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/age5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/backoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/body1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/body2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/body3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/body4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/body5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/btnpart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/dist1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/dist2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/dist3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/dist4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/dist5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/relations1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/relations2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/relations3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/relations4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/relations5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/script1.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP5/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/10901605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/11620628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/14381131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/14444305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/15662719.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/16351733.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/16460869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/16539096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/17588265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/9052905.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/972fd9257bd4169e5604f6b6206b6b96.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/ae209c816080d04a4a6abd09dd955c556f5fa10c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/backoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/dc_img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/ec9a2b026a1d49e8360337e1f3cbbda2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/fp_ec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/gtm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/jump-favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/main.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/puma.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/recaptcha.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/rtl.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/rtr.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/secoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/webPushMotivationPopupSmall.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/webPushMotivationPopupSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/webpush.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/f2430487eb58002b3597d51389667aa9f0b70a74.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/m1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/m2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/m3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/m4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP7/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/47483cef248b4c07621f35df8c7d8d8cc8acdf21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/age1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/age2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/age3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/age4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/age5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/backoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/body-bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/body1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/body2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/body3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/body4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/body5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/dist1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/dist2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/dist3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/dist4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/dist5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/relations1_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/relations2_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/relations3_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/relations4_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/relations5_o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP8/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/10901605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/11620628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/14381131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/14444305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/15662719.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/16351733.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/16460869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/16539096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/17588265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/9052905.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/98d496186b4db19c8971899a91ef9142b61ee6da.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/MILF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/aa4c38871bdfe26bc1e178b5fc837734.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/backoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/bottom_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/css.1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/d268740c511d226b25a4190f3352c4a9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/dc_img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/fp_ec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/gtm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/jump-favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/main.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/puma.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/recaptcha.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/rtl.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/rtr.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/secoffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/top_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/webPushMotivationPopupSmall.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/webPushMotivationPopupSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dating/EN/LP9/webpush.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/flame_fav.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/93151273aefc64781031d3e6e12ad8db33dbb7c6.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/OneSignalSDK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP7/gtm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/popwin.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/js/popwin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/ssid05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/img/ssid05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/ssid06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/img/ssid06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/ssid07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/img/ssid07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/ssid08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/img/ssid08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/style--whatsSex.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/css/style--whatsSex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP1/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP1/web.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site_files/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP7/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site_files/gtm.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP15/gtm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site_files/jquery-3.2.1.min.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP7/jquery-3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site_files/main.js.下载" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP7/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site_files/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site_files/translate_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/The best dating site_files/translateelement.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP5/图片地址.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="moguad1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gif</find>
+      <find>item</find>
+      <find>k_911</find>
+      <find>atgo</find>
+      <find>afilter</find>
+      <find>onclick</find>
+      <find>location.href</find>
+      <find>data-androidUrl</find>
+      <find>http://downtransder.dfeidk.com</find>
+      <find>is</find>
+      <find>js</find>
+      <find>私密直播</find>
+      <find>button1</find>
+      <find>button</find>
+      <find>enu</find>
+      <find>互动直播</find>
+      <find>才艺</find>
+      <find>jq</find>
+      <find>click</find>
+      <find>http://leadfuck.com/twnb/img/v10/check.png</find>
+      <find>dating/EN/LP1/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="without -r" />
+        <option value="-r" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/source.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/dating/LP1/source.htm" />
+        <option value="$PROJECT_DIR$/dating/LP1/index.html" />
+        <option value="$PROJECT_DIR$/dating/LP1/source.php" />
+        <option value="$PROJECT_DIR$/dating/LP1/index.php" />
+        <option value="$PROJECT_DIR$/dating/LP1/js/fraudclick.js" />
+        <option value="$PROJECT_DIR$/dating/LP1/main.css" />
+        <option value="$PROJECT_DIR$/dating/LP2/source.html" />
+        <option value="$PROJECT_DIR$/china/live/lp2/index.html" />
+        <option value="$PROJECT_DIR$/dating/LP1/source.html" />
+        <option value="$PROJECT_DIR$/china/live/LP1/index.html" />
+        <option value="$PROJECT_DIR$/china/live/LP1/index.php" />
+        <option value="$PROJECT_DIR$/china/live/LP1/source.html" />
+        <option value="$PROJECT_DIR$/dating/LP6/785394422bc0094b49f1ec1ea186fb17e1b7c92a.html" />
+        <option value="$PROJECT_DIR$/dating/LP6/webPushMotivationPopupSmall.css" />
+        <option value="$PROJECT_DIR$/dating/LP6/css/home.css" />
+        <option value="$PROJECT_DIR$/dating/LP6/js/home.js" />
+        <option value="$PROJECT_DIR$/dating/tw/lp1/92c55c9fdc3c1caa68c0caa6ab9fefd09c0d8167.html" />
+        <option value="$PROJECT_DIR$/dating/LP6/source.html" />
+        <option value="$PROJECT_DIR$/dating/tw/index.html" />
+        <option value="$PROJECT_DIR$/dating/tw/lp1/css/style.css" />
+        <option value="$PROJECT_DIR$/dating/tw/lp1/source.html" />
+        <option value="$PROJECT_DIR$/dating/tw/LP3/5ccebee74a950d006e58629cf85dbd77c4155741.html" />
+        <option value="$PROJECT_DIR$/dating/tw/LP3/style4.css" />
+        <option value="$PROJECT_DIR$/dating/tw/LP3/css/style4.css" />
+        <option value="$PROJECT_DIR$/dating/tw/LP3/source.html" />
+        <option value="$PROJECT_DIR$/dating/EN/LP3/785394422bc0094b49f1ec1ea186fb17e1b7c92a.html" />
+        <option value="$PROJECT_DIR$/dating/EN/LP4/dating.html" />
+        <option value="$PROJECT_DIR$/dating/EN/LP1/93151273aefc64781031d3e6e12ad8db33dbb7c6.html" />
+        <option value="$PROJECT_DIR$/dating/EN/LP5/The best dating site.html" />
+        <option value="$PROJECT_DIR$/dating/EN/LP1/source.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2520" />
+    <option name="height" value="1280" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
+              <item name="dating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
+              <item name="dating" type="462c0819:PsiDirectoryNode" />
+              <item name="EN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
+              <item name="dating" type="462c0819:PsiDirectoryNode" />
+              <item name="EN" type="462c0819:PsiDirectoryNode" />
+              <item name="LP1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
+              <item name="dating" type="462c0819:PsiDirectoryNode" />
+              <item name="EN" type="462c0819:PsiDirectoryNode" />
+              <item name="LP1" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PhpstormProjects\moguad1\src\img" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP16" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP15" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP14" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP13" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1\js" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1\css" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP1\img" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN" />
+      <recent name="D:\PhpstormProjects\moguad1\dating\EN\LP3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.source.html">
+    <configuration name="3327701cdaf63467916ac365923d5bd504407113.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP14/3327701cdaf63467916ac365923d5bd504407113.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP11/a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="efd2c0fa5b4dbcd79772af725a82112e9dfbda9f.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP10/efd2c0fa5b4dbcd79772af725a82112e9dfbda9f.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="f2430487eb58002b3597d51389667aa9f0b70a74.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP7/f2430487eb58002b3597d51389667aa9f0b70a74.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP1/source.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.source.html" />
+        <item itemvalue="JavaScript Debug.3327701cdaf63467916ac365923d5bd504407113.html" />
+        <item itemvalue="JavaScript Debug.f2430487eb58002b3597d51389667aa9f0b70a74.html" />
+        <item itemvalue="JavaScript Debug.a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" />
+        <item itemvalue="JavaScript Debug.efd2c0fa5b4dbcd79772af725a82112e9dfbda9f.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="" />
+      <created>1546687816185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546687816185</updated>
+      <workItem from="1546687819275" duration="133000" />
+      <workItem from="1546688050805" duration="3111000" />
+      <workItem from="1546691572712" duration="2186000" />
+      <workItem from="1547027764016" duration="13342000" />
+      <workItem from="1547101615389" duration="6254000" />
+      <workItem from="1547184120330" duration="4708000" />
+      <workItem from="1547279748497" duration="13534000" />
+      <workItem from="1547360746509" duration="10883000" />
+      <workItem from="1547455797808" duration="1941000" />
+      <workItem from="1547534826564" duration="1992000" />
+      <workItem from="1547552735208" duration="8450000" />
+      <workItem from="1547628705525" duration="11930000" />
+      <workItem from="1547712071154" duration="5949000" />
+      <workItem from="1547893911767" duration="2954000" />
+      <workItem from="1547906190300" duration="3111000" />
+      <workItem from="1547971531105" duration="4308000" />
+    </task>
+    <task id="LOCAL-00009" summary="演示LP&#10;注释代码">
+      <created>1546694171199</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546694171200</updated>
+    </task>
+    <task id="LOCAL-00010" summary="增加dating目录&#10;LP1开始">
+      <created>1547038491825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547038491825</updated>
+    </task>
+    <task id="LOCAL-00011" summary="增加dating目录&#10;LP1开始&#10;修改了北京">
+      <created>1547038964361</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547038964361</updated>
+    </task>
+    <task id="LOCAL-00012" summary="增加dating目录&#10;LP1开始&#10;修改了北京">
+      <created>1547041180603</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547041180603</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增加dating目录&#10;LP1开始&#10;修改了北京">
+      <created>1547042133587</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547042133587</updated>
+    </task>
+    <task id="LOCAL-00014" summary="增加dating目录&#10;LP1开始&#10;修改了很多，增加了拼装链接到off和回传">
+      <created>1547042342217</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547042342217</updated>
+    </task>
+    <task id="LOCAL-00015" summary="增加dating目录&#10;LP1开始&#10;增加了事件代码">
+      <created>1547049847800</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547049847800</updated>
+    </task>
+    <task id="LOCAL-00016" summary="增加dating目录&#10;LP1开始&#10;增加了事件代码">
+      <created>1547051914985</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547051914985</updated>
+    </task>
+    <task id="LOCAL-00017" summary="增加dating目录&#10;LP1开始&#10;增加了事件代码&#10;增加了js，增加了标红代码等等">
+      <created>1547102399197</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1547102399197</updated>
+    </task>
+    <task id="LOCAL-00018" summary="增加dating目录&#10;LP1开始&#10;增加了事件代码&#10;增加了js，增加了标红代码等等">
+      <created>1547108252161</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1547108252162</updated>
+    </task>
+    <task id="LOCAL-00019" summary="增加dating目录&#10;               LP1开始&#10;               增加了事件代码&#10;               增加了js，增加了标红代码等等&#10;               删除gif，使用图床">
+      <created>1547111467691</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1547111467692</updated>
+    </task>
+    <task id="LOCAL-00020" summary="增加dating目录&#10;               LP1开始&#10;               增加了事件代码&#10;               增加了js，增加了标红代码等等&#10;               删除gif，使用图床">
+      <created>1547188728344</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547188728344</updated>
+    </task>
+    <task id="LOCAL-00021" summary="解决视频播放问题">
+      <created>1547280601905</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547280601905</updated>
+    </task>
+    <task id="LOCAL-00022" summary="解决视频播放问题,前置了？">
+      <created>1547281280332</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547281280332</updated>
+    </task>
+    <task id="LOCAL-00023" summary="把视频换成gif">
+      <created>1547281632522</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547281632522</updated>
+    </task>
+    <task id="LOCAL-00024" summary="增加埋点事件">
+      <created>1547283972264</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547283972264</updated>
+    </task>
+    <task id="LOCAL-00025" summary="增加检测bot的js">
+      <created>1547285264784</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547285264784</updated>
+    </task>
+    <task id="LOCAL-00026" summary="更换gif为jpg">
+      <created>1547286987413</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547286987413</updated>
+    </task>
+    <task id="LOCAL-00027" summary="删除demo">
+      <created>1547287292840</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1547287292840</updated>
+    </task>
+    <task id="LOCAL-00028" summary="删除源站">
+      <created>1547287836452</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1547287836452</updated>
+    </task>
+    <task id="LOCAL-00029" summary="移动代码到前部">
+      <created>1547287998212</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547287998212</updated>
+    </task>
+    <task id="LOCAL-00030" summary="增加源站为src">
+      <created>1547289026234</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547289026234</updated>
+    </task>
+    <task id="LOCAL-00031" summary="增加新的LP2">
+      <created>1547297790629</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1547297790629</updated>
+    </task>
+    <task id="LOCAL-00032" summary="源">
+      <created>1547298147252</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1547298147252</updated>
+    </task>
+    <task id="LOCAL-00033" summary="源">
+      <created>1547298280199</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1547298280199</updated>
+    </task>
+    <task id="LOCAL-00034" summary="源">
+      <created>1547299564269</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1547299564269</updated>
+    </task>
+    <task id="LOCAL-00035" summary="title">
+      <created>1547299634552</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1547299634552</updated>
+    </task>
+    <task id="LOCAL-00036" summary="CIJI">
+      <created>1547299768022</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1547299768022</updated>
+    </task>
+    <task id="LOCAL-00037" summary="CIJI">
+      <created>1547364955707</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1547364955707</updated>
+    </task>
+    <task id="LOCAL-00038" summary="CIJI">
+      <created>1547365366629</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1547365366629</updated>
+    </task>
+    <task id="LOCAL-00039" summary="php">
+      <created>1547370052405</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1547370052405</updated>
+    </task>
+    <task id="LOCAL-00040" summary="js">
+      <created>1547371586100</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1547371586100</updated>
+    </task>
+    <task id="LOCAL-00041" summary="js">
+      <created>1547371700023</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1547371700023</updated>
+    </task>
+    <task id="LOCAL-00042" summary="删除LP2">
+      <created>1547371799473</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1547371799473</updated>
+    </task>
+    <task id="LOCAL-00043" summary="删除LP2">
+      <created>1547371837831</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1547371837832</updated>
+    </task>
+    <task id="LOCAL-00044" summary="删除LP2">
+      <created>1547631702641</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1547631702641</updated>
+    </task>
+    <task id="LOCAL-00045" summary="删除LP2">
+      <created>1547633016623</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1547633016623</updated>
+    </task>
+    <task id="LOCAL-00046" summary="删除LP2">
+      <created>1547633891234</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1547633891234</updated>
+    </task>
+    <task id="LOCAL-00047" summary="删除LP2">
+      <created>1547634036843</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1547634036843</updated>
+    </task>
+    <task id="LOCAL-00048" summary="删除LP2">
+      <created>1547639445294</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1547639445294</updated>
+    </task>
+    <task id="LOCAL-00049" summary="删除LP2">
+      <created>1547639925254</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1547639925254</updated>
+    </task>
+    <task id="LOCAL-00050" summary="删除LP2">
+      <created>1547641251181</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1547641251182</updated>
+    </task>
+    <task id="LOCAL-00051" summary="删除LP2">
+      <created>1547643331422</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1547643331422</updated>
+    </task>
+    <task id="LOCAL-00052" summary="删除LP2">
+      <created>1547718449634</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1547718449635</updated>
+    </task>
+    <task id="LOCAL-00053" summary="删除LP2">
+      <created>1547718749665</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1547718749665</updated>
+    </task>
+    <task id="LOCAL-00054" summary="修改24-25">
+      <created>1547719076177</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1547719076178</updated>
+    </task>
+    <task id="LOCAL-00055" summary="提交移动修改">
+      <created>1547896308271</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1547896308279</updated>
+    </task>
+    <task id="LOCAL-00056" summary="重新分配目录重新制作">
+      <created>1547897787357</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1547897787358</updated>
+    </task>
+    <task id="LOCAL-00057" summary="重新分配目录重新制作">
+      <created>1547906948976</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1547906948984</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94786000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.21862349" />
+      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2597865" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20284697" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49959514" weight="0.6067616" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3291815" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32955465" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.22834007" />
+      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2597865" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20284697" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49959514" weight="0.6067616" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3291815" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32955465" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="增加dating目录&#10;LP1开始&#10;增加了事件代码" />
+    <MESSAGE value="增加dating目录&#10;LP1开始&#10;增加了事件代码&#10;增加了js，增加了标红代码等等" />
+    <MESSAGE value="增加dating目录&#10;               LP1开始&#10;               增加了事件代码&#10;               增加了js，增加了标红代码等等&#10;               删除gif，使用图床" />
+    <MESSAGE value="解决视频播放问题" />
+    <MESSAGE value="解决视频播放问题,前置了？" />
+    <MESSAGE value="把视频换成gif" />
+    <MESSAGE value="增加埋点事件" />
+    <MESSAGE value="增加检测bot的js" />
+    <MESSAGE value="更换gif为jpg" />
+    <MESSAGE value="删除demo" />
+    <MESSAGE value="删除源站" />
+    <MESSAGE value="移动代码到前部" />
+    <MESSAGE value="增加源站为src" />
+    <MESSAGE value="增加新的LP2" />
+    <MESSAGE value="源" />
+    <MESSAGE value="title" />
+    <MESSAGE value="CIJI" />
+    <MESSAGE value="php" />
+    <MESSAGE value="js" />
+    <MESSAGE value="删除LP2" />
+    <MESSAGE value="修改24-25" />
+    <MESSAGE value="提交移动修改" />
+    <MESSAGE value="重新分配目录重新制作" />
+    <MESSAGE value="修正了目录结构&#10;增加了很多的英文LP" />
+    <MESSAGE value="xiuzheng" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiuzheng" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/img/121.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/img/124.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/img/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/tw/LP3/js/jquery-1.js" />
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/js/base64.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/tw/LP3/new.html" />
+    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/img/125.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP2/e8d6db96744fe644d3ab39f0954a5893c70c2250.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/tw/LP3/index.html" />
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/source.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/css/style4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2733" selection-start-column="2733" selection-end-column="2733" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/main.css" />
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws5.png" />
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws10.png" />
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws9.png" />
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/ws6.png" />
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.html" />
+    <entry file="file://$PROJECT_DIR$/dating/CNT/LP3/source.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#script#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP2/c3d2010ceacef59ce017f2403a021ffeb0736c26.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/gtm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/KO/LP1/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/785394422bc0094b49f1ec1ea186fb17e1b7c92a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP4/dating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="19" selection-end-line="210" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/图片地址.txt" />
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP5/The best dating site.html" />
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP7/css.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP8/47483cef248b4c07621f35df8c7d8d8cc8acdf21.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP10/efd2c0fa5b4dbcd79772af725a82112e9dfbda9f.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP11/a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP8/age4_o.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP7/f2430487eb58002b3597d51389667aa9f0b70a74.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP7/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP13/61c778a3b2fea7aa6e2110abee579e954089c13d.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP14/3327701cdaf63467916ac365923d5bd504407113.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP15/jquery-2.2.4.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/OneSignalSDK.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret column="118655" selection-start-column="118655" selection-end-column="118655" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP16/4171d8bb50e17b765bdc560f82cf07d0381863bf.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/logo--whatsSex.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/css/style--whatsSex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/CNT/lp1/source.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#h1#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/js/popwin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP1/source.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
