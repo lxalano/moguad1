@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="L5的页面去除不必要流程">
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP3/jump-favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dating/EN/LP6/source.html" afterDir="false" />
+    <list default="true" id="da8c0452-276d-467f-aa71-9ae402faaa09" name="Default Changelist" comment="修复L3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP3/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP3/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP6/972fd9257bd4169e5604f6b6206b6b96.css" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP6/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP6/ae209c816080d04a4a6abd09dd955c556f5fa10c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP6/ec9a2b026a1d49e8360337e1f3cbbda2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP6/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP7/f2430487eb58002b3597d51389667aa9f0b70a74.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP7/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP8/47483cef248b4c07621f35df8c7d8d8cc8acdf21.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP8/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/10901605.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/11620628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/14381131.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/14444305.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/15662719.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/16351733.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/16460869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/16539096.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/17588265.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/9052905.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/98d496186b4db19c8971899a91ef9142b61ee6da.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP9/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/webPushMotivationPopupSmall.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating/EN/LP9/webPushMotivationPopupSmall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP10/efd2c0fa5b4dbcd79772af725a82112e9dfbda9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP10/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP11/a83d5b872c0fb77f8506c413dd3c96d06d2d5cce.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP11/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/10901605.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/11620628.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/14381131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/14444305.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/15662719.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/16351733.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/16460869.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/16539096.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/17588265.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/9052905.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP12/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/webPushMotivationPopupSmall.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/webPushMotivationPopupSmall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP12/webpush.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP13/61c778a3b2fea7aa6e2110abee579e954089c13d.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP13/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP14/3327701cdaf63467916ac365923d5bd504407113.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP14/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dating/EN/LP15/97ab10939d6fde3afeb80bfa203a410a64f1e910.html" beforeDir="false" afterPath="$PROJECT_DIR$/dating/EN/LP15/source.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,17 +47,7 @@
     <favorites_list name="moguad1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,6 +86,7 @@
       <find>js</find>
       <find>.下载</find>
       <find>./</find>
+      <find>What body type do you like?</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -116,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dating/LP1/source.php" />
         <option value="$PROJECT_DIR$/dating/LP1/index.php" />
         <option value="$PROJECT_DIR$/dating/LP1/js/fraudclick.js" />
         <option value="$PROJECT_DIR$/dating/LP1/main.css" />
@@ -167,6 +155,7 @@
         <option value="$PROJECT_DIR$/dating/EN/LP7/source.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP9/source.html" />
         <option value="$PROJECT_DIR$/dating/EN/LP3/source.html" />
+        <option value="$PROJECT_DIR$/dating/EN/LP11/source.html" />
       </list>
     </option>
   </component>
@@ -210,14 +199,7 @@
               <item name="moguad1" type="462c0819:PsiDirectoryNode" />
               <item name="dating" type="462c0819:PsiDirectoryNode" />
               <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moguad1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moguad1" type="462c0819:PsiDirectoryNode" />
-              <item name="dating" type="462c0819:PsiDirectoryNode" />
-              <item name="EN" type="462c0819:PsiDirectoryNode" />
-              <item name="LP9" type="462c0819:PsiDirectoryNode" />
+              <item name="LP15" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,20 +244,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.source.html (1)">
-    <configuration name="source.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP3/source.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.source.html">
+    <configuration name="source.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP12/source.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="source.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP7/source.html" useBuiltInWebServerPort="true">
+    <configuration name="source.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP13/source.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP4/source.html" useBuiltInWebServerPort="true">
+    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP14/source.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP8/source.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP9/source.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP10/source.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP15/source.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP16/source.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="source.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moguad1/dating/EN/LP5/source.html" useBuiltInWebServerPort="true">
@@ -289,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.source.html (1)" />
         <item itemvalue="JavaScript Debug.source.html" />
         <item itemvalue="JavaScript Debug.source.html" />
-        <item itemvalue="JavaScript Debug.source.html (2)" />
         <item itemvalue="JavaScript Debug.source.html" />
+        <item itemvalue="JavaScript Debug.source.html (5)" />
+        <item itemvalue="JavaScript Debug.source.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -324,21 +315,7 @@
       <workItem from="1547906190300" duration="3111000" />
       <workItem from="1547971531105" duration="11803000" />
       <workItem from="1547986058126" duration="13576000" />
-      <workItem from="1548080199903" duration="1504000" />
-    </task>
-    <task id="LOCAL-00034" summary="源">
-      <created>1547299564269</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1547299564269</updated>
-    </task>
-    <task id="LOCAL-00035" summary="title">
-      <created>1547299634552</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1547299634552</updated>
+      <workItem from="1548080199903" duration="2879000" />
     </task>
     <task id="LOCAL-00036" summary="CIJI">
       <created>1547299768022</created>
@@ -669,11 +646,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548060921294</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="修复L3">
+      <created>1548081874669</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1548081874670</updated>
+    </task>
+    <task id="LOCAL-00084" summary="修复L3">
+      <created>1548082038622</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1548082038622</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121018000" />
+    <option name="totallyTimeSpent" value="122393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -686,13 +677,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.22834007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.38785425" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
       <window_info id="Favorites" order="2" sideWeight="0.5017794" side_tool="true" weight="0.24696356" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959514" visible="true" weight="0.2580071" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959514" weight="0.2580071" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49878544" weight="0.20284697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -702,7 +692,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49878544" weight="0.56405693" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" visible="true" weight="0.2580071" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" weight="0.2580071" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3291815" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3291815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -766,7 +756,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="增加埋点事件" />
     <MESSAGE value="增加检测bot的js" />
     <MESSAGE value="更换gif为jpg" />
     <MESSAGE value="删除demo" />
@@ -791,18 +780,10 @@
     <MESSAGE value="LP3修改语句" />
     <MESSAGE value="恢复到以前的版本" />
     <MESSAGE value="L5的页面去除不必要流程" />
-    <option name="LAST_COMMIT_MESSAGE" value="L5的页面去除不必要流程" />
+    <MESSAGE value="修复L3" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复L3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/9052905.jpg" />
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP12/9b138b11e1ffed3ea4b48685340fec5f9362bdc0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="78" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dating/EN/LP3/fp_ec.js" />
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css.css" />
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/css.1.css" />
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/jump-favicon.ico" />
@@ -1021,8 +1002,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dating/EN/LP3/source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="-1045">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP11/fasdfas.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP11/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dating/EN/LP11/source.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="324" column="23" selection-end-line="867" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
