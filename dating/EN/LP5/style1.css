@@ -97,7 +97,7 @@ body {
     margin: auto;
     top: 0;
     bottom: 0;
-    background: url("btnpart.png") no-repeat;
+    background: url("img/btnpart.png") no-repeat;
     -webkit-animation: next 1.2s infinite normal ease-out;
     -moz-animation: next 1.2s infinite normal ease-out;
     animation: next 1.2s infinite normal ease-out
