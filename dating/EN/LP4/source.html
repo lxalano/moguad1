@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>This works better than Tinder</title>
     <link href="http://src.mybiquge.xyz/src/ico/flamefav.png" rel="shortcut icon" type="image/x-icon">
-    <link href="dating_files/css.css" rel="stylesheet" type="text/css">
-    <link href="dating_files/css1.css" rel="stylesheet" type="text/css">
+<!--    <link href="dating_files/css.css" rel="stylesheet" type="text/css">
+    <link href="dating_files/css1.css" rel="stylesheet" type="text/css">-->
     <script src="dating_files/jquery.js"></script>
     <link href="dating_files/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="dating_files/bootstrap.min.css">
@@ -30,7 +30,7 @@
          style="background-image: url(img/asia3.jpg); background-color: rgb(238, 238, 238); background-position: center center; background-size: cover;"></div>
 </div>
 <div class="vegas-timer">
-    <div class="vegas-timer-progress" style="transition-duration: 0ms;"></div>
+    <div class="vegas-timer-progress" style="transition-duration: 300ms;"></div>
 </div>
 
 <div class="container">
@@ -49,8 +49,8 @@
             </div>
             <div class="step">
                 <p>Are you older than 18 years?</p>
-                <a href="javascript:void(0)" class="learn-btn animated fadeInUp step_button_1 next"><span>No</span></a>
-                <a href="javascript:void(0)" class="use-btn animated fadeInUp step_button_2 next"><span>Yes</span></a>
+                <a href="javascript:void(0)"  class="learn-btn animated fadeInUp step_button_1 next" onclick="afilter(1)"><span>No</span></a>
+                <a href="javascript:void(0)" class="use-btn animated fadeInUp step_button_2 next" onclick="afilter(1)"><span>Yes</span></a>
             </div>
 
             <div class="step" style="display:none;">
@@ -71,8 +71,8 @@
 
             <div class="step" style="display:none;">
                 <p>Do you agree to use a condom when having sex with a partner you meet on our site?</p>
-                <a href="javascript:void(0)" class="use-btn animated fadeInUp step_button_2 next"><span>Yes</span></a>
-                <a href="javascript:void(0)" class="learn-btn animated fadeInUp step_button_1 next"><span>No</span></a>
+                <a href="javascript:void(0)" class="use-btn animated fadeInUp step_button_2 next" onclick="afilter(2)"><span>Yes</span></a>
+                <a href="javascript:void(0)" class="learn-btn animated fadeInUp step_button_1 next" onclick="afilter(2)"><span>No</span></a>
             </div>
 
             <div class="step" style="display:none;">
@@ -142,7 +142,7 @@
         })
     })
 </script>
-
+<script src="dating_files/vegas.js"></script>
 <script type="text/javascript">
     $("#example, body").vegas({
         delay: 2500,
