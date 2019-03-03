@@ -1,0 +1,585 @@
+@font-face {
+    font-family: TruenoBdIt;
+    src: url(../fonts/TruenoBdIt.otf);
+}
+
+
+@font-face {
+    font-family: TruenoBlk;
+    src: url(../fonts/TruenoBlk.otf);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+body.dsk[data-bg="1"] {
+  background-image: url(../images/dsk/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+body.mbl[data-bg="1"] {
+  background-image: url(../images/mbl/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.step-body h3 {
+  font-weight: 100;
+  font-size: 1.8em;
+}
+
+.h1, h1 {
+  font-size: 2.2em;
+}
+
+.h2, h2 {
+  font-size: 2em;
+}
+
+p, li {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+label {
+  font-size: 1.6em;
+  font-weight: 100;
+  padding-left: 35px;
+}
+
+.checks label {
+  cursor: pointer;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.step-body ul li p {
+  font-style: italic;
+  font-weight: 400;
+  border: 1px solid;
+  padding: 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.checks {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+.light-blue {
+  color: #fff;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.grey {
+  background-color: #56575b;
+}
+
+.hidediv {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.step-title h1 {
+  font-size: 2.2em;
+  color: #000;
+  padding: 10px 0px;
+  background-color: #ff0090;
+}
+
+.step-title img {
+  vertical-align: unset;
+}
+
+.step-body {
+  padding: 2.5em;
+  text-align: center;
+  max-width: 650px;
+  width: 650px;
+  margin: 0 auto;
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+#s11 .step-body {
+  background: none;
+  box-shadow: none;
+  max-width: 100%;
+  width: 100%;
+}
+
+.step-body h2 {
+  padding: 5px 15px;
+}
+
+.step-body p {
+  padding: 5px 20px;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 1px;
+  height: 1px;
+  background: linear-gradient(to right, rgba(217, 217, 217, 0) 0px, rgb(217, 217, 217) 50%, rgba(217, 217, 217, 0) 100%) repeat scroll 0% 0% transparent;
+}
+
+.btn-default {
+  border-radius: 3px;
+  border: solid 1px #ff0090;
+  background: #ff0090;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0 12px;
+}
+
+.button-container .btn2 {
+  margin-top: 10px;
+}
+
+.btn-normal:hover, .btn-normal:focus, .btn-normal:active, .btn-normal:active:focus {
+  -webkit-transform: scale(1.066);
+  -moz-transform: scale(1.066);
+  -ms-transform: scale(1.066);
+  -o-transform: scale(1.066);
+  transform: scale(1.066);
+}
+
+.btn-normal.active.focus, .btn-normal.active:focus, .btn-normal.focus, .btn-normal:active.focus, .btn-normal:active:focus, .btn-normal:focus {
+  background: #201e1e;
+  color: #fff;
+  outline: none;
+  box-shadow: 2px 0px 20px rgb(0, 0, 0);
+}
+
+.btn-default:hover, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2em;
+  outline: none;
+  box-shadow: 2px 0px 20px rgb(0, 0, 0);
+  -webkit-transform: scale(1.066) skew(-15deg);
+  -moz-transform: scale(1.066) skew(-15deg);
+  -ms-transform: scale(1.066) skew(-15deg);
+  -o-transform: scale(1.066) skew(-15deg);
+  transform: scale(1.066) skew(-15deg);
+}
+
+body.skin1 .btn-default:hover,
+body.skin1 .btn-default.active.focus,
+body.skin1 .btn-default.active:focus,
+body.skin1 .btn-default.active:hover,
+body.skin1 .btn-default:active.focus,
+body.skin1 .btn-default:active:focus,
+body.skin1 .btn-default:active:hover,
+body.skin1 .btn-default.active.focus,
+body.skin1 .btn-default.active:focus,
+body.skin1 .btn-default.active:hover,
+body.skin1 .btn-default:active.focus,
+body.skin1 .btn-default:active:focus,
+body.skin1 .btn-default:active:hover {
+  background: #fed700;
+}
+
+body.skin2 .btn-default:hover,
+body.skin2 .btn-default.active.focus,
+body.skin2 .btn-default.active:focus,
+body.skin2 .btn-default.active:hover,
+body.skin2 .btn-default:active.focus,
+body.skin2 .btn-default:active:focus,
+body.skin2 .btn-default:active:hover,
+body.skin2 .btn-default.active.focus,
+body.skin2 .btn-default.active:focus,
+body.skin2 .btn-default.active:hover,
+body.skin2 .btn-default:active.focus,
+body.skin2 .btn-default:active:focus,
+body.skin2 .btn-default:active:hover {
+  background: #5ab7ff;
+}
+
+body.skin3 .btn-default:hover,
+body.skin3 .btn-default.active.focus,
+body.skin3 .btn-default.active:focus,
+body.skin3 .btn-default.active:hover,
+body.skin3 .btn-default:active.focus,
+body.skin3 .btn-default:active:focus,
+body.skin3 .btn-default:active:hover,
+body.skin3 .btn-default.active.focus,
+body.skin3 .btn-default.active:focus,
+body.skin3 .btn-default.active:hover,
+body.skin3 .btn-default:active.focus,
+body.skin3 .btn-default:active:focus,
+body.skin3 .btn-default:active:hover {
+  background: #42e33c;
+}
+
+body.skin4 .btn-default:hover,
+body.skin4 .btn-default.active.focus,
+body.skin4 .btn-default.active:focus,
+body.skin4 .btn-default.active:hover,
+body.skin4 .btn-default:active.focus,
+body.skin4 .btn-default:active:focus,
+body.skin4 .btn-default:active:hover,
+body.skin4 .btn-default.active.focus,
+body.skin4 .btn-default.active:focus,
+body.skin4 .btn-default.active:hover,
+body.skin4 .btn-default:active.focus,
+body.skin4 .btn-default:active:focus,
+body.skin4 .btn-default:active:hover {
+  background: #ff7498;
+}
+
+body.skin5 .btn-default:hover,
+body.skin5 .btn-default.active.focus,
+body.skin5 .btn-default.active:focus,
+body.skin5 .btn-default.active:hover,
+body.skin5 .btn-default:active.focus,
+body.skin5 .btn-default:active:focus,
+body.skin5 .btn-default:active:hover,
+body.skin5 .btn-default.active.focus,
+body.skin5 .btn-default.active:focus,
+body.skin5 .btn-default.active:hover,
+body.skin5 .btn-default:active.focus,
+body.skin5 .btn-default:active:focus,
+body.skin5 .btn-default:active:hover {
+  background: #ff3e3e;
+}
+
+body.skin6 .btn-default:hover,
+body.skin6 .btn-default.active.focus,
+body.skin6 .btn-default.active:focus,
+body.skin6 .btn-default.active:hover,
+body.skin6 .btn-default:active.focus,
+body.skin6 .btn-default:active:focus,
+body.skin6 .btn-default:active:hover,
+body.skin6 .btn-default.active.focus,
+body.skin6 .btn-default.active:focus,
+body.skin6 .btn-default.active:hover,
+body.skin6 .btn-default:active.focus,
+body.skin6 .btn-default:active:focus,
+body.skin6 .btn-default:active:hover {
+  background: #00d8c5;
+}
+
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+  background: #fed700;
+  color: #fff;
+  outline: none;
+  box-shadow: 2px 0px 20px rgb(0, 0, 0);
+}
+
+.btn-normal:hover {
+  color: #fff;
+  background: #201e1e;
+}
+
+.btn-default.grey:hover, .btn-default.grey:focus, .btn-default.grey:active {
+  background: #a4a8ad;
+  border: none;
+  color: #000;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 11px;
+  }
+  #s1 {
+    width: 100%;
+  }
+  .step-body {
+    padding: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .h2, h2 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 650px) {
+  .step-body {
+    max-width: auto;
+    width: auto;
+  }
+  .step-title h1 {
+    font-size: 1.6em;
+  }
+  .step-body ul li p {
+    padding: 6px;
+  }
+}
+
+.white {
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+}
+
+.button-container {
+  padding: 12px 0;
+  position: relative;
+}
+
+.step-container.narrow {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.step-container.wide {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+body.mbl .step-container.wide, body.mbl .step-container.narrow {
+  max-width: 95%;
+}
+
+body.mbl .step-body h3 {
+  font-size: 6vw;
+  padding: 0;
+}
+
+body.mbl .step-body p {
+  line-height: 1.2;
+  font-size: 1.5em;
+}
+
+body.mbl #intro6 p {
+  font-size: 5vw;
+  padding: 0;
+  margin-top: .5em;
+}
+
+body.mbl #intro6 h1 {
+  font-size: 10vw;
+}
+
+#intro4 img, #intro5 img {
+  margin: 3em 0;
+}
+
+body.mbl #intro4 img, body.mbl #intro5 img {
+  margin: 0;
+}
+
+body.mbl .btn-normal {
+  width: 70%;
+}
+
+#intro6 h1 {
+  font-size: 4em;
+}
+
+#intro6 p {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+#intro1 p:first-of-type {
+  margin: 0;
+}
+
+#intro1, #intro2, #intro3, #intro4, #intro5, #intro6 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#intro1 .step-body, #intro2 .step-body, #intro3 .step-body, #intro4 .step-body, #intro5 .step-body, #intro6 .step-body {
+  max-width: 100%;
+  width: 100%;
+  background: none;
+  box-shadow: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-normal {
+  box-shadow: 2px 0px 20px rgb(0, 0, 0);
+  background: #000;
+  color: #fff;
+  width: 50%;
+  font-family: 'Oswald', sans-serif;
+  padding: 1.2em 0;
+}
+
+.btn-normal:hover {
+  color: #fff;
+}
+
+.btn-default {
+  color: #000;
+  background: #fff;
+  font-weight: 900;
+  padding: .5em 1.5em;
+  transition: background .5s;
+  box-shadow: 2px 0px 20px rgb(0, 0, 0);
+  display: inline-block;
+  margin: 0 20px 0 0;
+  transform: skew(-15deg);
+  position: relative;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 2px 0px 20px rgb(0, 0, 0);
+  border-radius: 0;
+  min-width: 150px;
+}
+
+#intro1 h1, #intro2 h1, #intro3 h1, #intro4 h1, #intro5 h1 {
+  font-size: 3em;
+}
+
+#intro2 button div.chevron-group {
+  position: absolute;
+  top: -25px;
+}
+
+#intro2 .btn-left div.chevron-group {
+  left: 15px;
+}
+
+#intro2 .btn-right div.chevron-group {
+  right: 25px;
+}
+
+#intro2 .btn-left h1 {
+  padding-left: 20px;
+}
+
+#intro2 .btn-right h1 {
+  padding-right: 20px;
+}
+
+span.chevron {
+  display: inline-block;
+  transform: scaleX(.5);
+}
+
+.chevron.left:before {
+  transform: rotate(-135deg);
+}
+
+.chevron.right:before {
+  transform: rotate(45deg);
+}
+
+span.chevron::before {
+  border-style: solid;
+  border-width: 10px 10px 0 0;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: 0;
+  transform: rotate(-45deg);
+  vertical-align: top;
+  position: absolute;
+  border-color: #95C4E7;
+  transition: border-color .5s;
+}
+
+.btn-right:hover div.chevron-group span.chevron:last-child:before, .btn-left:hover div.chevron-group span.chevron:first-child:before {
+  border-color: #fff;
+}
+
+.button-container-top {
+  padding-bottom: 40px;
+}
+
+.button-container img {
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  #intro1 h1, #intro2 h1, #intro3 h1, #intro4 h1, #intro5 h1 {
+    font-size: 2em !important;
+  }
+  #intro1 .btn-default, #intro2 .btn-default, #intro3 .btn-default, #intro4 .btn-default, #intro5 .btn-default {
+    min-width: 100px;
+    width: 47%;
+    padding: 10px 0px;
+    margin: 0;
+  }
+  #intro1 .btn-right, #intro2 .btn-right, #intro3 .btn-right, #intro4 .btn-right, #intro5 .btn-right {
+    margin: 0 0 0 10px;
+  }
+  #intro2 button div.chevron-group {
+    top: -14px;
+  }
+  #intro2 .btn-left h1 {
+    padding-left: 20px;
+  }
+  #intro2 .btn-right h1 {
+    padding-right: 20px;
+  }
+}

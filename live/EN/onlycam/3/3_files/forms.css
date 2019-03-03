@@ -1,0 +1,157 @@
+.green{
+    color: green!important;
+}
+
+.step-title-includes h1{
+    font-weight: bold!important;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.step-title-includes p, label{
+    font-size: 20px!important;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 10px;
+}
+
+.red{
+    color: red!important;
+}
+
+.blue{
+    color: darkblue;    
+}
+
+.step-title-includes input[type=text], .step-title-includes input[type=email] {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #918d8d;
+    height: 48px;
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #000;
+}
+
+.center{
+    text-align: center;
+}
+
+.step-title-includes .btn-default{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: green!important;
+    background: green!important;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    box-shadow: none;
+    max-width: 100%;
+}
+
+
+.step-title-includes .btn-default:hover, .step-title-includes .btn-default:active, .step-title-includes .btn-default:focus, .step-title-includes .btn-default.active.focus, .step-title-includes .btn-default.active:focus, .step-title-includes .btn-default.active:hover, .step-title-includes .btn-default:active.focus, .step-title-includes .btn-default:active:focus, .step-title-includes .btn-default:active:hover{
+    background-color: #079d07!important;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    max-width: 100%;
+    background: #079d07!important;
+}
+ 
+
+.step-title-includes .step-final h1{
+    margin: 0;
+}
+
+.step-title-includes .step-final h3{
+    font-size: 23px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.step-title-includes .step-final .step-body{
+    margin-top: 20px
+}
+
+
+.step-title-includes .step-title-includes img{
+    margin: 20px 0;
+}
+
+.step-title-includes label{
+    color: #000!important;
+    border: none!important;
+    font-weight: bold!important;
+    padding: 0;
+}
+
+.step-title-includes .step-title, .step-title-includes .step-body{
+    background: none!important;
+    background-color: transparent!important;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-align: left;
+    border: none;
+}
+
+#finalSteps-zip .step-title-includes, #finalSteps-email .step-title-includes, #finalSteps-final .step-title-includes{
+    text-align: left;
+    padding: 10px 8px!important;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+
+.step-title-includes .step-title h3{
+    font-weight: bold;
+}
+
+img.final-form-img{
+    margin: 10px 0;
+}
+
+
+.email-message {
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+}
+
+
+.step-container.step-title-includes.iframe {
+    background: #fff;
+    border-radius: 10px;
+    margin: 12px auto;
+    padding: 0 0 23px 0!important;
+}
+
+.step-container.step-title-includes.iframe h2{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 1;
+    background: #aaa;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0;
+}
+
+#finalSteps-zip, #finalSteps-email, #finalSteps-final{
+    text-align: left;
+    margin: 0 auto;
+    background: none;
+    padding: 0;
+    border: none;
+    max-width: 640px;
+}
+

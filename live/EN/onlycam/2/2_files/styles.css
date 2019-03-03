@@ -1,0 +1,589 @@
+
+body,
+html {
+    height: 100%;
+}
+
+body{
+  margin:0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.gutter-10.row {
+  margin: 0 -5px;
+  text-align: center;
+}
+
+.gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"] {
+  padding: 0 5px 10px 5px
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+.h1, h1 {
+    font-size: 2.5em;
+}
+
+.h2, h2 {
+    font-size: 1.5em;
+}
+
+.h3, h3{
+    font-size: 1.8em;
+}
+
+p{
+  margin: 0 0 1em;
+}
+
+p, li, label {
+  font-size: 1.2em;
+}
+
+label{
+  font-weight: 500;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+ol li, ul li{
+  float: left;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.checks{
+  margin:0 auto;
+  padding: 1em 0;
+}
+
+.blue{
+  color: #5aabe1;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.center{
+  text-align:center;
+}
+
+.grey{
+
+}
+
+.red{
+  color: #ff4646;
+}
+
+.hidediv, .hidden-js-alert, .hidden-js{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+input[type=checkbox], input[type=radio]{
+  margin: 4px 15px 0;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+label:before {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    content: "";
+    border: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 22px;
+    vertical-align: -8px;
+    visibility: visible;
+}
+
+label[for=email]:before, label[for=postal-code]:before{
+  content: none;
+}
+
+input:checked + label:before {
+  content: "";
+  background-color: #7da5ff;
+  background-image: url(../images/check.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type=text], input[type=email]{
+    width: 100%;
+    background: none;
+    border: none;
+    height: 48px;
+    font-size: 1.3em;
+    border: 1px solid #000;
+}
+
+input[type=submit] {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding-right: 40px;
+    background-image: url(../images/arrow_right.png)!important;
+    background-position: 270px center!important;
+    background-repeat: no-repeat!important;
+    background-size: 25px!important;
+}
+
+label {
+    cursor: pointer;
+    margin: 6px auto;
+}
+
+
+label[for=email], label[for=postal-code]{
+  opacity: 1!important;
+  color:rgba(92, 184, 92, 0.9);;
+}
+
+.step-title {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background: #7da5ff;
+    color: #fff;
+}
+
+.step-title.roz{
+  background: #7da5ff;
+}
+
+.white{
+  color:#fff;
+}
+
+.step-body{
+    margin: 0;
+    padding: 20px 20px 30px;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+#s1 .step-title, #s2 .step-title{
+  text-transform: uppercase;
+}
+
+
+#s1 .step-body{
+    padding: 20px 20px;
+}
+
+#s1 .buttons-container p{
+     font-size: 21px;
+     font-weight: normal;
+}
+
+.step-body.checks{
+    padding-left: 75px;
+}
+
+.buttons-container{
+  border: 1px solid #d1d1d1;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.buttons-container h4{
+  font-weight: bold;
+}
+
+.btn-default{
+  background-color: #7da5ff;
+  border: none;
+  color: #fff;
+  padding: .4em 2em;
+  width: 100%;
+  max-width: 160px;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.btn-default.red-btn{
+  background: #9E9E9E!important;
+}
+
+.get-access {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding-right: 40px;
+    background-position: 250px center!important;
+    background-repeat: no-repeat!important;
+    background-size: 25px!important;
+    margin: 1.5em 0 0.5em;
+}
+
+.step-title.roz p{
+  margin: 0;
+}
+
+
+.btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover {
+    color: #fff;
+    background-color: #7da5ff;
+    border: none;
+}
+
+.btn-default.red-btn:hover, .btn-default.red-btn:focus, .btn-default.red-btn:active{
+    background: #9E9E9E;
+}
+
+.pagination-numbers{
+    text-align: center;
+    background: #7da5ff;
+    padding: 10px;
+}
+
+.pagination-numbers ul{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-numbers li{
+    font-size: 1.8em;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+
+li.num {
+    color: #7da5ff;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    font-size: 20px;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    margin: 0 8px;
+}
+
+li.active.num {
+    background: #fff;
+}
+
+.step-body h3{
+  margin: 1em 0 .5em;
+}
+
+.alert-warning{
+  color: white;
+  background-color: red;
+  font-size: 18px;
+}
+
+.checks p{
+  margin:0;
+}
+
+.btn h2{
+  font-size: 2em;
+}
+
+.input-label{
+  font-size: 1.5em;
+}
+
+
+input#cert{
+  display: inline-block;
+}
+
+.cert-span{
+  font-size: 18px;
+}
+
+input[type=text]{
+  margin-bottom: 1em;
+}
+
+input#cert{
+  margin: 9px 4px 30px;
+}
+
+
+.main-container{
+  text-align:center;
+}
+
+.bg-image{
+  margin: 0 auto;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  height: 100%;
+  width: 100%;
+  z-index:1;
+  background-size: cover;
+  background-position: center top;
+}
+
+.hidediv{
+  display:none;
+}
+
+.steps-container{
+    z-index: 2;
+    max-width: 408px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+}
+
+
+.step-container button{
+  margin:0;
+}
+
+.find-locator{
+  z-index: 2;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+
+}
+
+.find-locator .locator-title{
+    padding: 80px 0;
+}
+
+.email-form-img{
+  width: 150px;
+}
+
+#s8 .email-message {
+    top: -10px;
+    color: red;
+}
+
+
+@media (max-width: 480px){
+
+   .btn-default {
+      width: 48%;
+      padding: .8em 0;
+   }
+
+   input[type=submit]{
+      width: 100%;
+   }
+
+   .btn-default.get-access{
+      width: 100%;
+   }
+
+}
+
+@media (max-width: 991px){
+
+  .find-locator .locator-title {
+      padding: 80px 0 10px;
+  }
+
+  .find-locator img{
+      width: 150px;
+  }
+
+  .step-body.checks {
+      padding-left: 50px;
+  }
+
+}
+
+input[type=email]{
+  margin-bottom: 20px;
+  border: 1px solid #a49e9e;
+  border-radius: 10px;
+  background-image: url(../images/email-icon.png);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding-left: 45px;
+}
+
+#s7 p{
+  color: #000;
+  font-size: 1em;
+}
+
+#s8 .buttons-container{
+  border: none;
+  padding: 0;
+}
+
+#s8 .step-body{
+  text-align: center;
+  padding: 20px 20px 30px;
+}
+
+#s9 .btn-default{
+  padding: 0.8em 0;
+}
+
+input:focus{
+  outline:none;
+}
+
+#s8 form{
+  margin-top: 35px;
+}
+
+.h4, h4 {
+    font-size: 23px;
+}
+
+/*============= SKINS =============*/
+
+/****   Skin 2  ****/
+body.skin2 .step-title,
+body.skin2 .btn-default:hover, body.skin2 .btn-default:active, body.skin2 .btn-default:focus, body.skin2 .btn-default.active.focus, body.skin2 .btn-default.active:focus,
+body.skin2 .btn-default.active:hover, body.skin2 .btn-default:active.focus, body.skin2 .btn-default:active:focus, body.skin2 .btn-default:active:hover,
+body.skin2 .step-title.roz,
+body.skin2 .pagination-numbers{
+    background: #18ae02;
+}
+
+body.skin2 li.num {
+  color: #18ae02;
+}
+
+body.skin2 .btn-default, body.skin2 input:checked + label:before {
+    background-color: #18ae02;
+}
+
+/****   Skin 3  ****/
+body.skin3 .step-title,
+body.skin3 .btn-default:hover, body.skin3 .btn-default:active, body.skin3 .btn-default:focus, body.skin3 .btn-default.active.focus, body.skin3 .btn-default.active:focus,
+body.skin3 .btn-default.active:hover, body.skin3 .btn-default:active.focus, body.skin3 .btn-default:active:focus, body.skin3 .btn-default:active:hover,
+body.skin3 .step-title.roz,
+body.skin3 .pagination-numbers{
+    background: #ff9800;
+}
+
+body.skin3 li.num {
+  color: #ff9800;
+}
+
+body.skin3 .btn-default, body.skin3 input:checked + label:before {
+    background-color: #ff9800;
+}
+
+
+/****   Skin 4  ****/
+body.skin4 .step-title,
+body.skin4 .btn-default:hover, body.skin4 .btn-default:active, body.skin4 .btn-default:focus, body.skin4 .btn-default.active.focus, body.skin4 .btn-default.active:focus,
+body.skin4 .btn-default.active:hover, body.skin4 .btn-default:active.focus, body.skin4 .btn-default:active:focus, body.skin4 .btn-default:active:hover,
+body.skin4 .step-title.roz,
+body.skin4 .pagination-numbers{
+    background: #1f4ae9;
+}
+
+body.skin4 li.num {
+  color: #1f4ae9;
+}
+
+body.skin4 .btn-default, body.skin4 input:checked + label:before {
+    background-color: #1f4ae9;
+}
+
+
+/****   Skin 5  ****/
+body.skin5 .step-title,
+body.skin5 .btn-default:hover, body.skin5 .btn-default:active, body.skin5 .btn-default:focus, body.skin5 .btn-default.active.focus, body.skin5 .btn-default.active:focus,
+body.skin5 .btn-default.active:hover, body.skin5 .btn-default:active.focus, body.skin5 .btn-default:active:focus, body.skin5 .btn-default:active:hover,
+body.skin5 .step-title.roz,
+body.skin5 .pagination-numbers{
+    background: #df2609;
+}
+
+body.skin5 li.num {
+  color: #df2609;
+}
+
+body.skin5 .btn-default, body.skin5 input:checked + label:before {
+    background-color: #df2609;
+}
+
+
+/****   Skin 6  ****/
+body.skin6 .step-title,
+body.skin6 .btn-default:hover, body.skin6 .btn-default:active, body.skin6 .btn-default:focus, body.skin6 .btn-default.active.focus, body.skin6 .btn-default.active:focus,
+body.skin6 .btn-default.active:hover, body.skin6 .btn-default:active.focus, body.skin6 .btn-default:active:focus, body.skin6 .btn-default:active:hover,
+body.skin6 .step-title.roz,
+body.skin6 .pagination-numbers{
+    background: #2489ce;
+}
+
+body.skin6 li.num {
+  color: #2489ce;
+}
+
+body.skin6 .btn-default, body.skin6 input:checked + label:before {
+    background-color: #2489ce;
+}
+
+
+/****   Skin 7  ****/
+body.skin7 .step-title,
+body.skin7 .btn-default:hover, body.skin7 .btn-default:active, body.skin7 .btn-default:focus, body.skin7 .btn-default.active.focus, body.skin7 .btn-default.active:focus,
+body.skin7 .btn-default.active:hover, body.skin7 .btn-default:active.focus, body.skin7 .btn-default:active:focus, body.skin7 .btn-default:active:hover,
+body.skin7 .step-title.roz,
+body.skin7 .pagination-numbers{
+    background: #3365cc;
+}
+
+body.skin7 li.num {
+  color: #3365cc;
+}
+
+body.skin7 .btn-default, body.skin7 input:checked + label:before {
+    background-color: #3365cc;
+}

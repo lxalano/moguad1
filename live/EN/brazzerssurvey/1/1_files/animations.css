@@ -1,0 +1,578 @@
+.step-container.slide-in {
+  display: block;
+  -webkit-animation: slideIn .5s forwards;
+  -webkit-animation-delay: .5s;
+  animation: slideIn .5s forwards;
+  animation-delay: .5s;
+}
+
+@-webkit-keyframes slideIn {
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.step-container.first-slide-in {
+  display: block;
+  -webkit-animation: firstslideIn .5s forwards;
+  animation: slideIn .5s forwards;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+@-webkit-keyframes firstslideIn {
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes firstslideIn {
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.step-container.slide-out {
+  display: block;
+  -webkit-animation: slideOut 1s forwards;
+  animation: slideOut 1s forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  left: 0;
+}
+
+@-webkit-keyframes slideOut {
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes slideOut {
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes example {
+  from {
+    left: 0
+  }
+  to {
+    left: -100%
+  }
+}
+
+.fade-in-overlay {
+  -webkit-animation: fadeInOverlay 1.5s;
+  animation: fadeInOverlay 1.5s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes fadeInOverlay {
+  0% {
+    background: rgba(var(--color1), 0);
+  }
+  16% {
+    background: rgba(var(--color1), 0.10);
+  }
+  32% {
+    background: rgba(var(--color1), 0.20);
+  }
+  50% {
+    background: rgba(var(--color1), 0.30);
+  }
+  66% {
+    background: rgba(var(--color1), 0.40);
+  }
+  82% {
+    background: rgba(var(--color1), 0.50);
+  }
+  100% {
+    background: rgba(var(--color1), 0.60);
+  }
+}
+
+@keyframes fadeInOverlay {
+  0% {
+    background: rgba(var(--color1), 0);
+  }
+  16% {
+    background: rgba(var(--color1), 0.10);
+  }
+  32% {
+    background: rgba(var(--color1), 0.20);
+  }
+  50% {
+    background: rgba(var(--color1), 0.30);
+  }
+  66% {
+    background: rgba(var(--color1), 0.40);
+  }
+  82% {
+    background: rgba(var(--color1), 0.50);
+  }
+  100% {
+    background: rgba(var(--color1), 0.60);
+  }
+}
+
+.fade-in {
+  -webkit-animation: fade 2s;
+  animation: fade 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    background: rgba(var(--color2), .60);
+  }
+  10% {
+    background: rgba(var(--color2), .40);
+  }
+  20% {
+    background: rgba(var(--color2), .20);
+  }
+  30% {
+    background: rgba(var(--color2), 0);
+  }
+  50% {
+    background: rgba(var(--color2), .20);
+  }
+  75% {
+    background: rgba(var(--color2), .40);
+  }
+  100% {
+    background: rgba(var(--color2), 1);
+  }
+}
+
+@keyframes fade {
+  0% {
+    background: rgba(var(--color2), .60);
+  }
+  10% {
+    background: rgba(var(--color2), .40);
+  }
+  20% {
+    background: rgba(var(--color2), .20);
+  }
+  30% {
+    background: rgba(var(--color2), 0);
+  }
+  50% {
+    background: rgba(var(--color2), .20);
+  }
+  75% {
+    background: rgba(var(--color2), .40);
+  }
+  100% {
+    background: rgba(var(--color2), 1);
+  }
+}
+
+.overlay-out {
+  -webkit-animation: overlay-out 1s;
+  animation: overlay-out 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes overlay-out {
+  100% {
+    background: rgba(var(--color1), 0);
+  }
+}
+
+@keyframes overlay-out {
+  100% {
+    background: rgba(var(--color1), 0);
+  }
+}
+
+.overlay-in {
+  -webkit-animation: overlay-in 1s;
+  animation: overlay-in 1s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: forwards;
+  animation-timing-function: forwards;
+}
+
+@-webkit-keyframes overlay-in {
+  100% {
+    background: rgba(var(--color1), 0.6);
+  }
+}
+
+@keyframes overlay-in {
+  100% {
+    background: rgba(var(--color1), 0.6);
+  }
+}
+
+.bg-fade-out {
+  -webkit-animation: bgFadeOut .5s forwards;
+  animation: bgFadeOut .5s forwards;
+  -webkit-animation-delay: .75s;
+  animation-delay: .75s;
+}
+
+@-webkit-keyframes bgFadeOut {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: .9;
+  }
+  20% {
+    opacity: .8;
+  }
+  30% {
+    opacity: .7;
+  }
+  40% {
+    opacity: .6;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .4;
+  }
+  70% {
+    opacity: .3;
+  }
+  80% {
+    opacity: .2;
+  }
+  90% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bgFadeOut {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: .9;
+  }
+  20% {
+    opacity: .8;
+  }
+  30% {
+    opacity: .7;
+  }
+  40% {
+    opacity: .6;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .4;
+  }
+  70% {
+    opacity: .3;
+  }
+  80% {
+    opacity: .2;
+  }
+  90% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.first-bg-fade-out {
+  -webkit-animation: bgFadeOut 1s forwards;
+  animation: bgFadeOut 1s forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes firstbgFadeOut {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: .9;
+  }
+  20% {
+    opacity: .8;
+  }
+  30% {
+    opacity: .7;
+  }
+  40% {
+    opacity: .6;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .4;
+  }
+  70% {
+    opacity: .3;
+  }
+  80% {
+    opacity: .2;
+  }
+  90% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes firstbgFadeOut {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: .9;
+  }
+  20% {
+    opacity: .8;
+  }
+  30% {
+    opacity: .7;
+  }
+  40% {
+    opacity: .6;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .4;
+  }
+  70% {
+    opacity: .3;
+  }
+  80% {
+    opacity: .2;
+  }
+  90% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.bg-fade-in {
+  -webkit-animation: bgFadeIn .5s forwards;
+  animation: bgFadeIn .5s forwards;
+  -webkit-animation-delay: .75s;
+  animation-delay: .75s;
+}
+
+@-webkit-keyframes bgFadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .2;
+  }
+  30% {
+    opacity: .3;
+  }
+  40% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .6;
+  }
+  70% {
+    opacity: .7;
+  }
+  80% {
+    opacity: .8;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bgFadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .2;
+  }
+  30% {
+    opacity: .3;
+  }
+  40% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .6;
+  }
+  70% {
+    opacity: .7;
+  }
+  80% {
+    opacity: .8;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.first-bg-fade-in {
+  -webkit-animation: firstbgFadeIn .5s forwards;
+  animation: firstbgFadeIn .5s forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes firstbgFadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .2;
+  }
+  30% {
+    opacity: .3;
+  }
+  40% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .6;
+  }
+  70% {
+    opacity: .7;
+  }
+  80% {
+    opacity: .8;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes firstbgFadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .2;
+  }
+  30% {
+    opacity: .3;
+  }
+  40% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .5;
+  }
+  60% {
+    opacity: .6;
+  }
+  70% {
+    opacity: .7;
+  }
+  80% {
+    opacity: .8;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dot.active-dot {
+  -webkit-animation: activeDot .5s forwards;
+  animation: activeDot .5s forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+  animation-fill-mode: forwards;
+}
+
+@keyframes activeDot {
+  100% {
+    background-color: rgb(var(--dot-color));
+  }
+}
+
+.dot.inactive-dot {
+  -webkit-animation: inactiveDot 1s forwards;
+  animation: inactiveDot 1s forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@keyframes inactiveDot {
+  100% {
+    background: rgba(62, 62, 62, 0.50);
+  }
+}
+
+.white-dot {
+  background-color: rgb(var(--dot-color));
+}

@@ -1,0 +1,662 @@
+body{
+	color: #fff;
+  background-color: #000;
+	font-family: 'Roboto', sans-serif;
+  line-height: 1.3!important;
+}
+
+body.bg1{
+	background: url(../images/bg/dsk/1.jpg) repeat;
+	background-size: cover;
+}
+
+body.bg2{
+	background: url(../images/bg/dsk/2.jpg) repeat;
+	background-size: cover;
+}
+
+body.bg3{
+	background: url(../images/bg/dsk/3.jpg) repeat;
+	background-size: cover;
+}
+
+body.bg4{
+	background: url(../images/bg/dsk/4.jpg) repeat;
+	background-size: cover;
+}
+
+body.bg5{
+	background: url(../images/bg/dsk/5.jpg) repeat;
+	background-size: cover;
+}
+
+body.bg6{
+	background: url(../images/bg/dsk/6.jpg) repeat;
+	background-size: cover;
+}
+
+body.bg7{
+	background: url(../images/bg/dsk/7.jpg) repeat;
+	background-size: cover;
+}
+
+
+body.bgblack{
+	background: #000;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3{
+    font-weight: 600;
+    margin: 0;
+}
+
+.h1, h1 {
+    font-size: 2.5em;
+}
+
+.h2, h2 {
+    font-size: 2.5em;
+}
+
+.h3, h3{
+  font-size: 1.5em;
+  line-height: 1;
+	margin-bottom: 1em;
+}
+
+
+#s4 .step-body{
+  text-align: center;
+}
+
+p{
+  margin: 0 0 1em;
+}
+
+p, li, label {
+  font-size: 1.2em;
+}
+
+label{
+	font-weight: 400
+}
+
+header{
+  text-align: center;
+  margin: 20px;
+}
+
+ol, ul{
+	padding: 0;
+}
+
+ol li, ul li{
+	font-size: 1em;
+	font-weight: bold;
+	list-style: none;
+	white-space: nowrap;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.pull-left{
+	text-align: right;
+	width: 70%;
+	padding-right: 18px;
+  border-right: 2px solid #fff;
+}
+
+.pull-right{
+	width: 30%;
+	padding: 0 18px;
+}
+
+.checks{
+  margin:0 auto;
+  padding: 1em 0;
+}
+
+.orange{
+  color: #ed6e16;
+}
+
+.white{
+  color: #fff;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align: right;
+}
+
+.grey{
+	background-color: #ccc;
+}
+
+.red{
+  color: #ff4646;
+}
+
+.hidediv{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+
+.steps-container{
+  max-width: 600px;
+	margin:0 auto;
+  padding: .5em 1em;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.main-container{
+	padding: 1.5em .5em;
+	background: rgba(0, 0, 0, 0.63);
+}
+
+
+.step-title {
+  padding: 10px;
+	background: #000;
+	width: 104%;
+	margin: 0 auto;
+	left: -2%;
+	position: relative;
+	color: #fff;
+	font-weight: 100;
+}
+
+
+.step-body{
+	padding: 1em 0;
+  border-top: 0!important;
+}
+
+.step-body img{
+  border-radius: 200px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  transition: all 0.2s linear;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn-default{
+	color: #fff;
+  padding: .2em .5em;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  background: none;
+  border-radius: 3px;
+}
+
+
+.alert-warning{
+  color: white;
+  background-color: red;
+  font-size: 18px;
+}
+
+.checks p{
+  margin:0;
+}
+
+.btn h2{
+  font-size: 2em;
+}
+
+.input-label{
+  font-size: 1.5em;
+}
+
+
+@media (max-width: 480px){
+
+  body{
+    font-size:11px;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+  body{
+    font-size:14px;
+  }
+
+}
+
+
+.title{
+	color: #000;
+	padding: 5px;
+}
+
+.camera-icon{
+	margin: 10px 0;
+	text-align: center;
+}
+
+.step-title h3{
+	margin: 0;
+	font-weight: 400;
+}
+
+.step-container{
+	position: relative;
+	background: rgba(0, 0, 0, 0.85);
+	opacity: 0;
+}
+
+#s1.step-container {
+	opacity: 1;
+	padding-top: 0px;
+}
+
+.btn-left-margin{
+	margin-left: 10px;
+}
+
+.displayed{
+	display: block!important;
+}
+
+.black{
+  background: rgba(0, 0, 0, 0.85);
+}
+
+
+.loading-bar img{
+	border: none;
+}
+
+.access-btn{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 1.8em 0 .8em;
+    font-weight: bold;
+    padding: .5em 1em;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+#res1{
+	margin-bottom: 10px;
+}
+
+
+#res2, #res3, #res4{
+	margin: 0;
+	font-size: 1em;
+}
+
+.email-form{
+  margin: 10px 0;
+}
+
+input[type="email"]{
+	display: block;
+	margin: 0 auto;
+	max-width: 227px;
+	width: 100%;
+	border: none;
+	color: #000;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.email-message {
+    position: absolute;
+    width: 100%;
+}
+
+.email-error-message{
+	color: red;
+	display: none;
+	margin: 5px 0;
+  font-size: 16px;
+}
+
+i.fas.fa-exclamation-triangle{
+	margin-right: 4px;
+}
+
+
+/************* MBL STYLES *************/
+
+body.mbl.bg1{
+	background: url(../images/bg/mbl/1.jpg) repeat;
+	background-size: cover;
+}
+
+body.mbl.bg2{
+	background: url(../images/bg/mbl/2.jpg) repeat;
+	background-size: cover;
+}
+
+body.mbl.bg3{
+	background: url(../images/bg/mbl/3.jpg) repeat;
+	background-size: cover;
+}
+
+body.mbl.bg4{
+	background: url(../images/bg/mbl/4.jpg) repeat;
+	background-size: cover;
+}
+
+body.mbl.bg5{
+	background: url(../images/bg/mbl/5.jpg) repeat;
+	background-size: cover;
+}
+
+body.mbl.bg4{
+	background: url(../images/bg/mbl/6.jpg) repeat;
+	background-size: cover;
+}
+
+body.mbl.bg4{
+	background: url(../images/bg/mbl/7.jpg) repeat;
+	background-size: cover;
+}
+
+body.mbl.bgblack{
+	background: #000;
+}
+
+
+body.mbl .pull-left{
+	width: 100%;
+	float: none!important;
+	text-align: center;
+	border: none;
+	padding: 0;
+}
+
+body.mbl .pull-right {
+    width: 100%;
+}
+
+body.mbl .camera-icon{
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+
+body.mbl .pull-right ul{
+	width: 50%;
+	float: left;
+	margin-top: 15px;
+
+}
+
+body.mbl .small, body.mbl small{
+	font-size: 96%;
+}
+
+body.mbl .btn-default{
+	padding: .6em 1.5em;
+}
+
+
+/******************  SKINS START ******************/
+
+/***** SKIN 1 *****/
+body.skin1 .title{
+	background: #7da5ff;
+}
+
+body.skin1 .step-title{
+	border: 2px solid #7ca5ff;
+}
+
+body.skin1 .step-body{
+  border: 2px solid #7ca5ff;
+}
+
+body.skin1 .btn-default{
+	border: 1px solid #7ca5ff;
+}
+
+body.skin1 .btn-default:hover, body.skin1 .btn-default:active, body.skin1 .btn-default:focus, body.skin1.btn-default.active.focus,
+body.skin1 .btn-default.active:focus, body.skin1 .btn-default.active:hover, body.skin1 .btn-default:active.focus,
+body.skin1 .btn-default:active:focus, body.skin1 .btn-default:active:hover{
+  background: #7ca5ff;
+	color: #fff;
+}
+
+body.skin1 #res1{
+	color: #7da5ff;
+}
+
+body.skin1 .access-btn{
+	background-color: #7ca5ff;
+}
+
+
+/***** SKIN 2 *****/
+body.skin2 .title{
+	background: #18ae02;
+}
+
+body.skin2 .step-title{
+	border: 2px solid #18ae02;
+}
+
+body.skin2 .step-body{
+  border: 2px solid #18ae02;
+}
+
+body.skin2 .btn-default{
+	 border: 1px solid #18ae02;
+}
+
+body.skin2 .btn-default:hover, body.skin2 .btn-default:active, body.skin2 .btn-default:focus, body.skin2.btn-default.active.focus,
+body.skin2 .btn-default.active:focus, body.skin2 .btn-default.active:hover, body.skin2 .btn-default:active.focus,
+body.skin2 .btn-default:active:focus, body.skin2 .btn-default:active:hover{
+  background: #18ae02;
+	color: #fff;
+}
+
+body.skin2 #res1{
+	color: #18ae02;
+}
+
+body.skin2 .access-btn{
+	background-color: #18ae02;
+}
+
+/***** SKIN 3 *****/
+body.skin3 .title{
+	background: #ff9800;
+}
+
+body.skin3 .step-title{
+	border: 2px solid #ff9800;
+}
+
+body.skin3 .step-body{
+  border: 2px solid #ff9800;
+}
+
+body.skin3 .btn-default{
+	 border: 1px solid #ff9800;
+}
+
+body.skin3 .btn-default:hover, body.skin3 .btn-default:active, body.skin3 .btn-default:focus, body.skin3.btn-default.active.focus,
+body.skin3 .btn-default.active:focus, body.skin3 .btn-default.active:hover, body.skin3 .btn-default:active.focus,
+body.skin3 .btn-default:active:focus, body.skin3 .btn-default:active:hover{
+  background: #ff9800;
+	color: #fff;
+}
+
+body.skin3 #res1{
+	color: #ff9800;
+}
+
+body.skin3 .access-btn{
+	background-color: #ff9800;
+}
+
+
+/***** SKIN 4 *****/
+body.skin4 .title{
+	background: #1f4ae9;
+}
+
+body.skin4 .step-title{
+	border: 2px solid #1f4ae9;
+}
+
+body.skin4 .step-body{
+  border: 2px solid #1f4ae9;
+}
+
+body.skin4 .btn-default{
+	 border: 1px solid #1f4ae9;
+}
+
+body.skin4 .btn-default:hover, body.skin4 .btn-default:active, body.skin4 .btn-default:focus, body.skin4.btn-default.active.focus,
+body.skin4 .btn-default.active:focus, body.skin4 .btn-default.active:hover, body.skin4 .btn-default:active.focus,
+body.skin4 .btn-default:active:focus, body.skin4 .btn-default:active:hover{
+  background: #1f4ae9;
+	color: #fff;
+}
+
+body.skin4 #res1{
+	color: #1f4ae9;
+}
+
+body.skin4 .access-btn{
+	background-color: #1f4ae9;
+}
+
+
+/***** SKIN 5 *****/
+body.skin5 .title{
+	background: #df2609;
+}
+
+body.skin5 .step-title{
+	border: 2px solid #df2609;
+}
+
+body.skin5 .step-body{
+  border: 2px solid #df2609;
+}
+
+body.skin5 .btn-default{
+	 border: 1px solid #df2609;
+}
+
+body.skin5 .btn-default:hover, body.skin5 .btn-default:active, body.skin5 .btn-default:focus, body.skin5.btn-default.active.focus,
+body.skin5 .btn-default.active:focus, body.skin5 .btn-default.active:hover, body.skin5 .btn-default:active.focus,
+body.skin5 .btn-default:active:focus, body.skin5 .btn-default:active:hover{
+  background: #df2609;
+	color: #fff;
+}
+
+body.skin5 #res1{
+	color: #df2609;
+}
+
+body.skin5 .access-btn{
+	background-color: #df2609;
+}
+
+
+
+/***** SKIN 6 *****/
+body.skin6 .title{
+	background: #2489ce;
+}
+
+body.skin6 .step-title{
+	border: 2px solid #2489ce;
+}
+
+body.skin6 .step-body{
+  border: 2px solid #2489ce;
+}
+
+body.skin6 .btn-default{
+	 border: 1px solid #2489ce;
+}
+
+body.skin6 .btn-default:hover, body.skin6 .btn-default:active, body.skin6 .btn-default:focus, body.skin6.btn-default.active.focus,
+body.skin6 .btn-default.active:focus, body.skin6 .btn-default.active:hover, body.skin6 .btn-default:active.focus,
+body.skin6 .btn-default:active:focus, body.skin6 .btn-default:active:hover{
+  background: #2489ce;
+	color: #fff;
+}
+
+body.skin6 #res1{
+	color: #2489ce;
+}
+
+body.skin6 .access-btn{
+	background-color: #2489ce;
+}
+
+
+/***** SKIN 7 *****/
+body.skin7 .title{
+	background: #3365cc;
+}
+
+body.skin7 .step-title{
+	border: 2px solid #3365cc;
+}
+
+body.skin7 .step-body{
+  border: 2px solid #3365cc;
+}
+
+body.skin7 .btn-default{
+	 border: 1px solid #3365cc;
+}
+
+body.skin7 .btn-default:hover, body.skin7 .btn-default:active, body.skin7 .btn-default:focus, body.skin7.btn-default.active.focus,
+body.skin7 .btn-default.active:focus, body.skin7 .btn-default.active:hover, body.skin7 .btn-default:active.focus,
+body.skin7 .btn-default:active:focus, body.skin7 .btn-default:active:hover{
+  background: #3365cc;
+	color: #fff;
+}
+
+body.skin7 #res1{
+	color: #3365cc;
+}
+
+body.skin7 .access-btn{
+	background-color: #3365cc;
+}
+
+/******************  SKINS END ******************/
